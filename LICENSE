@@ -1,0 +1,20 @@
+XORAS SYSTEMS DEFENSIVE TESTING & VERIFICATION LICENSE
+Version 1.0 (UPGP Proprietary and Protective Model)
+
+Copyright © 2026 Xoras Systems LLC. All rights reserved.
+
+THIS SOFTWARE AND ACCOMPANYING DOCUMENTATION ("UPGP PROVING GROUND") ARE THE SOLE AND EXCLUSIVE PROPERTY OF XORAS SYSTEMS LLC. 
+
+1. GRANT OF LICENSE
+Subject to the terms and conditions of this License, Xoras Systems LLC grants you a highly restricted, personal, non-exclusive, non-transferable, revocable license to execute, run, and test the software strictly in localized sandbox environments for evaluation and verification purposes.
+
+2. EXPRESS RESTRICTIONS (NO CODE GRABS / NO PULLS)
+*   UNAUTHORIZED COPYING: You are strictly prohibited from copying, distributing, republishing, or cloning this repository or any of its constituent files to any public or private host outside of Xoras systems.
+*   NO CONVERSIONS OR PULLS: No pull requests, manual git extractions, code grabs, or code integration into production software are permitted.
+*   TESTING ONLY: The software must be run only in a sandboxed, isolated container with no outbound network capabilities.
+
+3. INTELLECTUAL PROPERTY & SOVEREIGNTY
+All rights, title, and interest in and to the UPGP algorithms (including Fisher-Yates Opcode Scrambling, Lazy Register Masking, Microtask Interleave Masking, and Dynamic Variance Padding) remain exclusively with Xoras Systems LLC.
+
+4. LIMITATION OF LIABILITY
+THIS SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE.

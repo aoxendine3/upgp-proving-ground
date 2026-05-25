@@ -1,0 +1,24 @@
+{
+  "name": "upgp-proving-ground",
+  "version": "3.0.0",
+  "description": "Xoras Systems Universal Proving Ground Protocol (UPGP v3.0) - Proprietary Defensive Testing and Verification Suite",
+  "main": "src/core/UPGPVM.ts",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types tests/UPGPProvingGround.test.ts"
+  },
+  "keywords": [
+    "xoras",
+    "upgp",
+    "timing-side-channels",
+    "microarchitectural-containment",
+    "security-sandboxing"
+  ],
+  "author": "Xoras Systems LLC",
+  "license": "Proprietary",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0"
+  }
+}

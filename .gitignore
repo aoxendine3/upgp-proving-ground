@@ -1,0 +1,6 @@
+# UPGP Proving Ground .gitignore
+.DS_Store
+.upgp-seal
+*.metadata.json
+node_modules/
+dist/
