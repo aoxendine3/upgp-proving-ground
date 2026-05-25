@@ -1,6 +1,8 @@
 # UPGP v3.0: Microarchitectural Side-Channel Verification Suite
 Defensive validation and benchmark tools for timing-indistinguishable sandboxing.
 
+![UPGP v3.0 Core Enclave Architecture & Timing Waveforms](https://raw.githubusercontent.com/aoxendine3/upgp-proving-ground/main/upgp_dashboard_spec.png)
+
 ---
 
 ## Technical Overview
