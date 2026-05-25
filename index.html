@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Proprietary developer-approved verification suite for the Universal Proving Ground Protocol (UPGP v3.0) - Microarchitectural Timing Side-Channel Containment.">
+  <meta name="description" content="Technical verification and benchmark suite for UPGP v3.0 microarchitectural timing side-channel containment.">
   <title>UPGP v3.0 Developer Proving Ground | Xoras Systems</title>
   <link rel="stylesheet" href="index.css">
 </head>
@@ -13,8 +13,8 @@
     <div class="logo" id="xoras-logo">XORAS SYSTEMS <span>UPGP v3.0</span></div>
     <nav class="nav-links">
       <a href="#architecture">Architecture</a>
-      <a href="#diagnostics">Diagnostics</a>
-      <a href="#safety">Safety</a>
+      <a href="#benchmarks">Benchmarks</a>
+      <a href="#guidelines">Guidelines</a>
       <a href="#license">License</a>
     </nav>
   </header>
@@ -22,50 +22,48 @@
   <main>
     <!-- Hero Section -->
     <section class="hero">
-      <div class="badge">UPGP v3.0 Core // Edge Certified</div>
-      <h1>Verify Asynchronous Timing Confidentiality with Zero Cracks</h1>
-      <p class="tagline">The official, developer-approved testing and verification portal for the Universal Proving Ground Protocol (UPGP v3.0). Mathematically secure, platform-agnostic, and optimized for localized side-channel diagnostics.</p>
-      <a href="#diagnostics" class="btn-primary">View Diagnostic Steps</a>
+      <div class="badge">UPGP v3.0 Core // Side-Channel Mitigation</div>
+      <h1>Microarchitectural Timing Validation & Analysis</h1>
+      <p class="tagline">Developer verification tools and benchmark harnesses for timing-indistinguishable sandboxing. Optimized for localized statistical analysis and side-channel evaluation.</p>
     </section>
 
     <!-- Embedded Dashboard Schematic Section -->
     <section class="image-section" id="schematic">
-      <img src="upgp_dashboard_spec.png" alt="UPGP v3.0 Core Architecture and Diagnostic Verification Waves Dashboard Schematic" id="upgp-dashboard-image">
+      <img src="upgp_dashboard_spec.png" alt="UPGP v3.0 Core Enclave Architecture & Statistical Verification Waves Schematic" id="upgp-dashboard-image">
     </section>
 
-    <!-- 7-Layer Architecture Grid -->
+    <!-- Architecture Grid -->
     <section class="grid" id="architecture">
       <div class="card" id="card-normalization">
         <div class="card-num">01</div>
-        <h3>Ingress Normalizer</h3>
-        <p>Recursively flattens nested data layers, collapses octal/hex encodings, and folds Cyrillic visual homoglyphs before parsing to prevent variable execution time leaks during rules evaluations.</p>
+        <h3>Ingress Normalization</h3>
+        <p>Enforces canonical format parsing on raw unicode payloads to prevent variable tokenization execution latencies during rules evaluation loops.</p>
       </div>
 
       <div class="card" id="card-silicon-lock">
         <div class="card-num">02</div>
-        <h3>Universal Silicon Lock</h3>
-        <p>A dynamic, cross-platform hardware fingerprinting framework. Extracts UUIDs on macOS, Linux, and Windows with a secure, local encrypted fallback seal (.upgp-seal) on restricted devices.</p>
+        <h3>Cross-Platform Key Derivation</h3>
+        <p>Derives deterministic swarm credentials from host platform identifiers (macOS, Linux, Windows) with automated encrypted local seal fallback (`.upgp-seal`).</p>
       </div>
 
       <div class="card" id="card-decoy-swarm">
         <div class="card-num">03</div>
-        <h3>Asynchronous Decoy Swarms</h3>
-        <p>Offloads BFT consensus signatures to asynchronous thread pools and always computes exactly four signature cycles, generating balanced timing curves regardless of veto states.</p>
+        <h3>Constant-Time Decoy Swarms</h3>
+        <p>Calculates constant BFT signatures by offloading signature generation to async thread pools and executing decoy signature padding loops for vetoed operations.</p>
       </div>
     </section>
 
     <!-- CLI Terminal Code Section -->
-    <section class="cli-section" id="diagnostics">
+    <section class="cli-section" id="benchmarks">
       <div class="cli-header">
         <div class="cli-dots">
           <div class="cli-dot red"></div>
           <div class="cli-dot yellow"></div>
           <div class="cli-dot green"></div>
         </div>
-        <div class="cli-title" id="terminal-title">UPGP v3.0 Timing Verification Terminal</div>
+        <div class="cli-title" id="terminal-title">UPGP v3.0 Verification Benchmarks</div>
         <div>bash</div>
       </div>
-      <div class="cli-line cmd">cd upgp-proving-ground</div>
       <div class="cli-line cmd">npm test</div>
       <div class="cli-line">[*] Initializing Universal Proving Ground VM Core...</div>
       <div class="cli-line">[+] Platform Identity Sealed: 4cbf5d5160567e0600c4e4a41b9d7cf14431e5fe537c71e27ee6fcad6770f968</div>
@@ -82,40 +80,40 @@
       <div class="cli-line">  [Axis 3] KS-Test Shape Distance: 0.1100 <span class="success">(PASS - CDF Curves Aligned)</span></div>
       <div class="cli-line">  [Axis 4] Wasserstein Distance : 1698 ns <span class="success">(PASS - EMD Containment Healthy)</span></div>
       <div class="cli-line">---------------------------------------------------------------------</div>
-      <div class="cli-line success">[✓] UPGP V3.0 CORE IS 100% TIMING-INDISTINGUISHABLE AND SECURE.</div>
+      <div class="cli-line success">[✓] UPGP V3.0 CORE VERIFICATION COMPLETE. TIMING INDISTINGUISHABILITY ACTIVE.</div>
     </section>
 
     <!-- Safety and License Accordions -->
-    <section class="accordion-section" id="safety">
-      <h2 class="accordion-title">Safety & Security Containment Rules</h2>
+    <section class="accordion-section" id="guidelines">
+      <h2 class="accordion-title">Verification Guidelines & Protocols</h2>
       
       <div class="tab" id="tab-isolation">
         <div class="tab-header" onclick="toggleTab('tab-isolation')">
-          <span>01 / Absolute Virtual Sandbox Air-Gap</span>
+          <span>01 / Environmental Isolation</span>
           <span>▼</span>
         </div>
         <div class="tab-content" id="content-isolation">
-          The UPGP proving ground is restricted to offline local testing. Outbound socket hooks, dynamic networking calls, or public DNS lookups are blocked mid-execution to isolate timing evaluations from variable network packet round-trip noise.
+          Benchmarks must be performed strictly offline. Local timing evaluations are sensitive to outbound network packet latency and DNS round-trip noise. Ensure background host processes do not exceed 5% total CPU load during benchmarks.
         </div>
       </div>
 
       <div class="tab" id="tab-containment" id="safety-containment">
         <div class="tab-header" onclick="toggleTab('tab-containment')">
-          <span>02 / Anti-Code-Grab & Strict Defensive Testing</span>
+          <span>02 / Sandbox Usage Boundaries</span>
           <span>▼</span>
         </div>
         <div class="tab-content" id="content-containment">
-          This repository is private, proprietary, and licensed. No pull requests, dynamic code grabs, external repository cloning, or public merges are permitted. Arthur has been aligned on these rules: read-only Host auditing, zero compilation sweeps outside the sandboxed brain, and absolute sovereignty of Xoras-approved plans.
+          This verification package is private, proprietary, and designed exclusively for defensive testing in isolated sandboxes. No pull requests or codebase transfers are permitted. Arthur has been aligned on these standards: read-only system scans, zero active host modifications, and absolute containment.
         </div>
       </div>
 
       <div class="tab" id="tab-license" id="license">
         <div class="tab-header" onclick="toggleTab('tab-license')">
-          <span>03 / Xoras Defensive Verification License v1.0</span>
+          <span>03 / Proprietary Verification License</span>
           <span>▼</span>
         </div>
         <div class="tab-content" id="content-license">
-          Copyright © 2026 Xoras Systems LLC. All rights reserved. Permission is granted solely to execute, run, and benchmark side-channel profiles in local development environments for evaluation purposes. Any copying, distribution, conversion, or commercial use is strictly prohibited.
+          Copyright © 2026 Xoras Systems LLC. All rights reserved. Permission is granted solely to execute, run, and benchmark side-channel profiles in local isolated sandboxes for diagnostic purposes. Any copying, distribution, or external integration is strictly prohibited.
         </div>
       </div>
     </section>
@@ -125,8 +123,8 @@
     <div>© 2026 Xoras Systems LLC. All rights reserved.</div>
     <div>
       <a href="#architecture">Architecture</a>
-      <a href="#diagnostics">Diagnostics</a>
-      <a href="#safety">Containment</a>
+      <a href="#benchmarks">Benchmarks</a>
+      <a href="#guidelines">Guidelines</a>
     </div>
   </footer>
 

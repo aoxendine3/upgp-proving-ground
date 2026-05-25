@@ -187,10 +187,10 @@ export async function executeUPGPVerificationSuite() {
 
     const overallPass = tTestPass && fRatioPass && ksPass && wassersteinPass;
     if (overallPass) {
-        console.log(`${BOLD}${GREEN}[✓] UPGP V3.0 CORE IS 100% TIMING-INDISTINGUISHABLE AND SECURE.`);
-        console.log(`    ALL MULTI-AXIS SIDE-CHANNELS ARE SUCCESSFULLY CONTAINED.${RESET}\n`);
+        console.log(`${BOLD}${GREEN}[✓] UPGP v3.0 CORE VERIFICATION COMPLETE.`);
+        console.log(`    ALL TIMING AND CONCURRENCY SIDE-CHANNELS NOMINAL (PASS).${RESET}\n`);
     } else {
-        console.log(`${BOLD}${RED}[!] SIDE-CHANNEL CRACKS DETECTED. ADJUST INTERLEAVE AND PADDING COEFFICIENTS.${RESET}\n`);
+        console.log(`${BOLD}${RED}[!] BENCHMARK CHECKPASS FAILED. ADJUST PADDING PARAMS.${RESET}\n`);
     }
 }
 
