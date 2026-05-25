@@ -12,19 +12,29 @@
   <header>
     <div class="logo" id="xoras-logo">XORAS SYSTEMS <span>UPGP v3.0</span></div>
     <nav class="nav-links">
+      <a href="#about">Overview</a>
       <a href="#architecture">Architecture</a>
+      <a href="#usage">Usage</a>
       <a href="#benchmarks">Benchmarks</a>
       <a href="#guidelines">Guidelines</a>
-      <a href="#license">License</a>
     </nav>
   </header>
 
   <main>
     <!-- Hero Section -->
-    <section class="hero">
-      <div class="badge">UPGP v3.0 // Benchmarks</div>
-      <h1>Microarchitectural Timing Validation & Analysis</h1>
-      <p class="tagline">Verification tools and benchmark harnesses for timing-indistinguishable sandboxing.</p>
+    <section class="hero" id="about">
+      <div class="badge">UPGP v3.0 // Verification Suite</div>
+      <h1>UPGP v3.0: Microarchitectural Side-Channel Verification</h1>
+      <p class="tagline">Benchmark timing indistinguishability in sandboxed execution environments.</p>
+      
+      <div style="max-width: 700px; margin: 0 auto; text-align: left; color: var(--text-secondary); font-size: 0.95rem; line-height: 1.6;">
+        <p style="margin-bottom: 1rem;">
+          <strong>What is UPGP?</strong> UPGP (Universal Proving Ground Protocol) provides a framework to measure and mitigate microarchitectural timing leaks in sandboxed event loops. In standard VM configurations, variations in execution paths (e.g. branch predictors, JIT optimizations, or cache states) create timing footprints. If unmitigated, these footprints allow concurrent guest processes or shared event loops to extract internal variables. UPGP introduces active, constant-time shields (such as microtask interleaving masking and deterministic key derivation) to neutralize timing leaks.
+        </p>
+        <p>
+          <strong>Why run this test?</strong> Traditional security benchmarks evaluate logical access boundaries (such as system call interceptions). UPGP evaluates microarchitectural side-channels. Running this verification suite allows developers to benchmark timing and variance indistinguishability on their specific host configurations, proving that distinct execution paths remain statistically identical across Welch's t-test, F-test, KS-test, and Wasserstein distance.
+        </p>
+      </div>
     </section>
 
     <!-- Embedded Dashboard Schematic Section -->
@@ -50,6 +60,33 @@
         <div class="card-num">03</div>
         <h3>Constant-Time Signature Padding</h3>
         <p>Computes constant-time BFT signatures by offloading cryptography to background threads and executing balanced timing-alignment spin loops.</p>
+      </div>
+    </section>
+
+    <!-- Concrete Usage Examples Section -->
+    <section class="cli-section" id="usage" style="background: var(--panel-bg); border: 1px solid var(--border-glow); font-family: var(--font-body); color: var(--text-primary);">
+      <h2 style="font-family: var(--font-display); font-weight: 700; font-size: 1.5rem; margin-bottom: 1rem;">Usage Examples</h2>
+      <p style="color: var(--text-secondary); font-size: 0.875rem; margin-bottom: 1.5rem;">UPGP v3.0 is designed as a standalone, platform-agnostic library for node and typescript environments. The following examples demonstrate VM initialization and BFT consensus timing padding.</p>
+      
+      <div style="margin-bottom: 1.5rem;">
+        <h4 style="font-family: var(--font-mono); font-size: 0.875rem; color: var(--accent-cyan); margin-bottom: 0.5rem;">1. VM Initialization & JIT Pre-Warming</h4>
+        <pre style="background: #02040a; padding: 1rem; border-radius: 6px; font-family: var(--font-mono); font-size: 0.8125rem; overflow-x: auto; border: 1px solid rgba(255,255,255,0.05); color: #c9d1d9;">
+import { UPGPVM } from 'upgp-proving-ground';
+
+const vm = new UPGPVM('dev-master-passphrase');
+vm.deriveEnclaveKeys(['Grant', 'Clark', 'Pierce', 'Reid']);
+vm.prewarm(); // Executes 200 cycles of interpreter pre-warming passes</pre>
+      </div>
+
+      <div>
+        <h4 style="font-family: var(--font-mono); font-size: 0.875rem; color: var(--accent-cyan); margin-bottom: 0.5rem;">2. Constant-Time Consensus Check</h4>
+        <pre style="background: #02040a; padding: 1rem; border-radius: 6px; font-family: var(--font-mono); font-size: 0.8125rem; overflow-x: auto; border: 1px solid rgba(255,255,255,0.05); color: #c9d1d9;">
+// Executes BFT consensus signature loops padded to target exactly 6.0ms
+const signatures = await vm.signConsensusPayloadAsync(
+    'sensitive_transaction_payload',
+    ['Grant', 'Clark'],                  // Approving enclaves
+    ['Grant', 'Clark', 'Pierce', 'Reid'] // All enclaves
+);</pre>
       </div>
     </section>
 
@@ -123,6 +160,7 @@
   <footer>
     <div>© 2026 Xoras Systems LLC. All rights reserved.</div>
     <div>
+      <a href="#about">Overview</a>
       <a href="#architecture">Architecture</a>
       <a href="#benchmarks">Benchmarks</a>
       <a href="#guidelines">Guidelines</a>
