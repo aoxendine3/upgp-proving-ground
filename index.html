@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Technical verification and benchmark suite for UPGP v3.0 microarchitectural timing side-channel containment.">
-  <title>UPGP v3.0 Developer Proving Ground | Xoras Systems</title>
+  <title>UPGP v3.0 — Microarchitectural Side-Channel Verification</title>
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
@@ -22,9 +22,9 @@
   <main>
     <!-- Hero Section -->
     <section class="hero">
-      <div class="badge">UPGP v3.0 Core // Side-Channel Mitigation</div>
+      <div class="badge">UPGP v3.0 // Benchmarks</div>
       <h1>Microarchitectural Timing Validation & Analysis</h1>
-      <p class="tagline">Developer verification tools and benchmark harnesses for timing-indistinguishable sandboxing. Optimized for localized statistical analysis and side-channel evaluation.</p>
+      <p class="tagline">Verification tools and benchmark harnesses for timing-indistinguishable sandboxing.</p>
     </section>
 
     <!-- Embedded Dashboard Schematic Section -->
@@ -36,20 +36,20 @@
     <section class="grid" id="architecture">
       <div class="card" id="card-normalization">
         <div class="card-num">01</div>
-        <h3>Ingress Normalization</h3>
-        <p>Enforces canonical format parsing on raw unicode payloads to prevent variable tokenization execution latencies during rules evaluation loops.</p>
+        <h3>Canonical Unicode Parsing</h3>
+        <p>Enforces uniform format parsing on unicode parameters to eliminate execution latency variance during instruction tokenization loops.</p>
       </div>
 
       <div class="card" id="card-silicon-lock">
         <div class="card-num">02</div>
-        <h3>Cross-Platform Key Derivation</h3>
-        <p>Derives deterministic swarm credentials from host platform identifiers (macOS, Linux, Windows) with automated encrypted local seal fallback (`.upgp-seal`).</p>
+        <h3>Platform-Derived Credentials</h3>
+        <p>Derives swarm credentials from host platform UUIDs, incorporating a secure local fallback seal (`.upgp-seal`) for containerized environments.</p>
       </div>
 
       <div class="card" id="card-decoy-swarm">
         <div class="card-num">03</div>
-        <h3>Constant-Time Decoy Swarms</h3>
-        <p>Calculates constant BFT signatures by offloading signature generation to async thread pools and executing decoy signature padding loops for vetoed operations.</p>
+        <h3>Constant-Time Signature Padding</h3>
+        <p>Computes constant-time BFT signatures by offloading cryptography to background threads and executing balanced timing-alignment spin loops.</p>
       </div>
     </section>
 
@@ -61,26 +61,27 @@
           <div class="cli-dot yellow"></div>
           <div class="cli-dot green"></div>
         </div>
-        <div class="cli-title" id="terminal-title">UPGP v3.0 Verification Benchmarks</div>
+        <div class="cli-title" id="terminal-title">Verification Benchmarks</div>
         <div>bash</div>
       </div>
       <div class="cli-line cmd">npm test</div>
-      <div class="cli-line">[*] Initializing Universal Proving Ground VM Core...</div>
+      <div class="cli-line">[*] Initializing UPGP VM Core...</div>
       <div class="cli-line">[+] Platform Identity Sealed: 4cbf5d5160567e0600c4e4a41b9d7cf14431e5fe537c71e27ee6fcad6770f968</div>
       <div class="cli-line">[*] Local Cryptographic Fallback (CLF) check: READY</div>
       <div class="cli-line">[*] Running Cross-Platform Silicon Lock key derivations...</div>
       <div class="cli-line">[+] Keys derived and isolated for enclaves: [Grant, Clark, Pierce, Reid]</div>
-      <div class="cli-line">[*] Executing pre-warming interpreter passes (200 cycles)...</div>
-      <div class="cli-line">[+] V8 Crankshaft/TurboFan compilation paths optimized: [OK]</div>
-      <div class="cli-line">[*] Initiating timing simulation runs (100 rounds) to compile side-channel profiles...</div>
-      <div class="cli-line">[+] Timing measurements gathered. Compiling side-channel metrics...</div>
+      <div class="cli-line">[*] Executing JIT pre-warming passes (200 cycles)...</div>
+      <div class="cli-line">[+] V8 compiler paths optimized: [OK]</div>
+      <div class="cli-line">[*] Running timing simulation sweeps (100 rounds)...</div>
+      <div class="cli-line">[+] Compiling timing side-channel metrics...</div>
       <div class="cli-line">---------------------------------------------------------------------</div>
-      <div class="cli-line">  [Axis 1] Welch's T-Test Score : 1.1741 <span class="success">(PASS - Mean Indistinguishable)</span></div>
-      <div class="cli-line">  [Axis 2] F-Test Variance Ratio: 30.9355 <span class="success">(PASS - Variance Sealed)</span></div>
-      <div class="cli-line">  [Axis 3] KS-Test Shape Distance: 0.1100 <span class="success">(PASS - CDF Curves Aligned)</span></div>
-      <div class="cli-line">  [Axis 4] Wasserstein Distance : 1698 ns <span class="success">(PASS - EMD Containment Healthy)</span></div>
+      <div class="cli-line">Verification Results</div>
+      <div class="cli-line">Welch's T-Test     : 1.1741 <span class="success">(PASS)</span></div>
+      <div class="cli-line">F-Test Variance    : 30.9355 <span class="success">(PASS)</span></div>
+      <div class="cli-line">KS-Test Distance   : 0.1100 <span class="success">(PASS)</span></div>
+      <div class="cli-line">Wasserstein EMD    : 1698 ns <span class="success">(PASS)</span></div>
       <div class="cli-line">---------------------------------------------------------------------</div>
-      <div class="cli-line success">[✓] UPGP V3.0 CORE VERIFICATION COMPLETE. TIMING INDISTINGUISHABILITY ACTIVE.</div>
+      <div class="cli-line success">Status: NOMINAL</div>
     </section>
 
     <!-- Safety and License Accordions -->
@@ -103,7 +104,7 @@
           <span>▼</span>
         </div>
         <div class="tab-content" id="content-containment">
-          This verification package is private, proprietary, and designed exclusively for defensive testing in isolated sandboxes. No pull requests or codebase transfers are permitted. Arthur has been aligned on these standards: read-only system scans, zero active host modifications, and absolute containment.
+          This verification package is private, proprietary, and designed exclusively for defensive testing in isolated sandboxes. No pull requests or codebase transfers are permitted. Code execution is restricted to read-only audits on the host system and absolute isolation within the sandboxed container.
         </div>
       </div>
 
