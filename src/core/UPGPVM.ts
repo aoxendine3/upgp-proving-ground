@@ -206,26 +206,47 @@ export class UPGPVM {
         const signatures: { [enclaveName: string]: string } = {};
         const decoyPayload = crypto.createHash('sha256').update(payload + '_DECOY_PADDING_2026').digest('hex');
 
-        // Map every single enclave to an asynchronous signing worker task
-        // ALWAYS execute exactly all signing tasks in parallel via background libuv pool
+        // Map every enclave to sequential, double-signature generation to keep access traces identical
         const signingPromises = allEnclaves.map(async (enclave) => {
             const keys = this.enclaveKeys[enclave];
             if (!keys) return;
 
             const isApproving = approvers.includes(enclave);
-            const dataToSign = isApproving ? payload : decoyPayload;
 
-            // Generate cryptographic signature synchronously within the microtask to preserve loop tick
-            const sign = crypto.createSign('SHA256');
-            sign.update(dataToSign);
-            const signature = sign.sign(keys.privateKey, 'base64');
+            // 1. Generate both real and decoy signatures in an invariant sequence
+            const signReal = crypto.createSign('SHA256');
+            signReal.update(payload);
+            const sigRealBuffer = signReal.sign(keys.privateKey);
+
+            const signDecoy = crypto.createSign('SHA256');
+            signDecoy.update(decoyPayload);
+            const sigDecoyBuffer = signDecoy.sign(keys.privateKey);
+
+            // 2. Branchless bitwise selection using a typed-array decision mask
+            const decisionArray = new Uint8Array(1);
+            decisionArray[0] = isApproving ? 1 : 0;
+            const mask = -decisionArray[0]; // 0x00 or 0xFF
+
+            const length = sigRealBuffer.length;
+            const selectedBuffer = Buffer.alloc(length);
+
+            for (let i = 0; i < length; i++) {
+                selectedBuffer[i] = (sigRealBuffer[i] & mask) | (sigDecoyBuffer[i] & ~mask);
+            }
+
+            // 3. Clean up the unused and intermediate buffers from the heap immediately
+            sigRealBuffer.fill(0);
+            sigDecoyBuffer.fill(0);
+
+            const signature = selectedBuffer.toString('base64');
+            selectedBuffer.fill(0);
+
             return { enclave, signature };
         });
 
         const results = await Promise.all(signingPromises);
         for (const res of results) {
             if (res) {
-                // If it was a decoy signature, map it under the BFT veto protocol
                 signatures[res.enclave] = res.signature;
             }
         }
