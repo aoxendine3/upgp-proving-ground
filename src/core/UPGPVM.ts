@@ -222,21 +222,49 @@ export class UPGPVM {
             signDecoy.update(decoyPayload);
             const sigDecoyBuffer = signDecoy.sign(keys.privateKey);
 
-            // 2. Branchless bitwise selection using a typed-array decision mask
+            // 2. Generate two independent random blinding pads to prevent algebraic leaks
+            const length = sigRealBuffer.length;
+            const r0 = crypto.randomBytes(length);
+            const r1 = crypto.randomBytes(length);
+
+            // 3. Mask both signatures immediately with independent pads
+            const s0Prime = Buffer.alloc(length);
+            const s1Prime = Buffer.alloc(length);
+            for (let i = 0; i < length; i++) {
+                s0Prime[i] = sigDecoyBuffer[i] ^ r0[i];
+                s1Prime[i] = sigRealBuffer[i] ^ r1[i];
+            }
+
+            // Immediately sanitize the plaintext signature buffers from heap memory
+            sigRealBuffer.fill(0);
+            sigDecoyBuffer.fill(0);
+
+            // 4. Branchless selection using a typed-array decision mask
             const decisionArray = new Uint8Array(1);
             decisionArray[0] = isApproving ? 1 : 0;
             const mask = -decisionArray[0]; // 0x00 or 0xFF
 
-            const length = sigRealBuffer.length;
-            const selectedBuffer = Buffer.alloc(length);
+            const selectedMasked = Buffer.alloc(length);
+            const selectedPad = Buffer.alloc(length);
 
             for (let i = 0; i < length; i++) {
-                selectedBuffer[i] = (sigRealBuffer[i] & mask) | (sigDecoyBuffer[i] & ~mask);
+                selectedMasked[i] = (s1Prime[i] & mask) | (s0Prime[i] & ~mask);
+                selectedPad[i] = (r1[i] & mask) | (r0[i] & ~mask);
             }
 
-            // 3. Clean up the unused and intermediate buffers from the heap immediately
-            sigRealBuffer.fill(0);
-            sigDecoyBuffer.fill(0);
+            // 5. Unmask only the selected signature at the register boundary
+            const selectedBuffer = Buffer.alloc(length);
+            for (let i = 0; i < length; i++) {
+                selectedBuffer[i] = selectedMasked[i] ^ selectedPad[i];
+            }
+
+            // Sanitizing all intermediate masked buffers and pads
+            s0Prime.fill(0);
+            s1Prime.fill(0);
+            r0.fill(0);
+            r1.fill(0);
+            selectedMasked.fill(0);
+            selectedPad.fill(0);
 
             const signature = selectedBuffer.toString('base64');
             selectedBuffer.fill(0);
@@ -267,4 +295,19 @@ export class UPGPVM {
     public getEnclaveKeys(): { [enclaveName: string]: EnclaveKeyPair } {
         return this.enclaveKeys;
     }
+}
+
+/**
+ * Converts a BigInt to a zero-padded Buffer of exact byte width
+ */
+function bigIntToBuffer(num: bigint, width: number): Buffer {
+    let hex = num.toString(16);
+    if (hex.length % 2) hex = '0' + hex;
+    const buf = Buffer.from(hex, 'hex');
+    if (buf.length < width) {
+        const padded = Buffer.alloc(width);
+        buf.copy(padded, width - buf.length);
+        return padded;
+    }
+    return buf;
 }
