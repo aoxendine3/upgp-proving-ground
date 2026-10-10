@@ -1,8 +1,0 @@
-{
-  "path": "./ops/runtime/hostile_external_breaker.c",
-  "sha256": "0912e875982959dea92ff01e2a6547266435a5ee17918197875ab6d5d23083fe",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.608785+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

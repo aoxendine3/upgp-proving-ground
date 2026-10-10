@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/sovra_zero_copy_engine/src/sovra_dag_consensus.c",
-  "sha256": "9182e5e60b8b97cbccd4f8788dbc8bd8af7932461ab1a05ee7cda40eed2bcc42",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.317061+00:00",
-  "score": 100,
-  "status": "LOAD_BEARING"
-}

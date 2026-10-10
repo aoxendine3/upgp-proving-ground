@@ -1,8 +1,0 @@
-{
-  "path": "./ops/watchdog/process_sentinel_monitor.py",
-  "sha256": "b1ba0bdef8c98b5ba8f7e027b84b01dd36b01f7049a5c4bce9cb3fb4616e072f",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.609435+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

@@ -1,6 +1,0 @@
-batch,source,destination,status,source_size_before_kb,destination_size_after_kb
-A,/Users/ajoxendine68/Desktop/Xoras/AI_Core/Xoras_Agent_Skills,/Users/ajoxendine68/Desktop/Xoras_Workspace/agents/xoras-agent-skills,migrated,6,6
-B,/Users/ajoxendine68/Desktop/Xoras_Sovereign_AI_Stack/deployment_package/com.xoras.archivist.plist,/Users/ajoxendine68/Desktop/Xoras_Workspace/ops/config/sovereign_stack/com.xoras.archivist.plist,migrated,0,0
-B,/Users/ajoxendine68/Desktop/Xoras_Sovereign_AI_Stack/source_code/build_hft.sh,/Users/ajoxendine68/Desktop/Xoras_Workspace/ops/sovereign_stack/scripts/build_hft.sh,migrated,1,1
-B,/Users/ajoxendine68/Desktop/Xoras_Sovereign_AI_Stack/source_code/build_hft_shm.sh,/Users/ajoxendine68/Desktop/Xoras_Workspace/ops/sovereign_stack/scripts/build_hft_shm.sh,migrated,1,1
-B,/Users/ajoxendine68/Desktop/Xoras_Sovereign_AI_Stack/builds/libxoras_alloc.dylib,/Users/ajoxendine68/Desktop/Xoras_Workspace/dist/sovereign_stack/libxoras_alloc.dylib,migrated,53,53

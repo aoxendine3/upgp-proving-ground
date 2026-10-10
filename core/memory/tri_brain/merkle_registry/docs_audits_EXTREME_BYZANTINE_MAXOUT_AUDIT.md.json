@@ -1,8 +1,0 @@
-{
-  "path": "./docs/audits/EXTREME_BYZANTINE_MAXOUT_AUDIT.md",
-  "sha256": "72ce88e6777bef2f422f63d87dd3da268dc136f5c3abd067e5f7759d0016ae00",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.303321+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

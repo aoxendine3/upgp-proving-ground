@@ -14,7 +14,7 @@ To transition UPGP v4.0 Ultra from a "security-theater prototype" into an **unbr
 1. **Zero Mocked Passes**: Replace every placeholder string in the test suite with un-mocked, empirical execution measurements (measuring real CPU clock cycles, heap buffer sizes, AST syntax nodes, and SHA-256 Merkle hashes).
 2. **Real-World Kernel & Syscall Isolation**: Generate production Seccomp-BPF syscall filter profiles (`seccomp_upgp_profile.json`) blocking dangerous Linux kernel operations (`ptrace`, `process_vm_writev`, `kexec_load`).
 3. **Resilient Hardware Binding**: Replace fragile OS UUID lookups with a multi-source entropy engine combining hardware CPU microarchitecture, encrypted `.upgp-seal` storage, and PBKDF2/HKDF key derivation.
-4. **Complete Product Packaging**: Elevate `aoxendine3/upgp-proving-ground` on GitHub with an interactive live benchmark dashboard in `index.html`, automated PyTest/Node test suites, and a complete video walkthrough presentation script.
+4. **Complete Product Packaging**: Elevate `user/upgp-proving-ground` on GitHub with an interactive live benchmark dashboard in `index.html`, automated PyTest/Node test suites, and a complete video walkthrough presentation script.
 
 ---
 

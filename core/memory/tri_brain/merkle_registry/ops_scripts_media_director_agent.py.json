@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/media_director_agent.py",
-  "sha256": "752a4d20b1ba1da433991020bd835b0137e4b5d3f77329547ba514d28e4ebaa0",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.613393+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

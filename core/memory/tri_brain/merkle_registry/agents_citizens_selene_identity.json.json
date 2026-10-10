@@ -1,8 +1,0 @@
-{
-  "path": "./agents/citizens/selene/identity.json",
-  "sha256": "b929b8df36e53636e286c7694cc1123552e658e1e1b02b37e14353c030272a4e",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.299087+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

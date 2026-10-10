@@ -117,10 +117,10 @@ All four Layer 4 invariants were evaluated using the **Z3 Prover Engine (v4.16.0
 
 | Layer | Component | Invariants Verfied | Status | SMT-LIB Result | Audit Document |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Layer 1** | SHM Ring-Buffer (4096) | Inv 1–4 | **DISCHARGED** | `unsat` | [XORAS_012](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/docs/audits/XORAS_012_BBQ_GAUNTLET_VERIFICATION.md) |
-| **Layer 2** | HexCell & Taint Lattice | Inv 5–8 (L2) | **DISCHARGED** | `unsat` | [XORAS_013](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/docs/audits/XORAS_013_HEXCELL_TAINT_GAUNTLET_VERIFICATION.md) |
-| **Layer 3** | Context Lineage Merkle DAG | Inv 5, 5B, 6–8 | **DISCHARGED** | `unsat` | [XORAS_014](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/docs/audits/XORAS_014_MERKLE_DAG_LAYER3_VERIFICATION.md) |
-| **Layer 4** | Swarm Consensus & Trinity | Inv 9–12 | **DISCHARGED** | `unsat` | [XORAS_015](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/docs/audits/XORAS_015_SWARM_CONSENSUS_LAYER4_VERIFICATION.md) |
+| **Layer 1** | SHM Ring-Buffer (4096) | Inv 1–4 | **DISCHARGED** | `unsat` | [XORAS_012](file:///workspace/upgp-proving-ground/docs/audits/XORAS_012_BBQ_GAUNTLET_VERIFICATION.md) |
+| **Layer 2** | HexCell & Taint Lattice | Inv 5–8 (L2) | **DISCHARGED** | `unsat` | [XORAS_013](file:///workspace/upgp-proving-ground/docs/audits/XORAS_013_HEXCELL_TAINT_GAUNTLET_VERIFICATION.md) |
+| **Layer 3** | Context Lineage Merkle DAG | Inv 5, 5B, 6–8 | **DISCHARGED** | `unsat` | [XORAS_014](file:///workspace/upgp-proving-ground/docs/audits/XORAS_014_MERKLE_DAG_LAYER3_VERIFICATION.md) |
+| **Layer 4** | Swarm Consensus & Trinity | Inv 9–12 | **DISCHARGED** | `unsat` | [XORAS_015](file:///workspace/upgp-proving-ground/docs/audits/XORAS_015_SWARM_CONSENSUS_LAYER4_VERIFICATION.md) |
 
 **Verification Disposition:** **LAYER 4 FULLY DISCHARGED & RESOLVED VIA Z3**  
 Stored in Canonical Evidence Registry: `docs/audits/XORAS_015_SWARM_CONSENSUS_LAYER4_VERIFICATION.md`

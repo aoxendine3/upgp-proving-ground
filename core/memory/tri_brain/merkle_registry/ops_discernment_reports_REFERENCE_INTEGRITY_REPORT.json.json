@@ -1,8 +1,0 @@
-{
-  "path": "./ops/discernment/reports/REFERENCE_INTEGRITY_REPORT.json",
-  "sha256": "4189b975f6d8faa3523460e4bb949b1cd5c034aaeb3209c82e46db8d1545b04e",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.607984+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

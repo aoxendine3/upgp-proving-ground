@@ -1,8 +1,0 @@
-{
-  "path": "./ops/reports/reorg/highrisk-pathrefs-sampled.json",
-  "sha256": "117c18109916640b231e1b57d99a072df19476ba02a8e6a8bbe8a7d8a2b1d3a9",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.662073+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

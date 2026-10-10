@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/build_xmars_os_upgrade.py",
-  "sha256": "f02fb4b214dc51bf3197624f3a2224eab98ec2a77fa70b75a959ad1abd20e1b0",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.613949+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

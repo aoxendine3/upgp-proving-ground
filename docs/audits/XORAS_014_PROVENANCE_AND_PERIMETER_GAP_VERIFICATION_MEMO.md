@@ -33,7 +33,7 @@ All 4 gaps have been fully remediated, verified, and sealed via **Out-of-Band Ze
 
 ### 2. OUT-OF-BAND INDEPENDENT NODE ATTESTATION
 
-To kill the "Self-Grading Mirror" loop, we developed [`ops/scripts/out_of_band_independent_node_verifier.py`](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/ops/scripts/out_of_band_independent_node_verifier.py):
+To kill the "Self-Grading Mirror" loop, we developed [`ops/scripts/out_of_band_independent_node_verifier.py`](file:///workspace/upgp-proving-ground/ops/scripts/out_of_band_independent_node_verifier.py):
 
 1. **Isolated Sandbox Initialization**: Operates in zero-knowledge `/tmp/oob_independent_node_verification/` directory.
 2. **Independent Compilation Pass**: Compiles `stateless_airblocked_witness.zig` with an independent compiler run (`zig build-exe -O ReleaseFast`).
@@ -58,16 +58,16 @@ To kill the "Self-Grading Mirror" loop, we developed [`ops/scripts/out_of_band_i
 
 In accordance with **Log Entry #078**:
 - Every modification to `sovereign_policy_manifest.json` (such as whitelisting standard developer tooling) is cryptographically signed with an Ed25519 detached signature (`ops/policy/sovereign_policy_manifest.json.sig`).
-- The policy mutation is committed into `.sovereign/provenance/lineage_dag.db` as a first-class `POLICY_MUTATION_NODE` (`NODE_POLICY_e4cfe274336a`), bound to its barn vault copy [`barn/policy/sovereign_policy_manifest.json`](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/barn/policy/sovereign_policy_manifest.json).
+- The policy mutation is committed into `.sovereign/provenance/lineage_dag.db` as a first-class `POLICY_MUTATION_NODE` (`NODE_POLICY_e4cfe274336a`), bound to its barn vault copy [`barn/policy/sovereign_policy_manifest.json`](file:///workspace/upgp-proving-ground/barn/policy/sovereign_policy_manifest.json).
 - Any attempt to alter policy parameters out-of-band breaks the global Merkle root hash, triggering an immediate fail-closed halt.
 
 ---
 
 ### ARTIFACT LINKS & RECEIPTS
 
-- **Out-of-Band Attestation Receipt**: [`docs/audits/OUT_OF_BAND_INDEPENDENT_NODE_VERIFICATION_RECEIPT.json`](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/docs/audits/OUT_OF_BAND_INDEPENDENT_NODE_VERIFICATION_RECEIPT.json)
-- **Swarm Beta Visiting Swarm Audit Report**: [`docs/audits/SWARM_VISITING_SWARM_RECONCILIATION_REPORT.md`](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/docs/audits/SWARM_VISITING_SWARM_RECONCILIATION_REPORT.md)
-- **Master Verification Suite Receipt**: [`docs/audits/SOVEREIGN_VERIFICATION_SUITE_MASTER_RECEIPT.json`](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/docs/audits/SOVEREIGN_VERIFICATION_SUITE_MASTER_RECEIPT.json)
-- **Out-of-Band Verifier Engine Script**: [`ops/scripts/out_of_band_independent_node_verifier.py`](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/ops/scripts/out_of_band_independent_node_verifier.py)
+- **Out-of-Band Attestation Receipt**: [`docs/audits/OUT_OF_BAND_INDEPENDENT_NODE_VERIFICATION_RECEIPT.json`](file:///workspace/upgp-proving-ground/docs/audits/OUT_OF_BAND_INDEPENDENT_NODE_VERIFICATION_RECEIPT.json)
+- **Swarm Beta Visiting Swarm Audit Report**: [`docs/audits/SWARM_VISITING_SWARM_RECONCILIATION_REPORT.md`](file:///workspace/upgp-proving-ground/docs/audits/SWARM_VISITING_SWARM_RECONCILIATION_REPORT.md)
+- **Master Verification Suite Receipt**: [`docs/audits/SOVEREIGN_VERIFICATION_SUITE_MASTER_RECEIPT.json`](file:///workspace/upgp-proving-ground/docs/audits/SOVEREIGN_VERIFICATION_SUITE_MASTER_RECEIPT.json)
+- **Out-of-Band Verifier Engine Script**: [`ops/scripts/out_of_band_independent_node_verifier.py`](file:///workspace/upgp-proving-ground/ops/scripts/out_of_band_independent_node_verifier.py)
 
 *Signed by Lead 9 Council & Independent Verifier Board.*

@@ -239,7 +239,7 @@
     },
     {
       "step_name": "Pre-Flight Native Witness Integrity Check",
-      "command": "/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/ops/bin/stateless_airblocked_witness /Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/.sovereign/provenance/lineage_dag.db /Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/memory/tri_brain/merkle_root.hash",
+      "command": "/workspace/upgp-proving-ground/core/ops/bin/stateless_airblocked_witness /workspace/upgp-proving-ground/.sovereign/provenance/lineage_dag.db /workspace/upgp-proving-ground/memory/tri_brain/merkle_root.hash",
       "success": true,
       "exit_code": 0,
       "duration_sec": 0.0058,
@@ -279,7 +279,7 @@
       "success": true,
       "exit_code": 0,
       "duration_sec": 0.0437,
-      "stdout": "=== HSM & KEY ISOLATION AUDIT ===\n{\n  \"isolation_level\": \"EMULATED_LOCAL_EPHEMERAL_KEY\",\n  \"is_hardware_backed\": false,\n  \"key_source\": \"Local File: /Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/.sovereign/crypto_keys/ed25519_hardware_priv.pem (Requires HSM Migration for Production)\",\n  \"nist_sp800_53_compliance\": \"DEV_EMULATION_WARNING\"\n}\n\nSignature (Ed25519): 2ee37218494e62e05c8ecc2376cb33a7...\n",
+      "stdout": "=== HSM & KEY ISOLATION AUDIT ===\n{\n  \"isolation_level\": \"EMULATED_LOCAL_EPHEMERAL_KEY\",\n  \"is_hardware_backed\": false,\n  \"key_source\": \"Local File: /workspace/upgp-proving-ground/.sovereign/crypto_keys/ed25519_hardware_priv.pem (Requires HSM Migration for Production)\",\n  \"nist_sp800_53_compliance\": \"DEV_EMULATION_WARNING\"\n}\n\nSignature (Ed25519): 2ee37218494e62e05c8ecc2376cb33a7...\n",
       "stderr": ""
     },
     {

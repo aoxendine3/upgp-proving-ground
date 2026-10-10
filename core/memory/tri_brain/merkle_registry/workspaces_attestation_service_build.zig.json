@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/attestation_service/build.zig",
-  "sha256": "e45eae9791429f19d93aad82eb64010862088a0c0d1da4e43570a6978defe3cb",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.306976+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

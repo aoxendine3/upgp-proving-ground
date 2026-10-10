@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/evidence_dag_gate.sh",
-  "sha256": "3d3ca1c80fe374a69b042557aa01b96dcc157432a6d4a9e69df4e2dc43c361e6",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.611620+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

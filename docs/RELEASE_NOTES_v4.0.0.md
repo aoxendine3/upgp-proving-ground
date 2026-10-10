@@ -18,8 +18,8 @@ SOVRA Truth Engine v4.0 is a zero-pip dependency, offline truth and polarity ver
 - `truth_verifier_v4_cli.exe` — Windows x86_64 standalone console executable
 
 ### Visual Performance & Accuracy Evidence
-![SOVRA Latency Benchmark](https://raw.githubusercontent.com/aoxendine3/kaggle-benchmark-assets/main/sovra_v4_latency_benchmark_chart.png)
-![SOVRA Precision Matrix](https://raw.githubusercontent.com/aoxendine3/kaggle-benchmark-assets/main/sovra_v4_accuracy_matrix_chart.png)
+![SOVRA Latency Benchmark](https://raw.githubusercontent.com/user/kaggle-benchmark-assets/main/sovra_v4_latency_benchmark_chart.png)
+![SOVRA Precision Matrix](https://raw.githubusercontent.com/user/kaggle-benchmark-assets/main/sovra_v4_accuracy_matrix_chart.png)
 
 
 ### Quickstart

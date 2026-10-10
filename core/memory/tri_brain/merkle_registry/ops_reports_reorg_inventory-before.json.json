@@ -1,8 +1,0 @@
-{
-  "path": "./ops/reports/reorg/inventory-before.json",
-  "sha256": "8ae6675ef92503a65145fed38f37c8445796db93784f2d88313a8c129af9c4f3",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.662552+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

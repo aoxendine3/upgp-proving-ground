@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/merkle_sync_history.py",
-  "sha256": "1b3c9c7c66fee535f342fb35cd7e796efd15ecbdd947feb4622ee107a589dd46",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.614316+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

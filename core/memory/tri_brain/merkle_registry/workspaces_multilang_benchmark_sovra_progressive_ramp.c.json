@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/multilang_benchmark/sovra_progressive_ramp.c",
-  "sha256": "be918eb2b6d752232074f8baad356e50f5386e692d3fc8d0f80cf2f978b81360",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.468503+00:00",
-  "score": 90,
-  "status": "LOAD_BEARING"
-}

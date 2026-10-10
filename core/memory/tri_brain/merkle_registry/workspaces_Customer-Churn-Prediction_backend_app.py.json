@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/Customer-Churn-Prediction/backend/app.py",
-  "sha256": "1a9dae417c2b10b04f8c44125d726ad07698dd1635d84b5e5b0e14acc97bd3d6",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.308819+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

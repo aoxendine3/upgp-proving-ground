@@ -1,8 +1,0 @@
-{
-  "path": "./ops/reports/reorg/highrisk-dryrun-inventory.json",
-  "sha256": "51fd5ebd410a39cfdabcc1adf6cfc63625524ee38c036a7bd907cf60380b68aa",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.660334+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

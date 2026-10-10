@@ -1,8 +1,0 @@
-{
-  "path": "./memory/rollback_states/snap_1789682114926_pre_upgrade_sentinel_self_test_v1/snapshot_metadata.json",
-  "sha256": "02bd08c28f574945a4652be8d60227761bb4714edb5f5b0be63bbcba22fdd6f6",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.288955+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

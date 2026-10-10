@@ -35,7 +35,7 @@ This memorandum presents the ground-truth re-measurement audit evaluating the fo
 
 ## 2. Empirical Re-Measurement & Remediation Receipts
 
-We executed [`core/ops/native/remeasure_remediations_benchmark.py`](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/ops/native/remeasure_remediations_benchmark.py) live on Apple Silicon M4 unified memory:
+We executed [`core/ops/native/remeasure_remediations_benchmark.py`](file:///workspace/upgp-proving-ground/core/ops/native/remeasure_remediations_benchmark.py) live on Apple Silicon M4 unified memory:
 
 ```json
 {

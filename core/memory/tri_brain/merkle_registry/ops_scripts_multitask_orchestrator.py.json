@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/multitask_orchestrator.py",
-  "sha256": "da40632397ee8bd3c27b541cf9fcaf5d6a00e319071563bebeca969312baa962",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.610366+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

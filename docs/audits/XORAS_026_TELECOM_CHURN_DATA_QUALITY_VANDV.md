@@ -4,7 +4,7 @@
 **Date:** 2026-10-06  
 **Author:** Lead 9 Council (Maxx, Clara, William Vance, Jarvis, Xoras Swarm Collective)  
 **Target:** Telecom Customer Churn Data Quality & Poincaré Hyperbolic Embedding Pipeline  
-**Repository Target:** `https://github.com/aoxendine3/telecom_churn_data_quality_solution.git`  
+**Repository Target:** `https://github.com/user/telecom_churn_data_quality_solution.git`  
 **Hardware Baseline:** Apple Silicon M4 Unified Memory Architecture  
 **Hardware Verification Timestamp**: Pinned `2026-10-06T20:41:46Z` (4:41 PM EDT)
 

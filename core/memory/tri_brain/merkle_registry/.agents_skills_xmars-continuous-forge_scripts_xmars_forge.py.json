@@ -1,8 +1,0 @@
-{
-  "path": "./.agents/skills/xmars-continuous-forge/scripts/xmars_forge.py",
-  "sha256": "30432cf3f696a4f7551d14dacf8a3666f017af55445a64963a565a6805f33d8d",
-  "depth": 6,
-  "timestamp": "2026-09-29T20:02:55.295942+00:00",
-  "score": 60,
-  "status": "LOAD_BEARING"
-}

@@ -76,7 +76,7 @@ MCowBQYDK2VwAyEAumJO1i5RjrumAvHbga2kyxIqOMlE5fVjZqIDMz8GZyI=
 -----END PUBLIC KEY-----
 ```
 - **Detached Signature (SHA-512/Ed25519)**: `8b336df4f6a36973dd88c10febf4b4df572d2e8e41a10aa7b45999f1da85f8b415434bcaf69c0f2a927f969f79787305dc38007e82287429aeda9c1b2b28cb0d`
-- **Barn Archive Path**: `/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/barn/receipts/SPDD-BBQ-BLACKBOX-14GATE_20261004-232115_UTC.json`
+- **Barn Archive Path**: `/workspace/upgp-proving-ground/barn/receipts/SPDD-BBQ-BLACKBOX-14GATE_20261004-232115_UTC.json`
 
 ---
 

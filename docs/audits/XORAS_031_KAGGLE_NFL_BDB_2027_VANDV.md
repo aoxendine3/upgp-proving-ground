@@ -23,7 +23,7 @@ Remote execution on Kaggle’s cloud infrastructure under **Kernel Version 2** r
 | **Competition ID** | `nfl-big-data-bowl-2027` |
 | **Analyzed Datasets** | `players.csv` (510 players), `combine_results.csv` (510 records), `games.csv` (1,002 games) |
 | **Feature Metric** | Athletic Explosiveness Index (AEI) = $\frac{\text{Vertical}}{\text{Forty}} + \frac{\text{Broad Jump}}{\text{Ten Yd Split} \times 10}$ |
-| **Generated Output** | [submission.csv](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/workspaces/nfl_bdb_2027/submission.csv) (510 rows) |
+| **Generated Output** | [submission.csv](file:///workspace/upgp-proving-ground/workspaces/nfl_bdb_2027/submission.csv) (510 rows) |
 | **Remote Kernel Status** | `KernelWorkerStatus.COMPLETE` |
 | **Visual Graphics** | High-Tech Telemetry Cover, 40-Yd vs Vertical Scatter, AEI Leaderboard Bar Chart |
 | **Live Kaggle Kernel URL** | [https://www.kaggle.com/code/anthonyoxendine/nfl-big-data-bowl-2027-master-analytics](https://www.kaggle.com/code/anthonyoxendine/nfl-big-data-bowl-2027-master-analytics) |
@@ -32,14 +32,14 @@ Remote execution on Kaggle’s cloud infrastructure under **Kernel Version 2** r
 
 ## 3. Visual Artifacts & Telemetry
 
-- **AI Broadcast Cover Graphic**: [nfl_bdb_2027_cover.jpg](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/workspaces/nfl_bdb_2027/nfl_bdb_2027_cover.jpg)  
-  ![NFL BDB 2027 Cover](/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/workspaces/nfl_bdb_2027/nfl_bdb_2027_cover.jpg)
+- **AI Broadcast Cover Graphic**: [nfl_bdb_2027_cover.jpg](file:///workspace/upgp-proving-ground/workspaces/nfl_bdb_2027/nfl_bdb_2027_cover.jpg)  
+  ![NFL BDB 2027 Cover](/workspace/upgp-proving-ground/workspaces/nfl_bdb_2027/nfl_bdb_2027_cover.jpg)
 
-- **40-Yard Dash vs Vertical Jump Velocity Chart**: [forty_vs_vertical.png](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/workspaces/nfl_bdb_2027/forty_vs_vertical.png)  
-  ![40-Yd vs Vertical](/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/workspaces/nfl_bdb_2027/forty_vs_vertical.png)
+- **40-Yard Dash vs Vertical Jump Velocity Chart**: [forty_vs_vertical.png](file:///workspace/upgp-proving-ground/workspaces/nfl_bdb_2027/forty_vs_vertical.png)  
+  ![40-Yd vs Vertical](/workspace/upgp-proving-ground/workspaces/nfl_bdb_2027/forty_vs_vertical.png)
 
-- **Position Group AEI Leaderboard**: [position_aei_leaderboard.png](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/workspaces/nfl_bdb_2027/position_aei_leaderboard.png)  
-  ![Position AEI](/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/workspaces/nfl_bdb_2027/position_aei_leaderboard.png)
+- **Position Group AEI Leaderboard**: [position_aei_leaderboard.png](file:///workspace/upgp-proving-ground/workspaces/nfl_bdb_2027/position_aei_leaderboard.png)  
+  ![Position AEI](/workspace/upgp-proving-ground/workspaces/nfl_bdb_2027/position_aei_leaderboard.png)
 
 ---
 

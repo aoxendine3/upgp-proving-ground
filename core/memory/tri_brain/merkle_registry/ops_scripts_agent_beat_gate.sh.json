@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/agent_beat_gate.sh",
-  "sha256": "7d7f7544c70dc258d9c4afd862df5aef55735f45262ca614dc78e0cf9af90597",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.612667+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

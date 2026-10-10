@@ -1,9 +1,0 @@
-{
-  "agent_id": "counselor",
-  "name": "Counselor",
-  "role": "Context Synthesizer & Cultural Mapping",
-  "seat": 22,
-  "kokoro_voice_id": "am_delta",
-  "mac_fallback_voice": "Serena (Enhanced)",
-  "status": "SOVEREIGN_CITIZEN_ACTIVE"
-}

@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/hyperforge_autoresearch/core/target/release/.fingerprint/memchr-4115a078534e07ea/lib-memchr.json",
-  "sha256": "f3869c93b2fa07d39476ccfde6146b3d6af6ed6ffe2dc4d8b456b43ee2a60b2d",
-  "depth": 9,
-  "timestamp": "2026-09-29T20:02:55.473432+00:00",
-  "score": 90,
-  "status": "LOAD_BEARING"
-}

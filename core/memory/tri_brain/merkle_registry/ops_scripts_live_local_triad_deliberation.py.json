@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/live_local_triad_deliberation.py",
-  "sha256": "24d78878827fa3495e749b5fbacb3cfa25dcad2a507b5af560c28fb0080416a4",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.614456+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

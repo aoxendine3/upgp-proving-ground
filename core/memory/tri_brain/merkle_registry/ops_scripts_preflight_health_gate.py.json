@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/preflight_health_gate.py",
-  "sha256": "4e1fc266e5c99c5f1df68182ec3f9d80da37364854d9c513dcdaa5cb57327e1a",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.614536+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

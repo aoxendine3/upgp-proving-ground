@@ -1,8 +1,0 @@
-{
-  "path": "./ops/discernment/merkle_pre_action_gate.py",
-  "sha256": "dcdb1118cfc2ec61ddc73aa814bb8c0563a2731028080e847d52dc88409e7ca6",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.607770+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

@@ -12,9 +12,9 @@
 Under **Log Entry #077 (The Collective Invariant Law)**, **We** reject all superficial or tautological testing.
 
 We identified and remediated the flaws in shallow Python-level testing:
-1. **Elimination of Tautology:** Tautological comparison (`hmac.compare_digest(sig, sig)`) was removed. We implemented **Genuine 1-Bit Flip Tamper Rejection** in compiled C code ([nist_hardware_security.c](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/ops/native/nist_hardware_security.c)).
+1. **Elimination of Tautology:** Tautological comparison (`hmac.compare_digest(sig, sig)`) was removed. We implemented **Genuine 1-Bit Flip Tamper Rejection** in compiled C code ([nist_hardware_security.c](file:///workspace/upgp-proving-ground/core/ops/native/nist_hardware_security.c)).
 2. **FIPS 140-3 Native Volatile Key Zeroization:** Hardcoded python keys were replaced by transient key buffers wiped via `secure_zero_memory()` (`volatile uint8_t *p`) immediately after cryptographic execution.
-3. **M4 128-Byte Cache Alignment:** Enforced `__attribute__((aligned(128)))` on cryptographic data structures in compiled native C ([libnist_hardware_security.dylib](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/ops/native/libnist_hardware_security.dylib)).
+3. **M4 128-Byte Cache Alignment:** Enforced `__attribute__((aligned(128)))` on cryptographic data structures in compiled native C ([libnist_hardware_security.dylib](file:///workspace/upgp-proving-ground/core/ops/native/libnist_hardware_security.dylib)).
 
 ---
 

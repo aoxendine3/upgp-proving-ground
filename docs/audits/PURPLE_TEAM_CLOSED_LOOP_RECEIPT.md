@@ -23,4 +23,4 @@ Red Team payloads are generated dynamically using randomized hex and byte mutati
 
 ## 3. Cryptographic Attestation
 - **Ed25519 Detached Signature**: `c633b030fe7a4e384dfecc04d237c0310c90b4ad74ca2d663673df4c48825d4d8f6f483ba9f3fb337c0b4dca8419c7c7225ee6e4785511415a343609dbc3af05`
-- **Barn Archive Path**: `/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/barn/receipts/SPDD-PURPLE-LOOP_20261004-232116_UTC.json`
+- **Barn Archive Path**: `/workspace/upgp-proving-ground/barn/receipts/SPDD-PURPLE-LOOP_20261004-232116_UTC.json`

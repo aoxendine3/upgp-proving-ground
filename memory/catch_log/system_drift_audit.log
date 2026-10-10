@@ -1,1 +1,0 @@
-[DRIFT INCIDENT] 2026-10-08T02:37:49Z - Agent execution bypassed Kokoro Hardware Lock and attempted OS-level fallback (macOS 'say'). Remediation: Strict enforcement of ops/scripts/agent_speak.sh pipeline re-established. Failure registered to the evidence chain.

@@ -1,8 +1,0 @@
-{
-  "path": "./docs/audits/MTPO_MONOTONIC_TRAJECTORY_PREORDER.md",
-  "sha256": "88831fc708a501a22bcbd26508ea1a7dd75576d79a90522c088f085e6ef35910",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.301957+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

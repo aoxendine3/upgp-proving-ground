@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/launch_hexagraphic_forge.sh",
-  "sha256": "ec7434839511b6edad0adc8fd114c99a3ffa1b4cd76f58a8ab0c119e014ed377",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.609728+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

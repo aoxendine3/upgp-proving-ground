@@ -1,2 +1,0 @@
-{"timestamp": "2026-09-30T03:25:49.332108+00:00", "action": "TERMINATE_LINGER", "pid": 40171, "task_id": "UNMONITORED_GAUNTLET", "purpose": "dojo_upgp_purple_gauntlet.py", "status": "TERMINATED", "details": "Killed unmonitored lingering task"}
-{"timestamp": "2026-09-30T03:25:49.333495+00:00", "action": "TERMINATE_LINGER", "pid": 40903, "task_id": "UNMONITORED_GAUNTLET", "purpose": "dojo_upgp_purple_gauntlet.py", "status": "TERMINATED", "details": "Killed unmonitored lingering task"}

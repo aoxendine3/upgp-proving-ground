@@ -1,8 +1,0 @@
-{
-  "path": "./data_center/synthetic_training/xmars_axioms_matrix.json",
-  "sha256": "7ff81bebf5b8e920300038a8f4c6783d022fe9e6a3788c7abb45c0cf53935a27",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.197643+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

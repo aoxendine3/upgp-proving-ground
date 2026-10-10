@@ -1,8 +1,0 @@
-{
-  "path": "./agents/voice/voice_capture.py",
-  "sha256": "543760bbda01d91eb2ec791d8be1ac5d7e8c102ef1a4b18311f352b760677f2e",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.298774+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

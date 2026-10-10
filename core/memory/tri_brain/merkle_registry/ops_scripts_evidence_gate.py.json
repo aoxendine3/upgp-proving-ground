@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/evidence_gate.py",
-  "sha256": "47383759bfb4e658d195d1c60f0177db36da94bb896c8d6a389982191ffaec91",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.611148+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

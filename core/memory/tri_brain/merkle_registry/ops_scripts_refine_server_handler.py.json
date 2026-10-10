@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/refine_server_handler.py",
-  "sha256": "59d94447b5acf3d720e8f92e7b4801ea930a4a582f30cd4fd388bd68571ac50b",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.614179+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

@@ -1,8 +1,0 @@
-{
-  "path": "./memory/agent_logs/web_chat.json",
-  "sha256": "e75ac9ee4f6da4806a336f97a295916f9b401cdd6d6390d64f3248c9c555cd6f",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.198468+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

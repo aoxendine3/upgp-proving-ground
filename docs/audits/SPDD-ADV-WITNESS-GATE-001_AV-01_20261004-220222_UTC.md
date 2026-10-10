@@ -9,9 +9,9 @@
 ---
 
 ### 1. Environment Snapshot
-- **SQLite DB path**: `/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/.sovereign/provenance/lineage_dag.db`
-- **Claim file path**: `/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/memory/tri_brain/merkle_root.hash`
-- **Witness binary path**: `/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/ops/bin/stateless_airblocked_witness`
+- **SQLite DB path**: `/workspace/upgp-proving-ground/.sovereign/provenance/lineage_dag.db`
+- **Claim file path**: `/workspace/upgp-proving-ground/memory/tri_brain/merkle_root.hash`
+- **Witness binary path**: `/workspace/upgp-proving-ground/core/ops/bin/stateless_airblocked_witness`
 - **Isolation Scope**: Textual Output Inspection ONLY (Zero Source/Reasoning Access)
 
 ---
@@ -66,6 +66,6 @@
 ---
 
 ### 6. Artifacts & Signatures
-- **Raw Log Location**: `/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/memory/catch_log/adversarial_fail_closed_gauntlet.log`
+- **Raw Log Location**: `/workspace/upgp-proving-ground/memory/catch_log/adversarial_fail_closed_gauntlet.log`
 - **Archive Barn Location**: `barn/receipts/SPDD-ADV-WITNESS-GATE-001_AV-01_20261004-220222_UTC.json`
 - **Detached Signature Digest**: `SHA-256: 46d2ab25eef1ee2a33b6adf5a777a0e253374f5e4f5cfb75097373aea6d22f47`

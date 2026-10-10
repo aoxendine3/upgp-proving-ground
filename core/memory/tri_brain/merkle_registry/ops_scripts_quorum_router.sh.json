@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/quorum_router.sh",
-  "sha256": "4ed4cbb0b25857ae4790c6cd4f47864937a7b6764bd2ffb51868555206ba6e5e",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.612343+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

@@ -1,6 +1,0 @@
-{
-  "benchmark": "M4 LPDDR5X Hardware STREAM Baseline",
-  "total_dataset_gb": 1.0000,
-  "avg_pass_ms": 440.55,
-  "effective_dram_bandwidth_gb_sec": 4.54
-}

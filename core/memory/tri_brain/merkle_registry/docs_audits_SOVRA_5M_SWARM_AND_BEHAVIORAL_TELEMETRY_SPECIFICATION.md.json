@@ -1,8 +1,0 @@
-{
-  "path": "./docs/audits/SOVRA_5M_SWARM_AND_BEHAVIORAL_TELEMETRY_SPECIFICATION.md",
-  "sha256": "5700584109a314503aaf1e19af09b72d72652107a018bcaaaeb17aad1f43f8bf",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.302555+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

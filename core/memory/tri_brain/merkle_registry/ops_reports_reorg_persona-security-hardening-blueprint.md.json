@@ -1,8 +1,0 @@
-{
-  "path": "./ops/reports/reorg/persona-security-hardening-blueprint.md",
-  "sha256": "fdc99a5e6066c13e2bfa86d92f90aa082595543163d45fb2599f99d101aea616",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.661633+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

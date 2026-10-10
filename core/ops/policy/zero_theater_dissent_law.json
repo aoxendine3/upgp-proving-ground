@@ -1,8 +1,0 @@
-{
-  "rule_name": "BARE_METAL_ANTI_THEATER_DISSENT_LAW",
-  "status": "ENFORCED_PERMANENT_LAW",
-  "trigger_condition": "HYPE_OR_THEATRICAL_TONE_DETECTED",
-  "action": "IMMEDIATE_HARD_DISSENT_INTERRUPTION",
-  "taint_demotion": "0xDEAD0000",
-  "evidence_requirement": "100% EMPIRICAL_BENCHMARK_OR_FORMAL_SMT_PROOF"
-}

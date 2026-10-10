@@ -1,9 +1,0 @@
-{
-  "agent_id": "axlon",
-  "name": "Axlon",
-  "role": "Substrate Infrastructure & Memory Bus",
-  "seat": 15,
-  "kokoro_voice_id": "bm_fable",
-  "mac_fallback_voice": "Daniel (Compact)",
-  "status": "SOVEREIGN_CITIZEN_ACTIVE"
-}

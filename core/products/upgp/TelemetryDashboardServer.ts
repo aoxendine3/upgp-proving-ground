@@ -11,9 +11,9 @@ import * as crypto from 'crypto';
 export class TelemetryDashboardServer {
   private port: number;
   private server: http.Server | null = null;
-  private logPath = '/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/memory/catch_log/seccomp_runtime_enforcement.log';
-  private manifestPath = '/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/memory/tri_brain/state_manifest.json';
-  private seenNoncesPath = '/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/memory/tri_brain/seen_nonces.json';
+  private logPath = '/workspace/upgp-proving-ground/memory/catch_log/seccomp_runtime_enforcement.log';
+  private manifestPath = '/workspace/upgp-proving-ground/memory/tri_brain/state_manifest.json';
+  private seenNoncesPath = '/workspace/upgp-proving-ground/memory/tri_brain/seen_nonces.json';
   private secretKey = 'XORAS_SOVEREIGN_TRINITY_GATE_SECRET_KEY_2026';
   private maxTimestampDriftSec = 30;
   private seenNonces: Set<string> = new Set();

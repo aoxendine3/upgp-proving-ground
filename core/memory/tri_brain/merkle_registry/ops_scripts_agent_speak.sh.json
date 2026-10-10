@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/agent_speak.sh",
-  "sha256": "57cf0721fe7099dfb4b9a4463969ed5ab4f647981b014fa81b4199a62d099b0d",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.610867+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

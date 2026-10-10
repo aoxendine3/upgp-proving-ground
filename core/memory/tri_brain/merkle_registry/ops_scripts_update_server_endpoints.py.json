@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/update_server_endpoints.py",
-  "sha256": "e33043ba57c139c32146169c4c4bcde35279229d09e8f34b14e6c992e71c5552",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.610491+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

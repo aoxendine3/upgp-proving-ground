@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/voice_tribunal_deep_dive.py",
-  "sha256": "1d3c592bc3110e8f71663c7e1b981c42ebd963ff6c67c4952a3fab9e2b89055d",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.609801+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

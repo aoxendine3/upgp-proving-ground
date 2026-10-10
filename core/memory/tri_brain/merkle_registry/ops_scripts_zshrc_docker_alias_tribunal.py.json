@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/zshrc_docker_alias_tribunal.py",
-  "sha256": "0ed3fe3070788e5ad4d1d1d84c65b47eb5762d257e7a7cd074c5f312399731f2",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.609647+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

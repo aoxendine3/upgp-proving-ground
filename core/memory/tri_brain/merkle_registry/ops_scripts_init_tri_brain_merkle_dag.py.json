@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/init_tri_brain_merkle_dag.py",
-  "sha256": "35821ab035366b4ec87e6ef086856c85d8984c19294e6887533cb3e6031dbb80",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.612798+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

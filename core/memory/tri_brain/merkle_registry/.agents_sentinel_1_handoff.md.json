@@ -1,8 +1,0 @@
-{
-  "path": "./.agents/sentinel_1/handoff.md",
-  "sha256": "a541d114d2a9aefc96b5e782f1463fd70a745eccd85c730797224a6ed102a439",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.294900+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

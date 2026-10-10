@@ -1,8 +1,0 @@
-{
-  "path": "./docs/audits/MARS_MONOTONIC_ACTION_AND_REASONING_SAFEGUARDS.md",
-  "sha256": "c01b8bfce3a740cee4f9c7f04bda3d07d520c474cbbcfef25fda37eb59b12638",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.302629+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

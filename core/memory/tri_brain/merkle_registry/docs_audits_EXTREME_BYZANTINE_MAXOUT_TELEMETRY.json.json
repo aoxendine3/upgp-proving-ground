@@ -1,8 +1,0 @@
-{
-  "path": "./docs/audits/EXTREME_BYZANTINE_MAXOUT_TELEMETRY.json",
-  "sha256": "923a78d1392b9eb989ee80391ab111a8c3178249128fa2302fba861f44360ffe",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.301871+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

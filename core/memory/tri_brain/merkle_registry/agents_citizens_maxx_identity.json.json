@@ -1,8 +1,0 @@
-{
-  "path": "./agents/citizens/maxx/identity.json",
-  "sha256": "595e5d5332e689494914894a2da3eeb325e894788ceabe19a2628f069d7ffca8",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.299623+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

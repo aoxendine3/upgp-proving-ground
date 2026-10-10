@@ -1,7 +1,0 @@
-{
-  "status": "CONSOLIDATED_AND_LOCKED",
-  "raw_token_count": 100000,
-  "retained_token_count": 2288,
-  "transmittance_limit": 0.0228837,
-  "merkle_root_sha256": "0cc2a5e4224d34275cce24a233c88d1506a0800ab2fef211fa5f9a74028407a4"
-}

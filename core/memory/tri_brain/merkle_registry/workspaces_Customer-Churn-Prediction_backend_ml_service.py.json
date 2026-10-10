@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/Customer-Churn-Prediction/backend/ml_service.py",
-  "sha256": "e5bcbd5a22a057fae5fc91f0a8b9ca78d50d7fcadcebac2923b4e5f1fa50622d",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.308402+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/sovra_nexus/sovra_core/kernel_drift_detector.py",
-  "sha256": "44c4940d54f74e2e56b1278d618ff2255a4becdf58ff70313c2079545549a3c6",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.306545+00:00",
-  "score": 100,
-  "status": "LOAD_BEARING"
-}

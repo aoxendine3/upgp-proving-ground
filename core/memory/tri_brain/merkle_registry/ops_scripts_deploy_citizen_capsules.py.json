@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/deploy_citizen_capsules.py",
-  "sha256": "1d39d827db7e12b1892a0246b603b7552b0dcb97efac718e2e8ca1b6992be484",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.612921+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

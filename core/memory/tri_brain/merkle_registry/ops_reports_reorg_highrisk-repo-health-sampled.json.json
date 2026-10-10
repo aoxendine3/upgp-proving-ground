@@ -1,8 +1,0 @@
-{
-  "path": "./ops/reports/reorg/highrisk-repo-health-sampled.json",
-  "sha256": "1d3b59e0c45fee79cbc3e529ec592646652b3db208fcd8670442d9c642ec9323",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.662332+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

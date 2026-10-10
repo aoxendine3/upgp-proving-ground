@@ -1,490 +1,0 @@
-[4390/4391] Linking
-[1139/1140] Code Generation
-0mqB mem.Allocator.free__anon_21056
-[5446] Semantic Analysis
-0mqB mem.Allocator.free__anon_21056
-[5192/5192] Linking
-[1477/1477] Code Generation
-[6420] Semantic Analysis
-0mqB decoupled_stlf_proof.c
-   0mqB @cImport
-[5205/5205] Linking
-[1482/1482] Code Generation
-[6438] Semantic Analysis
-0mqB Io.Writer.print__anon_24685
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5402/5402] Linking
-0mqB LLVM Emit Object
-[5403/5402] Linking
-==========================================================
- DECOUPLED STLF STALL & PMU HARDWARE PROOF (M4 SILICON)
-==========================================================
-
---- [DECOUPLED HARDWARE EXECUTION BREAKDOWN] ---
-1. PURE STORE PASS (100,000 Inserts) : 125000 ns (0.125 ms)
-   -> Store Latency per Op            : 1.25 ns / op
-   -> M4 Store CPU Cycles / Op        : 4.75 cycles / op
-
-2. PURE READBACK PASS (100,000 Reads): 114000 ns (0.114 ms)
-   -> Read Latency per Op             : 1.14 ns / op
-   -> M4 Read CPU Cycles / Op         : 4.33 cycles / op
-
-3. COMBINED DECOUPLED LATENCY        : 239000 ns (0.239 ms)
-   -> Volatile Checksum (Consumed)    : 14007539559384918213 (Blackbox Readback Proof)
-
-==========================================================

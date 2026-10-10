@@ -1,8 +1,0 @@
-{
-  "path": "./docs/audits/PREFLIGHT_HEALTH_GATE_SPECIFICATION.md",
-  "sha256": "7e73da1c3191f9bc893d8570e4de87eb80465482a0f7b5eb0e2005e3ff574348",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.302705+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

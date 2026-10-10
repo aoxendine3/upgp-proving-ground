@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/web_reply.py",
-  "sha256": "8073c2a734294a9478bbd495c814af3ab13f09a23e5568f274e00be26aabc418",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.612736+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

@@ -1,8 +1,0 @@
-{
-  "path": "./ops/discernment/run_kokoro_blackbox_audit.py",
-  "sha256": "e5bac3faeb55c76e00d8a8f3dafabb86d92dadfe9fe487044d2f99b8b977ee0a",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.607595+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

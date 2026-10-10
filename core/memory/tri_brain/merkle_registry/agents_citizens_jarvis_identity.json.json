@@ -1,8 +1,0 @@
-{
-  "path": "./agents/citizens/jarvis/identity.json",
-  "sha256": "9eb4bb7e3ca42cd47b6adb273a94e588d310f2d5f365c2a187debcfc85f34964",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.300117+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

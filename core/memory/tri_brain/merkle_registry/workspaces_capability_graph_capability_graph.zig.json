@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/capability_graph/capability_graph.zig",
-  "sha256": "83634d4cb3725ad04b5a0fe4aa8d11ee0fb4a04630dee0a593f89072effc81de",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.307070+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

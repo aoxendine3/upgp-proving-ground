@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/xoras-stack-boot.sh",
-  "sha256": "0f897b31efb6e7fccdac92252345c2dc1b359a54ebcd818948760d36e6186b7f",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.610128+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

@@ -1,8 +1,0 @@
-{
-  "path": "./ops/reports/reorg/verification-phase5-highrisk.md",
-  "sha256": "60871af0d04556e0cba85bf6bef10e1c9c07bfb457725979c62c68f724d04fd0",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.661384+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

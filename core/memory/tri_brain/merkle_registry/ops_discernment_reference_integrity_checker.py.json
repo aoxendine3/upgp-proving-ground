@@ -1,8 +1,0 @@
-{
-  "path": "./ops/discernment/reference_integrity_checker.py",
-  "sha256": "1831f95f603d366ef8fbc55297246b787e809cbc46e897484f8e6bb7a5f601e5",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.607855+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

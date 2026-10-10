@@ -1,8 +1,0 @@
-{
-  "path": "./docs/audits/MULTILANG_18432D_SIDE_BY_SIDE_BENCHMARK.md",
-  "sha256": "be6bba81ba6cd6e9426f406efa82fa660236c18a994ada55ada248657b7e2760",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.303230+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/Customer-Churn-Prediction/backend/train_model.py",
-  "sha256": "029957801a637337c7698807c15a1b023976933d1cdd476783b81e303d88df22",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.308549+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

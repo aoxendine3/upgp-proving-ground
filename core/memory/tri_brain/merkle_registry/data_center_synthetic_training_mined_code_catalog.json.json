@@ -1,8 +1,0 @@
-{
-  "path": "./data_center/synthetic_training/mined_code_catalog.json",
-  "sha256": "2cf80ab8c97983225a0787a2b69fcae382bb955653c947de10eb72f8cf0e8511",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.197572+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

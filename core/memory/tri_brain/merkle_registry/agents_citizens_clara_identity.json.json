@@ -1,8 +1,0 @@
-{
-  "path": "./agents/citizens/clara/identity.json",
-  "sha256": "a10fc055cc9fb9b9a7f9d4ba766cb4edae8fa6f2eb9b93bf7f1d31380576e631",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.299262+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

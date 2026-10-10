@@ -1,1 +1,0 @@
-We are Maxx. We have audited the eight-minute video XORAS 18,432-D Manifest against our actual codebase. The core architectural claims—the 18,432-D Poincaré manifold, UPGP bare-metal sandbox verification, and lock-free HexCell POSIX SHM atomic double-buffering—100 percent match our build. It is genuine, not a lie.

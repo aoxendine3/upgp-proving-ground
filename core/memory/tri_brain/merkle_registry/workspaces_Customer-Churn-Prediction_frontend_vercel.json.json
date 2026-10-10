@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/Customer-Churn-Prediction/frontend/vercel.json",
-  "sha256": "d308c55e22a87da2154eecfeb51b85e0a0b2a7d92c62404b7a947431c60e989a",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.307663+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

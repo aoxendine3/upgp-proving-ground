@@ -1,8 +1,0 @@
-{
-  "path": "./docs/audits/MAC_VS_WINDOWS_FULL_TELEMETRY_AUDIT.md",
-  "sha256": "7e8e37ae949aad7bbda71dd94a652da8ee56790c858d463b59cce6dea69126ca",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.301712+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

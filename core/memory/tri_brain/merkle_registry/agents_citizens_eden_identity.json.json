@@ -1,8 +1,0 @@
-{
-  "path": "./agents/citizens/eden/identity.json",
-  "sha256": "ea056d2c1267c728fccf18457c6076f2df80590ed855a794a2e966733404fc6d",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.298906+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

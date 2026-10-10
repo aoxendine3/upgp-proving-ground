@@ -1,8 +1,0 @@
-{
-  "path": "./ops/reports/reorg/memory-trust-hardening-report.md",
-  "sha256": "c263ec857942f7689a35775113d9d81be731588ab323e96c66c98a0cc0bba4fe",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.661103+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/hexological_engine/target/release/.fingerprint/iana-time-zone-07656b01fcdf0a2c/lib-iana_time_zone.json",
-  "sha256": "ce76fe92eefff56532d047262003f434dc52931f701aa77b6684039afc104657",
-  "depth": 8,
-  "timestamp": "2026-09-29T20:02:55.309854+00:00",
-  "score": 80,
-  "status": "LOAD_BEARING"
-}

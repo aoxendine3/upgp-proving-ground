@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/mark_twain_15min_podcast.py",
-  "sha256": "5e79ecd5412f4deaf73d08b9eecda37280825ee3e3a63c7ebce1043eef6b9eac",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.612995+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

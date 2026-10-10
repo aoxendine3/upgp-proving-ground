@@ -66,7 +66,7 @@ export class SeccompProfile {
       ],
       ...customConfig
     };
-    this.logPath = '/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/memory/catch_log/seccomp_runtime_enforcement.log';
+    this.logPath = '/workspace/upgp-proving-ground/memory/catch_log/seccomp_runtime_enforcement.log';
   }
 
   /**
@@ -103,7 +103,7 @@ export class SeccompProfile {
     const nativePaths = [
       path.join(__dirname, '../../../build/Release/upgp_seccomp_native.node'),
       path.join(__dirname, '../../../src/native/upgp_seccomp_native.node'),
-      '/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/ops/bin/upgp_seccomp_native.node'
+      '/workspace/upgp-proving-ground/ops/bin/upgp_seccomp_native.node'
     ];
 
     for (const nPath of nativePaths) {
@@ -159,7 +159,7 @@ export class SeccompProfile {
     fs.appendFileSync(this.logPath, entry, 'utf-8');
 
     // Also record into Quarantine / Evidence ledger
-    const ledgerPath = '/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/memory/intelligence/quarantine_ledger.jsonl';
+    const ledgerPath = '/workspace/upgp-proving-ground/memory/intelligence/quarantine_ledger.jsonl';
     const ledgerDir = path.dirname(ledgerPath);
     if (!fs.existsSync(ledgerDir)) {
       fs.mkdirSync(ledgerDir, { recursive: true });
@@ -182,7 +182,7 @@ export class SeccompProfile {
   public verifyActiveRuntimeEnforcement(): { passed: boolean; verifiedVectors: number } {
     console.log('[SeccompProfile] Executing Live Adversarial Runtime Verification...');
     // Audit seccomp profile JSON file
-    const profilePath = '/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/ops/sandbox/seccomp_upgp.json';
+    const profilePath = '/workspace/upgp-proving-ground/core/ops/sandbox/seccomp_upgp.json';
     this.saveProfile(profilePath);
 
     return {

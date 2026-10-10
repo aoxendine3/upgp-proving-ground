@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/Customer-Churn-Prediction/backend/models/metrics.json",
-  "sha256": "7df912cfb027d194c5248a184af9dba9680d0f55ebea2c458354baccd6259ad6",
-  "depth": 6,
-  "timestamp": "2026-09-29T20:02:55.309148+00:00",
-  "score": 60,
-  "status": "LOAD_BEARING"
-}

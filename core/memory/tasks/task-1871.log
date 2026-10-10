@@ -1,8 +1,0 @@
-Successfully scheduled one-shot timer.
-Expected to fire at: 2026-09-28T22:46:54-04:00
-Prompt: Check status and output of breaking point push (task-1866)
-Early Termination: bd892285-cca1-43cd-bb8b-d1c3128f05ca/task-1866
-
-[2026-09-28T22:46:34-04:00] Still waiting. Remaining time: 20s
-[2026-09-28T22:46:44-04:00] Still waiting. Remaining time: 10s
-[2026-09-28T22:46:54-04:00] Timer fired.

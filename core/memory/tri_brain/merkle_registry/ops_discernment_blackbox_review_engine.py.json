@@ -1,8 +1,0 @@
-{
-  "path": "./ops/discernment/blackbox_review_engine.py",
-  "sha256": "af8e8568130c6529bd8445f01312fb13c25abe39c3adcb19679ac3e12a39b290",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.607418+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

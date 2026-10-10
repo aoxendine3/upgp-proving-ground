@@ -1,8 +1,0 @@
-{
-  "path": "./ops/reports/reorg/highrisk-topology-probe.json",
-  "sha256": "8ea95cd2d76d6638bf94d194ad15c43d1cf8da2baa495b7b3d7d8a846426cec8",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.662630+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

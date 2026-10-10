@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/demo_app/tests/test_processor.py",
-  "sha256": "bf31894954e66e29d0667e16967c21ff21825150a710e25d1e786ddd07ded8d8",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.465806+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

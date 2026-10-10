@@ -1,5 +1,0 @@
-{"question": "What is the current quarterly revenue for product X?", "answer": "Q2 2026 revenue for product X is $12.3M.", "risk_tier": "high"}
-{"question": "How do I reset my password in the internal portal?", "answer": "Navigate to Settings > Security > Reset Password.", "risk_tier": "low"}
-{"question": "What is the compliance deadline for GDPR data retention?", "answer": "The deadline is 30 days after user request.", "risk_tier": "high"}
-{"question": "What is the average latency of the recommendation engine?", "answer": "Average latency is 45ms.", "risk_tier": "medium"}
-{"question": "List the steps to onboard a new vendor in the procurement system.", "answer": "1. Fill vendor form, 2. Obtain approvals, 3. Add to system.", "risk_tier": "medium"}

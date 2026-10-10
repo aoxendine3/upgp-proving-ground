@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/test_endpoints.py",
-  "sha256": "d17621b3fca524a51ef63b277d6cfa165d126d2385688b5e4b62c39892aecf9e",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.611417+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

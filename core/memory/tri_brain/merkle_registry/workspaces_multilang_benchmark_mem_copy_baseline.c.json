@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/multilang_benchmark/mem_copy_baseline.c",
-  "sha256": "82d03175e28c5cc1e75dd79859c69400cbcd96399e4dc3ea556a83406f52c584",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.469098+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

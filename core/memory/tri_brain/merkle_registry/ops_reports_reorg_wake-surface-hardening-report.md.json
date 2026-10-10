@@ -1,8 +1,0 @@
-{
-  "path": "./ops/reports/reorg/wake-surface-hardening-report.md",
-  "sha256": "2b730b6fc3a771e857790a0efa92dc6da637b518f0b5a641bdf307c889dff45d",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.660441+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

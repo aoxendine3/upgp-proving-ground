@@ -1,8 +1,0 @@
-{
-  "path": "./docs/audits/SOVRA_5M_DRAM_FAILURE_LEDGER.json",
-  "sha256": "4d9dbd71a008a8aedf34e2f506f52f03bc0cb549ecabb0c2edd0926227096dc7",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.302103+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

@@ -1,8 +1,0 @@
-{
-  "path": "./products/hermes_copilot_app/benchmark_latency.py",
-  "sha256": "589bace2ac682166e44ca48316b53b4a79806bce3bded00c903cd86b0fca6f9b",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.195809+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

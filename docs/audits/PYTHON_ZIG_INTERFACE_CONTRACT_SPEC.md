@@ -56,4 +56,4 @@ export PATH="/usr/bin:/bin:/usr/local/bin:$PATH"
 ---
 
 ## 4. Boundary Test Verification Matrix
-The Python <-> Zig handoff is independently verified by [blackbox_bbq_gauntlet.py](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/ops/scripts/blackbox_bbq_gauntlet.py) across 14 public surface attack vectors with 100.00% fail-closed containment.
+The Python <-> Zig handoff is independently verified by [blackbox_bbq_gauntlet.py](file:///workspace/upgp-proving-ground/core/ops/scripts/blackbox_bbq_gauntlet.py) across 14 public surface attack vectors with 100.00% fail-closed containment.

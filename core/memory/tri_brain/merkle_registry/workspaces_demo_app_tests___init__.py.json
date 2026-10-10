@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/demo_app/tests/__init__.py",
-  "sha256": "8c98586690ca53b436ad63c38f5ec67772054d4dc646c210e05fde3d2d1a6b73",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.465609+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

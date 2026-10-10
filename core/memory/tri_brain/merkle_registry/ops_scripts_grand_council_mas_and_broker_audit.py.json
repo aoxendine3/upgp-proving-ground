@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/grand_council_mas_and_broker_audit.py",
-  "sha256": "d2d1390a3b20d773e731840530ed9f9779fc82128f4cddfc7bfed7a943f387ac",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.611755+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

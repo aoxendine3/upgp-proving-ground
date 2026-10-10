@@ -1,8 +1,0 @@
-{
-  "path": "./ops/sovereign_stack/scripts/build_hft_shm.sh",
-  "sha256": "c365e7dd62adbd044fe2d51c89ccf0000ac4b599c21ef58d52b67cb99916fd62",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.608965+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

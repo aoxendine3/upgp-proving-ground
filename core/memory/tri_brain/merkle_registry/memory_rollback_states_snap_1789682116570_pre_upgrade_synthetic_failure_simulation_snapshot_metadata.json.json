@@ -1,8 +1,0 @@
-{
-  "path": "./memory/rollback_states/snap_1789682116570_pre_upgrade_synthetic_failure_simulation/snapshot_metadata.json",
-  "sha256": "9be664fd8b95071d67c7abec0c9962af92736c26f19eabea95def492c9cce3d1",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.289499+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

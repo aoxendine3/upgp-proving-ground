@@ -9,7 +9,7 @@
 
 ## SECTION 1. Executive Summary & Audit Posture
 
-In accordance with the Lead 9 Council's **Read-Only Recall Mandate**, a 3-agent research team performed a deep, multi-layer inspection of the workspace (`/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain`), strictly excluding `/barn/` per AGENTS.md Log Entry #080.
+In accordance with the Lead 9 Council's **Read-Only Recall Mandate**, a 3-agent research team performed a deep, multi-layer inspection of the workspace (`/workspace/upgp-proving-ground`), strictly excluding `/barn/` per AGENTS.md Log Entry #080.
 
 This audit operated under two fundamental principles:
 1. **Self-Verification Circularity Intercept**: A system passing its own local script assertions does not prove the execution gap is closed. This report explicitly distinguishes between physically verified code and simulated/conceptual documentation.

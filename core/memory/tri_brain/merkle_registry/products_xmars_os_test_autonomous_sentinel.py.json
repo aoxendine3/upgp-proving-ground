@@ -1,8 +1,0 @@
-{
-  "path": "./products/xmars_os/test_autonomous_sentinel.py",
-  "sha256": "8d043e36db6a3d68b85a6da1492dabef36996d5599ddc973b7ab56722e444f14",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.192761+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

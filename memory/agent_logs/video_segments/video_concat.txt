@@ -1,7 +1,0 @@
-file '/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/memory/agent_logs/video_segments/segment_01.mp4'
-file '/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/memory/agent_logs/video_segments/segment_02.mp4'
-file '/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/memory/agent_logs/video_segments/segment_03.mp4'
-file '/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/memory/agent_logs/video_segments/segment_04.mp4'
-file '/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/memory/agent_logs/video_segments/segment_05.mp4'
-file '/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/memory/agent_logs/video_segments/segment_06.mp4'
-file '/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/memory/agent_logs/video_segments/segment_07.mp4'

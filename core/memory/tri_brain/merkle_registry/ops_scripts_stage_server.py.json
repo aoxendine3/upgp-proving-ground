@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/stage_server.py",
-  "sha256": "1be1202bd1b70797b54c3b9116fadf9016d3f3496ad99bb276463b8ce66e44be",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.612859+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

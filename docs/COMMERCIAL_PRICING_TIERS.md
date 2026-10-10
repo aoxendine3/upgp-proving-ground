@@ -6,7 +6,7 @@ This document outlines the operational tiers for **SOVRA Truth Engine v4.0**.
 
 ## 1. Free & Open-Source Layer (MIT Licensed)
 
-The entire core engine is **100% free, open-source, and un-throttled** under the [MIT License](https://github.com/aoxendine3/SSOT_Agentic_Brain/blob/main/LICENSE).
+The entire core engine is **100% free, open-source, and un-throttled** under the [MIT License](https://github.com/user/SSOT_Agentic_Brain/blob/main/LICENSE).
 
 ### Included in the Free Tier:
 - **All Pre-Compiled Binaries**: macOS arm64 (`.dylib` & CLI), Linux x86_64 (`.so` & static `musl`), Windows x86_64 (`.dll` & `.exe`).
@@ -32,7 +32,7 @@ For organizations needing specialized integration, custom domain graph ingestion
 
 To support ongoing maintenance, continuous integration hardware, and cross-platform verification:
 
-- **GitHub Sponsors**: [github.com/sponsors/aoxendine3](https://github.com/sponsors/aoxendine3)
+- **GitHub Sponsors**: [github.com/sponsors/user](https://github.com/sponsors/user)
 - **Direct Stripe Payment Link**: [buy.stripe.com/eVq00jcRof7W3jp158dIA00](https://buy.stripe.com/eVq00jcRof7W3jp158dIA00)
 
 ### Stripe Buy Button Embed Snippet (HTML Web Embeds)

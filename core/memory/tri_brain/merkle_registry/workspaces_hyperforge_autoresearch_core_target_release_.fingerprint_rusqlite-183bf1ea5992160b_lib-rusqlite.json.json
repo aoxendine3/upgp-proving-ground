@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/hyperforge_autoresearch/core/target/release/.fingerprint/rusqlite-183bf1ea5992160b/lib-rusqlite.json",
-  "sha256": "2abc0dba219c59a55c387c1ed39b7481e7879639b76d83c85faf83fbe11a3db4",
-  "depth": 9,
-  "timestamp": "2026-09-29T20:02:55.473275+00:00",
-  "score": 90,
-  "status": "LOAD_BEARING"
-}

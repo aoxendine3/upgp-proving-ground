@@ -1,6 +1,0 @@
-{
-  "type": "module",
-  "devDependencies": {
-    "@sanity/blueprints": "0.28.0"
-  }
-}

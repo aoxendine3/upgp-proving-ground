@@ -1,5 +1,5 @@
 # GitHub Sponsors & Payment Integration Configuration
 # GitHub natively displays the "Sponsor this project" button on the repo homepage
 
-github: [aoxendine3]
+github: [user]
 custom: ["https://buy.stripe.com/eVq00jcRof7W3jp158dIA00"]

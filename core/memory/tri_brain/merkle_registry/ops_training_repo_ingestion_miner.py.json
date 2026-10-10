@@ -1,8 +1,0 @@
-{
-  "path": "./ops/training/repo_ingestion_miner.py",
-  "sha256": "4286e53ddcc3d82d7cf172419fc110dc3078bba7f22c5501159967efe9b82083",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.608170+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

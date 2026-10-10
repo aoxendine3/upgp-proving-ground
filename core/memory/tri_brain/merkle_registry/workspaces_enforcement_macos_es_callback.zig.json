@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/enforcement/macos/es_callback.zig",
-  "sha256": "a1719e2d68cb2744a9b613135ddb9d8ac3d60b90005c05063a3eaca844c9afd7",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.469511+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

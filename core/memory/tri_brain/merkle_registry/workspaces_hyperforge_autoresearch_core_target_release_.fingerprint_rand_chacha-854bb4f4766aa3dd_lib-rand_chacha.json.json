@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/hyperforge_autoresearch/core/target/release/.fingerprint/rand_chacha-854bb4f4766aa3dd/lib-rand_chacha.json",
-  "sha256": "76bb35540029d85c0c4c65f5ce67f3bac3cbc461ff3b361e4bd4d7dff7124e9e",
-  "depth": 9,
-  "timestamp": "2026-09-29T20:02:55.472068+00:00",
-  "score": 90,
-  "status": "LOAD_BEARING"
-}

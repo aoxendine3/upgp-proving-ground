@@ -50,7 +50,7 @@ if (prctl(PR_SET_SECCOMP, SECCOMP_MODE_FILTER, &prog) != 0) {
 ### 3.2 Compilation & Execution Setup
 ```bash
 # 1. Clone repository harness
-git clone https://github.com/aoxendine3/upgp-proving-ground.git
+git clone https://github.com/user/upgp-proving-ground.git
 cd upgp-proving-ground
 
 # 2. Build native C N-API binding

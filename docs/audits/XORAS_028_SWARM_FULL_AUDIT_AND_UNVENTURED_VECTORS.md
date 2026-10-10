@@ -15,7 +15,7 @@ In response to a simulated Red Team outbreak within `SSOT_Agentic_Brain`, the Le
 ### Audit & Cleanup Findings (Log Entry #080 Compliance)
 1. **Sacred Core Perimeter (`core/`)**: Verified zero un-authorized file mutations or state pollution.
 2. **Barn Archive Migration (`barn/`)**: All intermediate scripts, temporary log files, and scratch datasets moved into `barn/archives/` and `barn/data/`.
-3. **Audit Log Receipt**: Recorded in [full_repo_audit.log](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/memory/catch_log/full_repo_audit.log).
+3. **Audit Log Receipt**: Recorded in [full_repo_audit.log](file:///workspace/upgp-proving-ground/memory/catch_log/full_repo_audit.log).
 
 ---
 

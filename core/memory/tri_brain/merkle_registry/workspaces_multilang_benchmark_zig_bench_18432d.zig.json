@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/multilang_benchmark/zig/bench_18432d.zig",
-  "sha256": "a23a0dc134ec90d02c6843beec09dd68aeb685dfc2aae2cac8e3ab9a948c91fc",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.469201+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/generate_reports.py",
-  "sha256": "0b00ed4d2ebccc199c5bbf55812f32ffde3102fc5ef6113bef5a004b30aa8622",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.609938+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

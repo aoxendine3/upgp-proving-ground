@@ -1,8 +1,0 @@
-{
-  "path": "./docs/audits/EVE_BUILD_STATE_READOUT.md",
-  "sha256": "18f90793db0c8f1bb5cf228c445f7d7f93e207a10a0fef846bac61ec97e8c303",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.301573+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

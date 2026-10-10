@@ -1,8 +1,0 @@
-{
-  "path": "./memory/rollback_states/snap_1789682116570_pre_upgrade_synthetic_failure_simulation/products_xmars_os_server.py",
-  "sha256": "54c6d478588a7215e528516ddc55840adef4e9bf540d91bc8c3745912ac8dbd1",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.289799+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

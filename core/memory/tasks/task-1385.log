@@ -1,355 +1,0 @@
-[3785/3785] Linking
-[917/917] Code Generation
-[4715] Semantic Analysis
-0mqB debug.Dwarf.Unwind.Allocator
-[5169/5169] Linking
-[1456/1456] Code Generation
-[6396] Semantic Analysis
-0mqB fmt.float.FLOAT64_POW5_SPLIT
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5388/5388] Linking
-0mqB LLVM Emit Object
-[5389/5388] Linking
-0mqB MachO Flush
-[*] Executing N=30 Benchmark Binary & Collecting Raw JSON Telemetry...
-{"checksum":13063884155030684583,"interleaved":[1.5100,1.5300,1.5200,1.5200,1.5200,1.5200,1.5200,1.5300,1.5200,1.5300,1.5300,1.5300,1.5300,1.5300,1.5200,2.1800,1.5200,1.5300,1.5200,1.5300,1.5400,1.5400,1.5400,1.5300,1.5400,1.5300,1.8300,1.5000,1.5000,1.5000],"decoupled":[1.4100,1.4000,1.3900,1.4100,1.4000,1.4000,1.4000,1.3900,1.4000,1.3900,1.3900,1.4000,1.4000,1.4000,2.8700,1.4000,1.4000,1.4100,1.4000,1.4000,1.4000,1.4000,1.4100,1.4000,1.4000,1.4100,1.3900,1.3900,1.4000,1.3900]}
-Traceback (most recent call last):
-  File "/Volumes/Untitled/SSOT_Agentic_Brain_v1.1.0_ENGINEERING_RELEASE/ops/runtime/shapiro_bootstrap_stlf_audit.py", line 104, in <module>
-    run_statistical_audit()
-    ~~~~~~~~~~~~~~~~~~~~~^^
-  File "/Volumes/Untitled/SSOT_Agentic_Brain_v1.1.0_ENGINEERING_RELEASE/ops/runtime/shapiro_bootstrap_stlf_audit.py", line 22, in run_statistical_audit
-    data = json.loads(raw_output)
-  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/__init__.py", line 352, in loads
-    return _default_decoder.decode(s)
-           ~~~~~~~~~~~~~~~~~~~~~~~^^^
-  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/decoder.py", line 345, in decode
-    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
-               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
-  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/decoder.py", line 363, in raw_decode
-    raise JSONDecodeError("Expecting value", s, err.value) from None
-json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)

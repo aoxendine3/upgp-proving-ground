@@ -1,8 +1,0 @@
-{
-  "path": "./memory/agent_logs/usb_barn_ingest_receipt.json",
-  "sha256": "d031c628ee6c97e5cfc2bc529e51e6899d45b1a2b9daa16cddce2ab6e61a8213",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.198534+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

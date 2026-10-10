@@ -1,8 +1,0 @@
-{
-  "path": "./ops/container/build_linux_venv.sh",
-  "sha256": "aebf339ce12b0ff7ed26079b003595003d30599f973d24aa3cd40f6e99eb4a63",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.609127+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

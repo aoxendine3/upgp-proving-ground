@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/policy_daemon/build.zig",
-  "sha256": "b6c9e5e7738414c75dbb30b069686497f99e514fb6e8656438ca3a3e0b998f48",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.585000+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

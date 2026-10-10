@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/xoras_snapshot.sh",
-  "sha256": "c38a51403d228063d4faae8621d06bfe8f68ee1a14dba13b48115e7e7ed081c7",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.610794+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

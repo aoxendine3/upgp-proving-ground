@@ -1,8 +1,0 @@
-{
-  "path": "./ops/reports/reorg/high-confidence-cleanup-results.json",
-  "sha256": "a88b438f00048144bc4b5c62eaa16cc8ed99b1c0921d71c8a27b3cbcdf22cf40",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.660795+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/deadman.sh",
-  "sha256": "5aa3d06169956ada269ed1fd4580c713ac8668ad9ee815f46585c321ea8a7f77",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.613121+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

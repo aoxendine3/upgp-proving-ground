@@ -1,8 +1,0 @@
-{
-  "path": "./docs/audits/SOVEREIGN_RUST_18432D_AUDIT.json",
-  "sha256": "2a045a6756bf19c2f3da446b29ac017e07d86c062b827a6583337e456ad90df0",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.302419+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

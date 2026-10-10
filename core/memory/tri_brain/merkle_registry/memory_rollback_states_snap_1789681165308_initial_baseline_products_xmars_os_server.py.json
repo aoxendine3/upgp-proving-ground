@@ -1,8 +1,0 @@
-{
-  "path": "./memory/rollback_states/snap_1789681165308_initial_baseline/products_xmars_os_server.py",
-  "sha256": "b2c5378e4171c21ff35de1fdb9fe748f6de692507f7e8fa1abb56e3c78acea77",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.289412+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

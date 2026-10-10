@@ -1,6 +1,0 @@
-{
-  "timestamp": "2026-10-03T20:29:15Z",
-  "fault": "Model repeatedly overwrote agent_speak.sh with Python/Kokoro wrappers due to conflicting historical context.",
-  "remediation": "Restored pure bash say-command dispatch from agent_speak.sh.orig. Applied read-only chmod 444 to physical file to prevent future LLM overwrites.",
-  "status": "Self-Healed. Infrastructure locked."
-}

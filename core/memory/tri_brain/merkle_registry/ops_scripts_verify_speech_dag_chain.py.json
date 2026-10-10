@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/verify_speech_dag_chain.py",
-  "sha256": "c6e9cc27b871df42a3e32c7c02d1cd79f8cbc56a628d13b59fa7c4ad28f4ad31",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.610068+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

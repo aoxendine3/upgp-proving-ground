@@ -1,8 +1,0 @@
-{
-  "path": "./agents/citizens/john/identity.json",
-  "sha256": "58830d6aa62ff1318d463979b1bdb45d025d11d9d7f2815eb3d6eae193c7c735",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.299928+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

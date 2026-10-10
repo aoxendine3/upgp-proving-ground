@@ -1,7 +1,0 @@
-[package]
-name = "hermes_native_accelerator"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-# Using standard library primitives to ensure 100% air-gapped offline compilation without requiring cargo index downloads

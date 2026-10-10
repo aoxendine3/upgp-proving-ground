@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/agent_speech_contract.py",
-  "sha256": "61ca16d9b393fd6e2638a88ed24cb3a8d1c31c92d392cce83ace054b5da2a0de",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.612146+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

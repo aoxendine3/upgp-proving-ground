@@ -1,8 +1,0 @@
-{
-  "path": "./ops/training/triad_distillation_synthesizer.py",
-  "sha256": "0958a8fba0881c40892ff9532ade136e9320dfd66e26a6295f4cd7211ed7302f",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.608328+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

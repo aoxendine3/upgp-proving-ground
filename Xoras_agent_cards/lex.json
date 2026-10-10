@@ -1,9 +1,0 @@
-{
-  "agent_id": "lex",
-  "name": "Lex",
-  "role": "Legal, Compliance & Contract Auditor",
-  "seat": 16,
-  "kokoro_voice_id": "am_santa",
-  "mac_fallback_voice": "Oliver (Compact)",
-  "status": "SOVEREIGN_CITIZEN_ACTIVE"
-}

@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/test_max_swarm_push.py",
-  "sha256": "b572aaf0d9c2b1a42a679d7a7094cf665390bf729e803dab58b92d7ee4f0c401",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.609872+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

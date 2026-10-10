@@ -1,8 +1,0 @@
-{
-  "path": "./docs/audits/PHASE_2_BFT_ZERO_COPY_AUDIT.md",
-  "sha256": "03722bda890741304e8ec31a414bb4f02701ed32fedd8fd1b5a0c6cdd234b1f6",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.303078+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

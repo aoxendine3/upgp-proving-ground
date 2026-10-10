@@ -1,8 +1,0 @@
-{
-  "path": "./data_center/golden_list/GOLDEN_LIST.json",
-  "sha256": "4877cd0aa5cb89694ad441f4b18a09da03cbaad610cb16029bbb117178c1dbdf",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.197253+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

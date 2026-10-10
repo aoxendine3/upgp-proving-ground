@@ -1,7 +1,7 @@
 # Swarm Byzantine Codebase Audit Report
 
 **Date**: 2026-10-08  
-**Repository Target**: `/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain`  
+**Repository Target**: `/workspace/upgp-proving-ground`  
 **Status**: COMPLETE (100% Verified)  
 
 ---

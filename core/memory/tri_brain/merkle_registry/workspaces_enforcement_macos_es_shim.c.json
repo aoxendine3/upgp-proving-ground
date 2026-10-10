@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/enforcement/macos/es_shim.c",
-  "sha256": "b40f76d036fc3262a2b8178f6bdbfa48cf55273a6797855856d20e5d51495ae4",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.469444+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

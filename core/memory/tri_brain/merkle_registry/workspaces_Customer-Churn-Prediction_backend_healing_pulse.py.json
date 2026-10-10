@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/Customer-Churn-Prediction/backend/healing_pulse.py",
-  "sha256": "9347cdae635c17ec49796c32357e74404db2c7be033f348be9d93a2b9074e4e0",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.308923+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

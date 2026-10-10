@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/hyperforge_autoresearch/core/target/release/.fingerprint/getrandom-f4dd201ca7ebd7b2/lib-getrandom.json",
-  "sha256": "859c2d92ec2b3d2825a4262187fd98e176324da176dc738817be8dbecad632f4",
-  "depth": 9,
-  "timestamp": "2026-09-29T20:02:55.471899+00:00",
-  "score": 90,
-  "status": "LOAD_BEARING"
-}

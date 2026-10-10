@@ -63,4 +63,4 @@ Unlike standard corporate network penetration exercises, this exercise specifica
 
 ## 6. Cryptographic Attestation
 - **Ed25519 Detached Signature**: `b46f13868b9ca93785a8ee6b01d295844a2dc0dedbaf22e5142d96fc4604f61cbdf8fe3c21454ab3665430ff89958a0ab8df6cb647647e0b5db46c8594b9e804`
-- **Barn Preservation Archive Binding**: `/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/barn/receipts/SPDD-PURPLE-LOOP_20261004-221950_UTC.json`
+- **Barn Preservation Archive Binding**: `/workspace/upgp-proving-ground/barn/receipts/SPDD-PURPLE-LOOP_20261004-221950_UTC.json`

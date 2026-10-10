@@ -1,8 +1,0 @@
-{
-  "path": "./ops/reports/reorg/inventory-after-phase1.md",
-  "sha256": "70d73750859caed6423347039aa748a6ce4e078bd2d53ed5ff10adb3bfd7e9f6",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.660964+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

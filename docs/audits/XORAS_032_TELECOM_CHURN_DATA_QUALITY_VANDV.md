@@ -32,9 +32,9 @@ The XORAS Swarm executed an autonomous end-to-end data quality audit, feature en
 
 ## 3. REPOSITORY & KERNEL LINKS
 
-- **GitHub Production Repository**: [https://github.com/aoxendine3/telecom_churn_data_quality_solution](https://github.com/aoxendine3/telecom_churn_data_quality_solution)
+- **GitHub Production Repository**: [https://github.com/user/telecom_churn_data_quality_solution](https://github.com/user/telecom_churn_data_quality_solution)
 - **Kaggle Winner Kernel**: [https://www.kaggle.com/code/anthonyoxendine/telecom-customer-churn-data-quality-challenge-100](https://www.kaggle.com/code/anthonyoxendine/telecom-customer-churn-data-quality-challenge-100)
-- **Visual Cover Asset**: [assets/telecom_churn_cover.jpg](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/workspaces/telecom_churn_challenge/assets/telecom_churn_cover.jpg)
+- **Visual Cover Asset**: [assets/telecom_churn_cover.jpg](file:///workspace/upgp-proving-ground/workspaces/telecom_churn_challenge/assets/telecom_churn_cover.jpg)
 
 ---
 

@@ -1,8 +1,0 @@
-{
-  "path": "./ops/reports/reorg/inventory-after-phase4-lowrisk.md",
-  "sha256": "1bc4acd89031622c1f5cc0a28489aa2a578d352e45785c73452f8a1bff05c9cf",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.661238+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

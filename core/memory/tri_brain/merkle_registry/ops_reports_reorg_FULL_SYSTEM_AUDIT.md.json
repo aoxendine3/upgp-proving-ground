@@ -1,8 +1,0 @@
-{
-  "path": "./ops/reports/reorg/FULL_SYSTEM_AUDIT.md",
-  "sha256": "c166730dfe9319132fedc48a9e037a3a4cca6ded027e031ddba417ab444cba14",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.661169+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

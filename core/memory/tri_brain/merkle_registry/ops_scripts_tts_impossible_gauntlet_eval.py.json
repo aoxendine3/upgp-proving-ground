@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/tts_impossible_gauntlet_eval.py",
-  "sha256": "6376eca3e6a2aa03f1064e8ef652b6a44aff1ad546d60459b8c914f62b1a0996",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.614026+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

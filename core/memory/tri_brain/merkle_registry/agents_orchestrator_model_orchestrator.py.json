@@ -1,8 +1,0 @@
-{
-  "path": "./agents/orchestrator/model_orchestrator.py",
-  "sha256": "361a7c352ac3e26c0bbaff212309769db84ba3ecb1fddc94dd79a96789eadee6",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.300533+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

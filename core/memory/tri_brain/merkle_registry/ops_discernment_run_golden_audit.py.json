@@ -1,8 +1,0 @@
-{
-  "path": "./ops/discernment/run_golden_audit.py",
-  "sha256": "10f9c735774c9d5891447f48e2a2327299458904b66b4d5e7579054e067392c1",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.607106+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

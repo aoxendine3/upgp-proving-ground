@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/hyperforge_autoresearch/core/target/release/.fingerprint/libc-b6006bc5303ed14c/lib-libc.json",
-  "sha256": "7e0f7f79ad244df4765a14004b35835d89d7ebaae4c71fc4409b1331703315b9",
-  "depth": 9,
-  "timestamp": "2026-09-29T20:02:55.473854+00:00",
-  "score": 90,
-  "status": "LOAD_BEARING"
-}

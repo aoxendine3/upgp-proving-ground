@@ -1,8 +1,0 @@
-{
-  "path": "./ops/discernment/extreme_byzantine_maxout_gauntlet.py",
-  "sha256": "914babc45e3a4d07611cce5e980ad2e75822810662000856d4b09391836c50d8",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.607241+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

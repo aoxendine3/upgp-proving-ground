@@ -1,8 +1,0 @@
-{
-  "path": "./memory/agent_logs/max_swarm_push_receipt.json",
-  "sha256": "884fb5636b870e977616ab8c730ff04f0b781c2954c6dceb24914df7422aad3f",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.198324+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

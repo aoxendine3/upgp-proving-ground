@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/wake_contract.sh",
-  "sha256": "bc8fe505066cd2700065197aaca0c0e1e948f5d7eddf29b8f3301b9f6a57da64",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.613328+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

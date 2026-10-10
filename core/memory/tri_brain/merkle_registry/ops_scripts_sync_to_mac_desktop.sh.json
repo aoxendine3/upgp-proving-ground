@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/sync_to_mac_desktop.sh",
-  "sha256": "37f1fe2c4422e84d145cc325c8907ad194c50bb6ae02a1b4cb860d95e5cc161b",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.612495+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

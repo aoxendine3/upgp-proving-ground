@@ -1,8 +1,0 @@
-{
-  "path": "./memory/agent_logs/forge_train_test.json",
-  "sha256": "d28e4af759c289d9f084a71bbd58d2e35c3a1d3e507f36e6be84f7c770b8a237",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.198677+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

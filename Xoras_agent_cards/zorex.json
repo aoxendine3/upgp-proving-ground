@@ -1,9 +1,0 @@
-{
-  "agent_id": "zorex",
-  "name": "Zorex",
-  "role": "High-Frequency Execution & Vector Swarm",
-  "seat": 17,
-  "kokoro_voice_id": "am_alpha",
-  "mac_fallback_voice": "Evan (Compact)",
-  "status": "SOVEREIGN_CITIZEN_ACTIVE"
-}

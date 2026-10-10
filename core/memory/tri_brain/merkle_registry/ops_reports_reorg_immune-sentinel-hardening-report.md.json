@@ -1,8 +1,0 @@
-{
-  "path": "./ops/reports/reorg/immune-sentinel-hardening-report.md",
-  "sha256": "3337b8cdb3042d2212b1248563f9a3e965cef89dc43ea86de5c4a678da9c314b",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.661792+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

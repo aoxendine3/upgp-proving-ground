@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/start_dashboard.sh",
-  "sha256": "ab2f46d38a6e018f2100ea44892c5c74e49638d1dcb54ae9eae137e18ec3d51e",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.610428+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

@@ -1,8 +1,0 @@
-{
-  "path": "./agents/citizens/vance/identity.json",
-  "sha256": "62ffd377322bc67c11d495a6cd990d676cfb31a0bd02a7cffc073e83609e686c",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.299786+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

@@ -1,8 +1,0 @@
-{
-  "path": "./memory/rollback_states/snap_1789682114837_live_baseline_v1/snapshot_metadata.json",
-  "sha256": "f6c4b4458c79d561eb24cd7fce7f8a6b63f4189e0914ea5e496f9489d8ce07f6",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.289895+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

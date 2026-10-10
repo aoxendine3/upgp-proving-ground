@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/poll_inbox.py",
-  "sha256": "e0882d254bd0a22e3912964af85e69eff10bcfeab290627d1c65706ca425ff1a",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.614384+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

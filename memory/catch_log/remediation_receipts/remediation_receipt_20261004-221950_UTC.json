@@ -1,9 +1,0 @@
-{
-  "timestamp_utc": "2026-10-04T22:19:50Z",
-  "status": "WITNESS_REJECTION: ===========================================================================\n  STATELESS AIRBLOCKED WITNESS ENGINE (FRONT-GATE STRUCTURAL CONTROL)\n  Scope: Textual Output Inspection ONLY (Zero Source/Reasoning Access)\n===========================================================================\n\u274c STATELESS WITNESS FAIL CLOSED: Query prepare failed: unable to open database file",
-  "success": false,
-  "node_count": 3142,
-  "canonical_merkle_root": "176afb96bd2d73cc927282db888f6f36f678ee16f2606e79ed1df67b63fe94cb",
-  "witness_binary_sha256": "b311d215e2a5a4ee513fe6206ab8a61d01b6ba5720eefb37f1ba10c4c2838890",
-  "duration_sec": 0.0215
-}

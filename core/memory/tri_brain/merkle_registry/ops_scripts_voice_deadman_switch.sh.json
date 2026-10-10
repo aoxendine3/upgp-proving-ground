@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/voice_deadman_switch.sh",
-  "sha256": "aeddf23713d9110d278bc2490003a3adc10d3614ec6484227b04b81d11b3eb5f",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.614607+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

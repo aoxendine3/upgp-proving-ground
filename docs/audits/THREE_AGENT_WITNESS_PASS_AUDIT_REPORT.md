@@ -3,7 +3,7 @@
 **System Identity**: `SSOT_Agentic_Brain` // `MARS.OX.AI`  
 **Execution Timestamp**: 2026-10-08T13:12:00Z  
 **Quorum Architecture**: 3-Agent Heterogeneous Witness Chain (Executor -> Validator -> Critic)  
-**Target Scope**: 71,882 Source & Config Files (`/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain`)  
+**Target Scope**: 71,882 Source & Config Files (`/workspace/upgp-proving-ground`)  
 
 ---
 

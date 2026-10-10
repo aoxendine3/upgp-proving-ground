@@ -1,9 +1,0 @@
-{
-  "timestamp": "2026-10-01T01:09:06.497169+00:00",
-  "entity": "BBQ_004_CIFM",
-  "consolidated_fact": "Candidate BBQ_004_CIFM is physically impossible under standard operating conditions due to fundamental thermodynamic limits.",
-  "taint_state": "0xDEAD0000",
-  "provenance_document": "/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/docs/audits/BBQ_004_NATIVE_SOVRA_AUDIT.md",
-  "merkle_root": "b7f15af43ad9b97e2dcd7c2ee8bee434924daed74dff8bbedb5c62d02e0b2e1f",
-  "seventh_layer_status": "PASSED_UP_AND_LOCKED"
-}

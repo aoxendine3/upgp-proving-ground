@@ -5,7 +5,7 @@
 **Classification**: Empirical Falsification & Model Ablation Audit  
 **Date**: 2026-10-06  
 **Author**: Lead 9 Council (Maxx, Clara, William Vance, Jarvis, Xoras Swarm Collective)  
-**Target Repository**: `https://github.com/aoxendine3/telecom_churn_data_quality_solution.git`  
+**Target Repository**: `https://github.com/user/telecom_churn_data_quality_solution.git`  
 **Hardware Baseline**: Apple Silicon M4 Unified Memory Architecture  
 
 ---

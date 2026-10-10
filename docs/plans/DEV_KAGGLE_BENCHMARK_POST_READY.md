@@ -2,7 +2,7 @@
 title: Multi-Turn Agentic Context Decay & State Pollution: Benchmarking 18,432-D Poincaré Memory vs Gemini 3.5 & Gemma-4
 published: true
 tags: devchallenge, kagglechallenge, ai, machinelearning
-cover_image: https://raw.githubusercontent.com/aoxendine3/kaggle-benchmark-assets/main/kaggle_benchmark_hero_cover_banner.jpg
+cover_image: https://raw.githubusercontent.com/user/kaggle-benchmark-assets/main/kaggle_benchmark_hero_cover_banner.jpg
 ---
 
 *This is a submission for the [Kaggle Benchmarking Challenge](https://dev.to/challenges/kaggle-2026-09-23)*
@@ -25,7 +25,7 @@ As execution history exceeds 30–40 turns, standard linear KV-cache attention m
 
 To evaluate and measure this phenomenon, we engineered the **Kaggle Multi-Turn Agentic Context & State Pollution Benchmark (2026)**. The suite measures model accuracy recall, state pollution percentage, and memory retrieval latency across 50 continuous multi-turn execution steps.
 
-![Terminal Verification](https://raw.githubusercontent.com/aoxendine3/kaggle-benchmark-assets/main/kaggle_benchmark_terminal_execution.jpg)
+![Terminal Verification](https://raw.githubusercontent.com/user/kaggle-benchmark-assets/main/kaggle_benchmark_terminal_execution.jpg)
 *Figure 1: Benchmark harness execution on macOS Apple Silicon M4 with 14-Gate Blackbox Gauntlet (BBQ) verification.*
 
 ---
@@ -45,7 +45,7 @@ We benchmarked four distinct AI model architectures to isolate the impact of mat
 
 ### 1. Context Collapse Wall at Step 25
 
-![Context Decay Chart](https://raw.githubusercontent.com/aoxendine3/kaggle-benchmark-assets/main/kaggle_benchmark_context_decay_chart.jpg)
+![Context Decay Chart](https://raw.githubusercontent.com/user/kaggle-benchmark-assets/main/kaggle_benchmark_context_decay_chart.jpg)
 *Figure 2: Accuracy recall decay across 50 multi-turn conversation steps.*
 
 - **Flat Euclidean RAG & Gemma-4:** Accuracy recall drops exponentially from **97.2%** at Turn 1 down to **60.8%** by Turn 50. State pollution rates reached **48.6%**, with unverified candidate state parameters leaking into the decision boundary.
@@ -54,7 +54,7 @@ We benchmarked four distinct AI model architectures to isolate the impact of mat
 
 ### 2. POSIX Shared Memory Hardware Telemetry
 
-![Telemetry Cockpit](https://raw.githubusercontent.com/aoxendine3/kaggle-benchmark-assets/main/kaggle_benchmark_telemetry_board.jpg)
+![Telemetry Cockpit](https://raw.githubusercontent.com/user/kaggle-benchmark-assets/main/kaggle_benchmark_telemetry_board.jpg)
 *Figure 3: POSIX Shared Memory telemetry and Z3 SMT formal verification status.*
 
 Operating on Apple Silicon M4 unified memory with 128-byte cache-line aligned POSIX SHM (`0x3000`), the Poincaré Hyper-Manifold achieved:
@@ -68,9 +68,9 @@ Operating on Apple Silicon M4 unified memory with 128-byte cache-line aligned PO
 
 The complete Kaggle benchmark evaluation suite, verification proofs, and raw empirical data are available open-source:
 
-- **Kaggle Benchmark Suite:** [Kaggle Agentic Context Benchmark Harness](https://github.com/aoxendine3/SSOT_Agentic_Brain/tree/main/core/ops/benchmarks)
-- **NASA V&V Technical Memorandum:** [XORAS-014 Audit Document](https://github.com/aoxendine3/SSOT_Agentic_Brain/blob/main/docs/audits/XORAS_014_KAGGLE_BENCHMARK_VERIFICATION.md)
-- **Raw Empirical Data (JSON):** [Kaggle Benchmark Results JSON](https://github.com/aoxendine3/SSOT_Agentic_Brain/blob/main/memory/catch_log/kaggle_benchmark_results.json)
+- **Kaggle Benchmark Suite:** [Kaggle Agentic Context Benchmark Harness](https://github.com/user/SSOT_Agentic_Brain/tree/main/core/ops/benchmarks)
+- **NASA V&V Technical Memorandum:** [XORAS-014 Audit Document](https://github.com/user/SSOT_Agentic_Brain/blob/main/docs/audits/XORAS_014_KAGGLE_BENCHMARK_VERIFICATION.md)
+- **Raw Empirical Data (JSON):** [Kaggle Benchmark Results JSON](https://github.com/user/SSOT_Agentic_Brain/blob/main/memory/catch_log/kaggle_benchmark_results.json)
 
 ---
 

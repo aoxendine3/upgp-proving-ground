@@ -1,7 +1,0 @@
-{"timestamp":"2026-09-04T01:17:19Z","action":"emergency_cleanup","status":"TRIGGERED","details":"Error trap caught non-zero return"}
-{"timestamp":"2026-09-04T01:17:19Z","action":"emergency_cleanup","status":"TRIGGERED","details":"Error trap caught non-zero return"}
-{"timestamp":"2026-09-04T01:17:48Z","action":"create","status":"SUCCESS","details":"Mounted on /dev/disk5 (2048 MB APFS)"}
-{"timestamp":"2026-09-04T01:17:48Z","action":"status","status":"MOUNTED","details":"Active on /dev/disk5"}
-{"timestamp":"2026-09-04T01:17:48Z","action":"run","status":"EXECUTE","details":"echo UMA RAM DISK ACTIVE"}
-{"timestamp":"2026-09-04T01:17:52Z","action":"destroy","status":"SUCCESS","details":"Detached /dev/disk5 and reclaimed memory"}
-{"timestamp":"2026-09-04T01:17:52Z","action":"status","status":"UNMOUNTED","details":"Idle"}

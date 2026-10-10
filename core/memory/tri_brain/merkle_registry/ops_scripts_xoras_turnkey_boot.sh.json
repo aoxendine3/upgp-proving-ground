@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/xoras_turnkey_boot.sh",
-  "sha256": "10ef160efe687173a9217b86fd07c8ec380a4faa95167396ca24340c374c52bc",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.613193+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

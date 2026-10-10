@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/sovra_nexus/tests/test_sovra_core.py",
-  "sha256": "95b4aa0f9424dc6995d22f18cc5707b726b8f026f531f6d4bf5bb79d18b4abbc",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.305616+00:00",
-  "score": 100,
-  "status": "LOAD_BEARING"
-}

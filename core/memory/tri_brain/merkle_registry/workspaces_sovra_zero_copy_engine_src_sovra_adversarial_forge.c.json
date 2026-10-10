@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/sovra_zero_copy_engine/src/sovra_adversarial_forge.c",
-  "sha256": "a916d6ce6a4634cc56ea99af60794d09ef7acf839020beb1351786daebb5bbe9",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.316989+00:00",
-  "score": 100,
-  "status": "LOAD_BEARING"
-}

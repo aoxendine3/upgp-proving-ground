@@ -1,8 +1,0 @@
-{
-  "path": "./memory/agent_logs/forge_status.json",
-  "sha256": "d6a0eace66012308897b69c019a501d79841cd8026dc2e03f03a8ed0f84b779f",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.198390+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

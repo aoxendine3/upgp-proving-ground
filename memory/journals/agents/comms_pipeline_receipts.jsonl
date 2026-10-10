@@ -1,7 +1,0 @@
-{"timestamp": "2026-10-04T14:52:52.421322+00:00", "event": "start", "idle_timeout_seconds": 300}
-{"timestamp": "2026-10-04T14:53:56.384024+00:00", "event": "shutdown", "reason": "voice-stop:it doesn't stop the agent from"}
-{"timestamp": "2026-10-04T14:53:56.386957+00:00", "event": "stop", "reason": "voice-stop:it doesn't stop the agent from", "total_inputs": 8, "total_routes": 7, "total_dropped": 0}
-{"timestamp": "2026-10-04T15:04:12.936861+00:00", "event": "start", "idle_timeout_seconds": 300}
-{"timestamp": "2026-10-04T15:17:18.821785+00:00", "event": "stop", "reason": "idle-timeout", "total_inputs": 33, "total_routes": 33, "total_dropped": 0}
-{"timestamp": "2026-10-09T23:24:09.541814+00:00", "event": "start", "idle_timeout_seconds": 300}
-{"timestamp": "2026-10-09T23:29:59.899247+00:00", "event": "stop", "reason": "idle-timeout", "total_inputs": 2, "total_routes": 2, "total_dropped": 0}

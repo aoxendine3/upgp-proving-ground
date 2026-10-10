@@ -1,423 +1,0 @@
-[3959/3959] Linking
-[986/986] Code Generation
-[4925] Semantic Analysis
-[5188/5188] Linking
-[1473/1473] Code Generation
-[6416] Semantic Analysis
-0mqB dynamic_payload_crdt_proof.c
-   0mqB @cImport
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5399/5399] Linking
-0mqB LLVM Emit Object
-[5400/5399] Linking
-0mqB MachO Flush
-==========================================================
- DYNAMIC PAYLOAD-DEPENDENT CRDT BENCHMARK (M4 PHYSICAL SILICON)
-==========================================================
-
-[REAL HARDWARE MEASUREMENT RESULTS]
-Total Nodes Inserted          : 100000
-Dynamic Checksum (Consumed)  : 13979392061702716613 (Payload-Dependent Memory Hash)
-Total Time Elapsed (ns)       : 154000 ns
-Total Time Elapsed (us)       : 154 us (0.154 ms)
-Un-Elided Latency / Op        : 1.54 ns / insertion
-M4 CPU Cycles / Op (@3.8GHz)  : 5.85 cycles / insertion
-
-==========================================================

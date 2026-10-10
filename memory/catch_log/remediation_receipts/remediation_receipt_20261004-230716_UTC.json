@@ -1,9 +1,0 @@
-{
-  "timestamp_utc": "2026-10-04T23:07:16Z",
-  "status": "STATE_REMEDIATED_AND_AUTHORIZED",
-  "success": true,
-  "node_count": 3155,
-  "canonical_merkle_root": "6c07c44ea9301701433fb5d06ad5a7f7445c006d167e33c94b2e5b03f1a701b3",
-  "witness_binary_sha256": "2900c195a6cf13bb9ee29e99a0b2e45806fa4602749df04908c0dd4e471d75c0",
-  "duration_sec": 0.0346
-}

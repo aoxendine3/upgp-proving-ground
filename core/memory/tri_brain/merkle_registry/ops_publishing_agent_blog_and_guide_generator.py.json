@@ -1,8 +1,0 @@
-{
-  "path": "./ops/publishing/agent_blog_and_guide_generator.py",
-  "sha256": "be071b8a7cbbbffd3882b55519b5db869e1e9540b01452fe4660311454060851",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.606637+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

@@ -1,469 +1,0 @@
-[3940/3941] Linking
-[991/992] Code Generation
-0mqB Io.Threaded.netSocketCreatePair
-[4899] Semantic Analysis
-0mqB Io.Threaded.netSocketCreatePair
-[5105/5106] Linking
-[1449/1450] Code Generation
-0mqB debug.print__anon_2661
-[6321] Semantic Analysis
-0mqB debug.print__anon_2661
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5328/5328] Linking
-0mqB LLVM Emit Object
-[5329/5328] Linking
-0mqB MachO Flush
-[5329/5328] Linking
-0mqB MachO Flush
-

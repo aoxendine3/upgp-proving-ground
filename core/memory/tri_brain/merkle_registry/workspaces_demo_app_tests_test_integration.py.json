@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/demo_app/tests/test_integration.py",
-  "sha256": "31a61b2e5d5bff9effb63de8946c4efd7d08178ce9b3b6e640ad38b250dc37c2",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.465723+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

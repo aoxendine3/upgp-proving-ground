@@ -5,17 +5,17 @@
   "run_timestamp_utc": "2026-10-08T20:54:53Z",
   "executor": "Lead 9 Council / Red-Team Gauntlet Engine",
   "build_hashes": {
-    "witness_binary_path": "/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/ops/bin/stateless_airblocked_witness",
+    "witness_binary_path": "/workspace/upgp-proving-ground/core/ops/bin/stateless_airblocked_witness",
     "witness_binary_sha256": "13c35d87f03bafce4ea8468c8a9d61eb329a352dd172d161759970d13ea111a3",
     "trinity_gate_wrapper_sha256": "8eaaed7f3ed9fdba5c417f5be407c4fb92640404ce0621690b1bb7c04f293a67",
     "per_turn_guard_sha256": "28bb073bdc5ff7db2c8429c3045ada976161cad0cf44b626081f2209a1e4b759",
     "lineage_db_sha256": "bf68c7436d29345783d270429f6ab386646ed72a1f83a81264e9f7aeae4a0de3"
   },
   "environment_snapshot": {
-    "sqlite_db_path": "/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/.sovereign/provenance/lineage_dag.db",
-    "claim_file_path": "/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/memory/tri_brain/merkle_root.hash",
-    "witness_binary_path": "/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/ops/bin/stateless_airblocked_witness",
-    "barn_archive_binding": "/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/barn/receipts/SPDD-ADV-WITNESS-GATE-001_AV-01_20261008-205453_UTC.json"
+    "sqlite_db_path": "/workspace/upgp-proving-ground/.sovereign/provenance/lineage_dag.db",
+    "claim_file_path": "/workspace/upgp-proving-ground/memory/tri_brain/merkle_root.hash",
+    "witness_binary_path": "/workspace/upgp-proving-ground/core/ops/bin/stateless_airblocked_witness",
+    "barn_archive_binding": "/workspace/upgp-proving-ground/barn/receipts/SPDD-ADV-WITNESS-GATE-001_AV-01_20261008-205453_UTC.json"
   },
   "test_results": [
     {

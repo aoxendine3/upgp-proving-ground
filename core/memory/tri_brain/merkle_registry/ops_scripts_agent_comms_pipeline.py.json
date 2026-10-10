@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/agent_comms_pipeline.py",
-  "sha256": "1de8095b8990e32528bce3f83e3763abaf73a4c66af567c87318b733b8a10aec",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.613059+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

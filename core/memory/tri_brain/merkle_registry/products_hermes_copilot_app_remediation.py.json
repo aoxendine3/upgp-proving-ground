@@ -1,8 +1,0 @@
-{
-  "path": "./products/hermes_copilot_app/remediation.py",
-  "sha256": "bfb5e7969ed3dd872c31d1474b4c05840eaec87c30b341d90be5a46781fc6c12",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.195732+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

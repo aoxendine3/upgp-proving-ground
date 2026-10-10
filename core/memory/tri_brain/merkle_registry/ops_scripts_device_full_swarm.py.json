@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/device_full_swarm.py",
-  "sha256": "0189f95647153db606b28dd5ab51b21fb9a0c1ae75dc443a8a5c0f84af23045b",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.612423+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

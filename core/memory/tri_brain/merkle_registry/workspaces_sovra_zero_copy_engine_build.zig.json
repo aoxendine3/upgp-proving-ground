@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/sovra_zero_copy_engine/build.zig",
-  "sha256": "c5f715ad55ea2aaa5cc09bbdcad27aee0eec97d412586f7bf4367aed5d67d008",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.316304+00:00",
-  "score": 90,
-  "status": "LOAD_BEARING"
-}

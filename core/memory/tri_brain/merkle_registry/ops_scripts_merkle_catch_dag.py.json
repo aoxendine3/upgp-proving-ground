@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/merkle_catch_dag.py",
-  "sha256": "09ab5158fbfab928e12aaa3ffe98d5e6567e654bc8f5e9171e27922bde3072be",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.613799+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

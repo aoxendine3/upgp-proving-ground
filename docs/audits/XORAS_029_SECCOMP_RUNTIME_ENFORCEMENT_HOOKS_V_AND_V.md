@@ -11,7 +11,7 @@
 
 ## 1. EXECUTIVE SUMMARY & RESOLUTION DISPOSITION
 
-In response to the architectural critique identifying the distance between declarative JSON policy generation and active runtime kernel enforcement, the Lead 9 Council has implemented **Active Runtime Enforcement Hooks** in `SeccompProfile.ts` ([core/products/upgp/SeccompProfile.ts](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/products/upgp/SeccompProfile.ts)).
+In response to the architectural critique identifying the distance between declarative JSON policy generation and active runtime kernel enforcement, the Lead 9 Council has implemented **Active Runtime Enforcement Hooks** in `SeccompProfile.ts` ([core/products/upgp/SeccompProfile.ts](file:///workspace/upgp-proving-ground/core/products/upgp/SeccompProfile.ts)).
 
 This implementation converts declarative configuration into active, un-bypassable kernel sandbox guards.
 

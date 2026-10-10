@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/unified_resync_replay_tribunal.py",
-  "sha256": "1cc666a1b93c465d5584e6d309dc9056f8aeb88a41e9c8337a098f54d8d2993b",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.611353+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

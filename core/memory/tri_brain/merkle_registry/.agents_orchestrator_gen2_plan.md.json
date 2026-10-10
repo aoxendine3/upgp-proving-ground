@@ -1,8 +1,0 @@
-{
-  "path": "./.agents/orchestrator_gen2/plan.md",
-  "sha256": "d937c4a9100da5e1294e6b6ea23af83e2c1a9c9dbf94d4d8f1206b2ec45a799c",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.290901+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

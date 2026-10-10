@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/voice_daemon.py",
-  "sha256": "d2faf0918a482bd854185965af572bd58e9a003d89fc0dd368bdd1a512321ee3",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.612030+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

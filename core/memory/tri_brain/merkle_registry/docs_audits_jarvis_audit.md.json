@@ -1,8 +1,0 @@
-{
-  "path": "./docs/audits/jarvis_audit.md",
-  "sha256": "181daa6a78342a68aea6336db3431d4d19ae5f6405de0ec2bf3cc277d648f7f8",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.302491+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

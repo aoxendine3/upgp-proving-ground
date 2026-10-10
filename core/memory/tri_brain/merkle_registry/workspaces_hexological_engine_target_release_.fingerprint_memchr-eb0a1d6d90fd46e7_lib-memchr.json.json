@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/hexological_engine/target/release/.fingerprint/memchr-eb0a1d6d90fd46e7/lib-memchr.json",
-  "sha256": "79cc259d6cf0023a52923e0e87479f2981353cfae442b1431c6fcbebe436e8b1",
-  "depth": 8,
-  "timestamp": "2026-09-29T20:02:55.311918+00:00",
-  "score": 80,
-  "status": "LOAD_BEARING"
-}

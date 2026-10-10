@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/excavate_inventory.py",
-  "sha256": "600ebdf75422eec238d7ec4a2cb4d365fb2652d2dd6800017be57fab7a46caeb",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.613532+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

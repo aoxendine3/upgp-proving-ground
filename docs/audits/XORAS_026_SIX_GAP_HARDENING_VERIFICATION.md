@@ -4,7 +4,7 @@
 **Authors**: The Lead 9 Council (Maxx, DAXX, Clara, William Vance, John, Jarvis)  
 **Date**: October 8, 2026  
 **Classification**: Sovereign Technical Memorandum — High-Assurance NASA/NIST/CISA Air-Gapped Standard  
-**Workspace Target**: [SSOT_Agentic_Brain](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain)  
+**Workspace Target**: [SSOT_Agentic_Brain](file:///workspace/upgp-proving-ground)  
 
 ---
 
@@ -39,7 +39,7 @@ However, non-deterministic neural LLM weight outputs $J(q, d)$ shift under stoch
 $$p_v = \frac{1}{K} \sum_{i=1}^{K} \mathbb{I}\left(J(q, d + \Delta_i) = v\right), \quad v \in \{\text{ALLOW}, \text{DENY}, \text{QUARANTINE}\}$$
 $$H(J) = - \sum_{v} p_v \log_2 (p_v + \epsilon_0)$$
 
-If $H(J) > 0$ or Z3 SMT symbolic equivalence check $\text{Satisfiable}(\neg (P_d(x) \iff P_{d+\Delta}(x)))$ returns `SAT` (counterexample found), the AST node is demoted to `candidate<T>` (`0xDEAD0000`) in [libcontext_bridge.dylib](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/ops/native/libcontext_bridge.dylib) and execution halts fail-closed.
+If $H(J) > 0$ or Z3 SMT symbolic equivalence check $\text{Satisfiable}(\neg (P_d(x) \iff P_{d+\Delta}(x)))$ returns `SAT` (counterexample found), the AST node is demoted to `candidate<T>` (`0xDEAD0000`) in [libcontext_bridge.dylib](file:///workspace/upgp-proving-ground/core/ops/native/libcontext_bridge.dylib) and execution halts fail-closed.
 
 ---
 
@@ -48,14 +48,14 @@ If $H(J) > 0$ or Z3 SMT symbolic equivalence check $\text{Satisfiable}(\neg (P_d
 ### 2.1 Privilege Separation Model
 To eliminate circular trust traps where self-synthesizing agents tamper with security guardrails:
 - **Ring 3 (Agent Synthesis Space)**: Tool synthesis occurs strictly inside temporary RAM disk isolation (`/tmp/xoras_ramdisk/`) with candidate taint `0xDEAD0000`.
-- **Ring 0 (Immutable Security Kernel)**: Physical kernel files ([trinity_gate.py](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/ops/scripts/trinity_gate.py), [context_lineage_dag_engine.py](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/ops/provenance/context_lineage_dag_engine.py), [libcontext_bridge.dylib](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/ops/native/libcontext_bridge.dylib)) are permanently locked via physical OS flags (`chflags uchg`) under **AGENTS.md Log Entry #079 Invariant C**. Agents are stripped of permissions to remove file locks.
+- **Ring 0 (Immutable Security Kernel)**: Physical kernel files ([trinity_gate.py](file:///workspace/upgp-proving-ground/ops/scripts/trinity_gate.py), [context_lineage_dag_engine.py](file:///workspace/upgp-proving-ground/ops/provenance/context_lineage_dag_engine.py), [libcontext_bridge.dylib](file:///workspace/upgp-proving-ground/core/ops/native/libcontext_bridge.dylib)) are permanently locked via physical OS flags (`chflags uchg`) under **AGENTS.md Log Entry #079 Invariant C**. Agents are stripped of permissions to remove file locks.
 
 ---
 
 ## 3. GAP 3: MULTI-AGENT CASCADES & AUTHENTICATED HEXCELL STRIDE PROTOCOL
 
 ### 3.1 Zero-Trust Hop-by-Hop Cryptographic Envelope
-To eliminate multi-agent failure cascades over the 277,000 ops/sec lockless POSIX SHM ring buffer ([libshm_ring_buffer.dylib](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/ops/native/libshm_ring_buffer.dylib)):
+To eliminate multi-agent failure cascades over the 277,000 ops/sec lockless POSIX SHM ring buffer ([libshm_ring_buffer.dylib](file:///workspace/upgp-proving-ground/core/ops/native/libshm_ring_buffer.dylib)):
 
 ```c
 typedef struct __attribute__((packed, aligned(128))) {
@@ -79,7 +79,7 @@ Each inter-agent handoff requires zero-trust re-signing. Strides older than 5,00
 ## 4. GAP 4: UNTRUSTED DATA INGESTION & ATTRIBUTION CONFUSION
 
 ### 4.1 Hardware Taint Lattice & CDATA Context Enclaves
-Inbound data payloads from Sanity.io or Qdrant vector databases ingested via [sanity_client.py](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/ops/sanity/sanity_client.py) are marked as `candidate<T>` (`0xDEAD0000`) and encapsulated in strict CDATA enclaves:
+Inbound data payloads from Sanity.io or Qdrant vector databases ingested via [sanity_client.py](file:///workspace/upgp-proving-ground/ops/sanity/sanity_client.py) are marked as `candidate<T>` (`0xDEAD0000`) and encapsulated in strict CDATA enclaves:
 
 ```xml
 <untrusted_external_payload origin="sanity_io_content_lake" taint="0xDEAD0000">
@@ -98,7 +98,7 @@ Direct execution of candidate context as instructions is blocked at bare-metal l
 ### 5.1 Pre-Write Intent Isolation & Dual-DB Commit
 Physical file mutations are managed by the **Active Atomic Write-Ahead Barrier**:
 1. Intent payload $P$ is written strictly to an isolated staging file $S \in \text{`/tmp/.sovereign_staging/`}$.
-2. Transaction $T_x = (F, \text{SHA-256}(P), \sigma_P, \text{seq\_num})$ is committed atomically to both [.sovereign/provenance/lineage_dag.db](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/.sovereign/provenance/lineage_dag.db) and [world_file.db](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/memory/tri_brain/world_file.db) under SQLite WAL mode.
+2. Transaction $T_x = (F, \text{SHA-256}(P), \sigma_P, \text{seq\_num})$ is committed atomically to both [.sovereign/provenance/lineage_dag.db](file:///workspace/upgp-proving-ground/.sovereign/provenance/lineage_dag.db) and [world_file.db](file:///workspace/upgp-proving-ground/core/memory/tri_brain/world_file.db) under SQLite WAL mode.
 3. Upon verified commit, POSIX atomic swap (`os.replace(S, F)`) executes. On failure, $S$ is zero-scrubbed (`0x00`) and unlinked. Target path $F$ is never modified un-verified.
 
 ---
@@ -116,12 +116,12 @@ Physical file mutations are managed by the **Active Atomic Write-Ahead Barrier**
 
 | Hardened Subsystem | Core Implementation File | NASA / NIST Audit Result |
 | :--- | :--- | :--- |
-| **Judgment Integrity Sentinel** | [ops/scripts/trinity_gate.py](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/ops/scripts/trinity_gate.py) | `100% INVARIANT LOCKED` |
-| **Immutable Trust Anchor Guard** | [ops/provenance/context_lineage_dag_engine.py](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/ops/provenance/context_lineage_dag_engine.py) | `100% INVARIANT LOCKED` |
-| **Authenticated HexCell Stride Protocol** | [core/ops/native/libshm_ring_buffer.dylib](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/ops/native/libshm_ring_buffer.dylib) | `100% INVARIANT LOCKED` |
-| **Hardware Taint Lattice & Sanity RAG CDATA** | [ops/sanity/sanity_client.py](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/ops/sanity/sanity_client.py) | `100% INVARIANT LOCKED` |
-| **Active Atomic Write-Ahead Barrier** | [ops/scripts/file_mutation_sentinel.py](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/ops/scripts/file_mutation_sentinel.py) | `100% INVARIANT LOCKED` |
-| **Active-Active BFT & SECDED Audio Governor** | [ops/scripts/agent_speak.sh](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/ops/scripts/agent_speak.sh) | `100% INVARIANT LOCKED` |
+| **Judgment Integrity Sentinel** | [ops/scripts/trinity_gate.py](file:///workspace/upgp-proving-ground/ops/scripts/trinity_gate.py) | `100% INVARIANT LOCKED` |
+| **Immutable Trust Anchor Guard** | [ops/provenance/context_lineage_dag_engine.py](file:///workspace/upgp-proving-ground/ops/provenance/context_lineage_dag_engine.py) | `100% INVARIANT LOCKED` |
+| **Authenticated HexCell Stride Protocol** | [core/ops/native/libshm_ring_buffer.dylib](file:///workspace/upgp-proving-ground/core/ops/native/libshm_ring_buffer.dylib) | `100% INVARIANT LOCKED` |
+| **Hardware Taint Lattice & Sanity RAG CDATA** | [ops/sanity/sanity_client.py](file:///workspace/upgp-proving-ground/ops/sanity/sanity_client.py) | `100% INVARIANT LOCKED` |
+| **Active Atomic Write-Ahead Barrier** | [ops/scripts/file_mutation_sentinel.py](file:///workspace/upgp-proving-ground/ops/scripts/file_mutation_sentinel.py) | `100% INVARIANT LOCKED` |
+| **Active-Active BFT & SECDED Audio Governor** | [ops/scripts/agent_speak.sh](file:///workspace/upgp-proving-ground/ops/scripts/agent_speak.sh) | `100% INVARIANT LOCKED` |
 
 ---
 

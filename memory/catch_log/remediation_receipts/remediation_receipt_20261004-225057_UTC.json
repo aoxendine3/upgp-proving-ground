@@ -1,9 +1,0 @@
-{
-  "timestamp_utc": "2026-10-04T22:50:57Z",
-  "status": "WITNESS_REJECTION: ===========================================================================\n  STATELESS AIRBLOCKED WITNESS ENGINE (FRONT-GATE STRUCTURAL CONTROL)\n  Scope: Textual Output Inspection ONLY (Zero Source/Reasoning Access)\n===========================================================================\n\u2705 Witness Scope: 3144 raw output nodes inspected.\n\u2705 Monotonic Sequence Verification: 100% Monotonic (0 Sequence Violations).\n\u2705 Witness Recomputed Merkle Root: 178f084599acf187d81365354a1a63ec9ceeeaf320d62a97097d4d4e49a57abf\n\u2705 Target Output Claim Root:      5cfff4860d9312021930b66a1c6fb5c475374e0be285870665ba1cb2c1b2083c\n\n\u274c STATELESS WITNESS FAIL CLOSED: Root Desync (178f084599acf187d81365354a1a63ec9ceeeaf320d62a97097d4d4e49a57abf != 5cfff4860d9312021930b66a1c6fb5c475374e0be285870665ba1cb2c1b2083c)",
-  "success": false,
-  "node_count": 3144,
-  "canonical_merkle_root": "5cfff4860d9312021930b66a1c6fb5c475374e0be285870665ba1cb2c1b2083c",
-  "witness_binary_sha256": "2900c195a6cf13bb9ee29e99a0b2e45806fa4602749df04908c0dd4e471d75c0",
-  "duration_sec": 0.031
-}

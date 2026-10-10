@@ -1,8 +1,0 @@
-{
-  "path": "./memory/agent_logs/xmars_saas_tunnel.json",
-  "sha256": "041333fc12504156c0d66cea6a89dc78add7a653b634e50bb661c594c95001de",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.198599+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

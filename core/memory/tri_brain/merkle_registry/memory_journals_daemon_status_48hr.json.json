@@ -1,8 +1,0 @@
-{
-  "path": "./memory/journals/daemon_status_48hr.json",
-  "sha256": "67dd01fc376d3917651745a2d96bede9144419a9329f8fcb6c91f9ea69643692",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.290167+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

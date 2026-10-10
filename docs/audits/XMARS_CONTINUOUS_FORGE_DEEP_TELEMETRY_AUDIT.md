@@ -28,7 +28,7 @@
 
 2. **Synthetic Training Catalog Location Mismatch**:
    - **Status**: `CONFIG PATH GAP`
-   - **Finding**: `xmars_forge.py` searched for mined catalog at `/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/data_center/synthetic_training/mined_code_catalog.json` which does not exist yet.
+   - **Finding**: `xmars_forge.py` searched for mined catalog at `/workspace/upgp-proving-ground/core/data_center/synthetic_training/mined_code_catalog.json` which does not exist yet.
    - **Action Required**: Path resolution fix needed to point miner ingestion directly to `data_center/synthetic_training/mined_code_catalog.json`.
 
 3. **Public Tunnel URL**:

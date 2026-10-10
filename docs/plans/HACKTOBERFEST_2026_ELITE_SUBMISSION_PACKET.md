@@ -2,8 +2,8 @@
 
 **Challenge Name:** Hacktoberfest Open-Source AI Challenge Week 1: Touch Grass  
 **Official Contest Page:** https://dev.to/challenges/hacktoberfest-week1-2026-10-05  
-**Submission Repository:** https://github.com/aoxendine3/SSOT_Agentic_Brain  
-**Public Asset Repository:** https://github.com/aoxendine3/kaggle-benchmark-assets  
+**Submission Repository:** https://github.com/user/SSOT_Agentic_Brain  
+**Public Asset Repository:** https://github.com/user/kaggle-benchmark-assets  
 **Product Name:** XORAS Studio V2 (Sovereign Edition)  
 **Required Tags:** `devchallenge`, `hf26challenge`, `open source`, `ai`, `react`  
 
@@ -23,8 +23,8 @@
 ## Visual Assets (HTTP 200 Verified)
 
 1. **Primary Workspace (Sovereign Edition):**  
-   `https://raw.githubusercontent.com/aoxendine3/kaggle-benchmark-assets/main/xoras_studio_v2_sovereign_edition.jpg`
+   `https://raw.githubusercontent.com/user/kaggle-benchmark-assets/main/xoras_studio_v2_sovereign_edition.jpg`
 2. **Telemetry & World Monitor View:**  
-   `https://raw.githubusercontent.com/aoxendine3/kaggle-benchmark-assets/main/xoras_telemetry_world_monitor.jpg`
+   `https://raw.githubusercontent.com/user/kaggle-benchmark-assets/main/xoras_telemetry_world_monitor.jpg`
 3. **Formatted Post Draft:**  
-   [`docs/plans/DEV_POST_SUBMISSION_READY.md`](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/docs/plans/DEV_POST_SUBMISSION_READY.md)
+   [`docs/plans/DEV_POST_SUBMISSION_READY.md`](file:///workspace/upgp-proving-ground/docs/plans/DEV_POST_SUBMISSION_READY.md)

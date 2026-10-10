@@ -31,4 +31,4 @@ For commercial organizations, SaaS providers, or cloud platforms seeking to inte
 
 ### Direct Stripe Checkout & Licensing Enquiries:
 - **Direct Stripe Link**: [buy.stripe.com/eVq00jcRof7W3jp158dIA00](https://buy.stripe.com/eVq00jcRof7W3jp158dIA00)
-- **Licensing Desk**: `licensing@xoras.ai` / [github.com/aoxendine3/SSOT_Agentic_Brain](https://github.com/aoxendine3/SSOT_Agentic_Brain)
+- **Licensing Desk**: `licensing@xoras.ai` / [github.com/user/SSOT_Agentic_Brain](https://github.com/user/SSOT_Agentic_Brain)

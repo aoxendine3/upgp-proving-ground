@@ -1,0 +1,1 @@
+{"timestamp": "2026-10-10T17:09:42Z", "event": "SECCOMP_RUNTIME_ENFORCEMENT_HOOKS_ATTACHED", "pid": 65088, "platform": "darwin", "syscalls_blocked_count": 19, "mode": "ACTIVE_CONTAINER_SECCOMP_OPT_AND_NATIVE_C_PRCTL", "enforced": true, "state_pollution": "0.00000%"}

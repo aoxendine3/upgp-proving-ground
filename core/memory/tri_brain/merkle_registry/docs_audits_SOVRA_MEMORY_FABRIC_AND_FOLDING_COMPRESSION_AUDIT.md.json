@@ -1,8 +1,0 @@
-{
-  "path": "./docs/audits/SOVRA_MEMORY_FABRIC_AND_FOLDING_COMPRESSION_AUDIT.md",
-  "sha256": "fc2974b90112044b03c5846636e485ab8c3fb5e372e94b1e1f5a4557052e177e",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.302988+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

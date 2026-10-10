@@ -1,8 +1,0 @@
-{
-  "path": "./agents/citizens/daxx/identity.json",
-  "sha256": "5c1b40a68c738b912538b0472e8a2a4545cbd88c04e81881ded06bf732613fef",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.300278+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

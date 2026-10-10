@@ -1,9 +1,0 @@
-{
-  "timestamp_utc": "2026-10-04T22:13:04Z",
-  "status": "WITNESS_REJECTION: ===========================================================================\n  STATELESS AIRBLOCKED WITNESS ENGINE (FRONT-GATE STRUCTURAL CONTROL)\n  Scope: Textual Output Inspection ONLY (Zero Source/Reasoning Access)\n===========================================================================\n\u274c STATELESS WITNESS FAIL CLOSED: Sequence gap in session 'test_session_001': expected 2, got 15",
-  "success": false,
-  "node_count": 3142,
-  "canonical_merkle_root": "d1a5b0091442510b45afb7592e6f476442d340fce57ba6a3f880eababdd15fd1",
-  "witness_binary_sha256": "0bee43d3720134ffeee61bca6c0e600777f965145222ea5dbce9f7b927068747",
-  "duration_sec": 0.0733
-}

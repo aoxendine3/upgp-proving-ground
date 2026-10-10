@@ -18,11 +18,11 @@ Our engineering processes enforced strict fail-closed invariants, zero-falsifica
 
 | Requirement Domain | Target Specification | Empirical Status | Verification Artifact |
 | :--- | :--- | :--- | :--- |
-| **Grounded Financial Intake** | Zero invented volumes, file-anchored labor rates | **VERIFIED (100%)** | [enterprise_data_intake_engine.py](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/ops/scripts/enterprise_data_intake_engine.py) |
+| **Grounded Financial Intake** | Zero invented volumes, file-anchored labor rates | **VERIFIED (100%)** | [enterprise_data_intake_engine.py](file:///workspace/upgp-proving-ground/core/ops/scripts/enterprise_data_intake_engine.py) |
 | **High-Risk Task Isolation** | Automatic HITL quarantining for safety/customs | **VERIFIED (100%)** | 60.2% HITL quarantine rate logged |
 | **Fail-Closed Intake Security** | Non-conforming schema yields 0 valid rows | **VERIFIED (100%)** | Fail-closed pass on `knowledge_base.json` |
-| **Official Kaggle Integration** | Implement `cabt` `agent(obs, config)` callback | **VERIFIED (100%)** | [main.py](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/workspaces/ptcg_ai_battle/main.py) |
-| **Official Card Schema** | Use Kaggle competition card IDs (`EN_SV3_026`) | **VERIFIED (100%)** | [EN_Card_Data.csv](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/workspaces/ptcg_ai_battle/EN_Card_Data.csv) |
+| **Official Kaggle Integration** | Implement `cabt` `agent(obs, config)` callback | **VERIFIED (100%)** | [main.py](file:///workspace/upgp-proving-ground/workspaces/ptcg_ai_battle/main.py) |
+| **Official Card Schema** | Use Kaggle competition card IDs (`EN_SV3_026`) | **VERIFIED (100%)** | [EN_Card_Data.csv](file:///workspace/upgp-proving-ground/workspaces/ptcg_ai_battle/EN_Card_Data.csv) |
 | **Kaggle Remote Deployment** | Live kernel update & push via Kaggle CLI | **VERIFIED (100%)** | Pushed Kernel v1 to `notebookc11fddf62f` |
 | **Voice Telemetry** | Lead 9 multi-agent speech ($\ge 35$ words) | **VERIFIED (100%)** | Maxx, Clara, Vance, Jarvis dispatches |
 

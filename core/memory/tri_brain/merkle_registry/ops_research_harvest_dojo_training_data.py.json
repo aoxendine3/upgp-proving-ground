@@ -1,8 +1,0 @@
-{
-  "path": "./ops/research/harvest_dojo_training_data.py",
-  "sha256": "7e18c201bce90c3cb41110edd112613a450849e19cab5d75210e8f690faa77bb",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.606321+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

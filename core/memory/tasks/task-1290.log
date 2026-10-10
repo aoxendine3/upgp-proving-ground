@@ -1,431 +1,0 @@
-[3640/3641] Linking
-[851/852] Code Generation
-0mqB array_list.Aligned(debug.Dwarf.Unwind.VirtualMachine.Column,null).addOn
-[4550] Semantic Analysis
-0mqB array_list.Aligned(debug.Dwarf.Unwind.VirtualMachine.Column,null).addOn
-[5174/5174] Linking
-[1466/1466] Code Generation
-[6397] Semantic Analysis
-0mqB Io.Writer.print__anon_24144
-[5253/5254] Linking
-[1496/1496] Code Generation
-[6553] Semantic Analysis
-0mqB multi_array_list.MultiArrayList(array_hash_map.Custom([]const u8,[]cons
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5387/5387] Linking
-0mqB LLVM Emit Object
-[5388/5387] Linking
-0mqB MachO Flush
-[5388/5387] Linking
-0mqB MachO Flush
-[5388/5387] Linking
-0mqB MachO Flush
-[5388/5387] Linking
-0mqB MachO Flush
-[5388/5387] Linking
-0mqB MachO Flush
-[5388/5387] Linking
-0mqB MachO Flush
-[5388/5387] Linking
-0mqB MachO Flush
-[5388/5387] Linking
-0mqB MachO Flush
-[5388/5387] Linking
-0mqB MachO Flush
-[5388/5387] Linking
-0mqB MachO Flush
-[5388/5387] Linking
-0mqB MachO Flush
-[5388/5387] Linking
-0mqB MachO Flush
-[5388/5387] Linking
-0mqB MachO Flush
-[5388/5387] Linking
-0mqB MachO Flush
-==========================================================
- ARM64 NEON 128-BIT SIMD VECTORIZED CRDT BENCHMARK (M4)
-==========================================================
-
-[ARM64 SIMD VECTORIZED BENCHMARK RESULTS]
-Total Vector Nodes Stored      : 100,000 Nodes (256-bit SIMD pairs)
-SIMD Vector Store Elapsed Time : 237000 ns (0.237 ms)
-SIMD Latency per Node          : 2.37 ns / insertion
-M4 CPU Cycles per Node (@3.8GHz): 9.01 cycles / insertion
-Volatile Checksum (Consumed)   : 16438567354283966640 (Blackbox Readback Proof)
-
-==========================================================

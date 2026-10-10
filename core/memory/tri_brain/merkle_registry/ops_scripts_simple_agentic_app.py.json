@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/simple_agentic_app.py",
-  "sha256": "529ddab9a7bc0f3f6c7384a658da39ad0d47360a5a878208600bf01501a65411",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.611685+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

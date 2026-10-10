@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/hyperforge_autoresearch/core/target/release/.fingerprint/libsqlite3-sys-1c2790fc56e8b720/lib-libsqlite3_sys.json",
-  "sha256": "23f8129f3104f2aa4c0c81a66aae09978df4c251907d6596ce4b0c32cb7131df",
-  "depth": 9,
-  "timestamp": "2026-09-29T20:02:55.476013+00:00",
-  "score": 90,
-  "status": "LOAD_BEARING"
-}

@@ -1,6 +1,0 @@
-Successfully scheduled one-shot timer.
-Expected to fire at: 2026-09-28T21:18:45-04:00
-Prompt: Check BFT swarm scale test results
-Early Termination: bd892285-cca1-43cd-bb8b-d1c3128f05ca/task-1575
-
-[2026-09-28T21:16:57-04:00] Timer cancelled: early-termination condition (bd892285-cca1-43cd-bb8b-d1c3128f05ca/task-1575) met by a message from bd892285-cca1-43cd-bb8b-d1c3128f05ca/task-1575.

@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/multilang_benchmark/sovra_true_full_stream.c",
-  "sha256": "747378de21d562782f92270f66688e858e49c738bc12c78ff0ee2239006a0ab6",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.468926+00:00",
-  "score": 90,
-  "status": "LOAD_BEARING"
-}

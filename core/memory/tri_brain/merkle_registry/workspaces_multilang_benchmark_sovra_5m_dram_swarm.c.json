@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/multilang_benchmark/sovra_5m_dram_swarm.c",
-  "sha256": "e77c1d9139864e93bcf0516e4ac19a86411f2350bf652871d4b2dbdc9a205f7e",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.468850+00:00",
-  "score": 90,
-  "status": "LOAD_BEARING"
-}

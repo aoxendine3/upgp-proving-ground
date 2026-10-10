@@ -1,8 +1,0 @@
-{
-  "timestamp": "2026-10-02T11:10:05Z",
-  "max_concurrent_threads": 3,
-  "active_threads": 1,
-  "generator_model": "Gemma 26B (Mac Heavy Lifter)",
-  "auditor_model": "Llama 8B / 70B (Windows Remote Node)",
-  "status": "THREAD_POOLED_HEALTHY"
-}

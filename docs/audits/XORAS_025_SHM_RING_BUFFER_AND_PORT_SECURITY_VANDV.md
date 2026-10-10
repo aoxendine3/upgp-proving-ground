@@ -4,7 +4,7 @@
 **Document ID**: `MEMO-XORAS-025-SHM-PORT-SECURITY`  
 **Evaluation Standard**: NASA SP-2016-6105 / NIST SP 800-160 v1 Gold Standard V&V  
 **Hardware Substrate**: Apple Silicon M4 Bare Metal (`aarch64-apple-darwin` UMA)  
-**Compiled Shared Library**: [`scratch/libshm_ring_buffer.dylib`](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/scratch/libshm_ring_buffer.dylib)  
+**Compiled Shared Library**: [`scratch/libshm_ring_buffer.dylib`](file:///workspace/upgp-proving-ground/scratch/libshm_ring_buffer.dylib)  
 **Target Ports**: TCP Port 8787 (Control Plane) & UDP Port 11434 (Tensor Plane)  
 **Author**: Maxx & The Lead 9 Council (Orion Media Director Dispatch)  
 **Date of Certification**: 2026-10-05  
@@ -16,7 +16,7 @@
 In response to the **XORAS::OS Master System Audit Report**, we executed two bare-metal compilation and security verification tasks:
 
 1. **POSIX Shared-Memory Ring Buffer Compilation & Benchmark**:
-   - Compiled native C11 source [`core/ops/native/shm_ring_buffer.c`](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/ops/native/shm_ring_buffer.c) into native Apple Silicon shared library [`scratch/libshm_ring_buffer.dylib`](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/scratch/libshm_ring_buffer.dylib).
+   - Compiled native C11 source [`core/ops/native/shm_ring_buffer.c`](file:///workspace/upgp-proving-ground/core/ops/native/shm_ring_buffer.c) into native Apple Silicon shared library [`scratch/libshm_ring_buffer.dylib`](file:///workspace/upgp-proving-ground/scratch/libshm_ring_buffer.dylib).
    - Executed 26,000 MTPO worker stride pushes across 16 concurrent threads in **109.33 ms**.
    - Achieved **237,817.93 lock-free ops/sec** with **0 POSIX file-lock stalls**.
 2. **Zero-Trust Firewall & Port Binding Security Audit**:
@@ -67,7 +67,7 @@ $$\text{HexCellStride} = \underbrace{[\text{SeqID} + \text{Rank} + \text{NodeID}
 
 ## 5. Verification Sign-Off
 
-* **Native Shared Library**: [`scratch/libshm_ring_buffer.dylib`](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/scratch/libshm_ring_buffer.dylib) **[COMPILED & VERIFIED]**
+* **Native Shared Library**: [`scratch/libshm_ring_buffer.dylib`](file:///workspace/upgp-proving-ground/scratch/libshm_ring_buffer.dylib) **[COMPILED & VERIFIED]**
 * **Lock-Free Throughput**: **237,817.93 ops/sec** **[100% PASS]**
 * **Firewall Security Isolation**: **TCP 8787 & UDP 11434 100% Loopback Locked** **[PASSED]**
 * **Status**: **STABLE & READY FOR HIGH-THROUGHPUT SOVEREIGN OPERATIONAL DISPATCH**

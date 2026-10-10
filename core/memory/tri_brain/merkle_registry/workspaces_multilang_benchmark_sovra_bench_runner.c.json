@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/multilang_benchmark/sovra_bench_runner.c",
-  "sha256": "4441bdd937d78e2ff43740c6d33eb793429c6bc72282bb72cb85ed76eac7aa4b",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.469016+00:00",
-  "score": 90,
-  "status": "LOAD_BEARING"
-}

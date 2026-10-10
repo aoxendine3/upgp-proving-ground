@@ -1,8 +1,0 @@
-{
-  "phase": "READY",
-  "status": "ok",
-  "message": "Startup completed; all required health gates passed.",
-  "timestamp": "2026-09-06T15:45:16",
-  "pid": 440,
-  "persona_lock_mode": "allowlisted"
-}

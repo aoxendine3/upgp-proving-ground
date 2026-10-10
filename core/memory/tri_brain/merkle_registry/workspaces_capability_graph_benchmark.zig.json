@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/capability_graph/benchmark.zig",
-  "sha256": "cc7009803f78ac8265e63e899a1ef27d83b095d59d27070bdc44a24b3fb9b45c",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.307224+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

@@ -1,8 +1,0 @@
-{
-  "path": "./docs/audits/SYSTEM_AUDIT_TAIL_LATENCY_REPORT.json",
-  "sha256": "89fe6ca44b1ccf5a9ec77c342f1de8fc20dc7c8a9df686b3057157883d965472",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.301428+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/sovereign_enterprise_pivot_tribunal.py",
-  "sha256": "08b7abc53d8f411f86bf9f6425f752c4b63719b49f029bcecc3638b71012cd29",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.612588+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

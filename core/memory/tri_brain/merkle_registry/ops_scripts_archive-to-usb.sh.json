@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/archive-to-usb.sh",
-  "sha256": "d1d866722ebba3faf69c4bd30aadb1c346984d6a05704aac1b2d3ac409f3ea42",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.613878+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

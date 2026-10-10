@@ -1,8 +1,0 @@
-{
-  "path": "./ops/watchdog/media_stream_monitor_daemon.py",
-  "sha256": "df19438049faa20c09b787a88f4184ca939e08c2f1391315a8f0db9c9e770410",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.609366+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

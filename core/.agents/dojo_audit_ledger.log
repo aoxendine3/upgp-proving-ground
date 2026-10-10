@@ -1,3 +1,0 @@
-{"audit_payload":{"action":"remediation_compiled","cryptographic_verification":true,"event_id":"evt_991823","patch_target":"log_table_entry","verifier_score":1.0},"sequence":1,"timestamp":1791263595}
-{"audit_payload":{"action":"remediation_compiled","cryptographic_verification":true,"event_id":"evt_991823","patch_target":"log_table_entry","verifier_score":1.0},"sequence":1,"timestamp":1791478636}
-{"audit_payload":{"action":"remediation_compiled","cryptographic_verification":true,"event_id":"evt_991823","patch_target":"log_table_entry","verifier_score":1.0},"sequence":1,"timestamp":1791481240}

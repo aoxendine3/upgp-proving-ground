@@ -1,8 +1,0 @@
-{
-  "timestamp": 1790998856.861801,
-  "source_tokens": 2500000,
-  "retained_tokens": 57209,
-  "purged_tokens": 2442791,
-  "compression_ratio": 43.6994,
-  "status": "CONSOLIDATED_TO_DISK"
-}

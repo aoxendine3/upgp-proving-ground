@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/sovra_nexus/benchmarks/benchmark_sovra_core.py",
-  "sha256": "affe661867711bfdcc4f9957d2b2a466dec0b88d0f38a82bd90af4314feae589",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.306773+00:00",
-  "score": 100,
-  "status": "LOAD_BEARING"
-}

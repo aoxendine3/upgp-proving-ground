@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/Customer-Churn-Prediction/backend/signature.py",
-  "sha256": "97ef0947e6bd8c24bb497da05b060800c1b472e39bfe00ac4b9a42db71f09464",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.308998+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

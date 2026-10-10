@@ -4,7 +4,7 @@
 **Document ID**: `MEMO-XORAS-024-DAXX-INTEGRITY-SENTRY`  
 **Evaluation Standard**: NASA SP-2016-6105 / NIST SP 800-160 v1  
 **Target Repository**: `integrity-sentry-core`  
-**Target Commit Hash**: [`8f530b343ff6ba385dd75b162e87edf01277bf47`](https://github.com/aoxendine3/integrity-sentry-core/commit/8f530b343ff6ba385dd75b162e87edf01277bf47)  
+**Target Commit Hash**: [`8f530b343ff6ba385dd75b162e87edf01277bf47`](https://github.com/user/integrity-sentry-core/commit/8f530b343ff6ba385dd75b162e87edf01277bf47)  
 **Author**: Maxx & The Lead 9 Council (DAXX Engine & Swarm Operations)  
 **Date of Certification**: 2026-10-05  
 
@@ -12,7 +12,7 @@
 
 ## 1. Executive Summary & Research Breakdown
 
-The Lead 9 Council, Claire's Research Team, and DAXX's Master Engine have completed a bare-metal dissection and assimilation of the dropped commit [`8f530b3`](https://github.com/aoxendine3/integrity-sentry-core/commit/8f530b343ff6ba385dd75b162e87edf01277bf47) (`integrity-sentry-core`).
+The Lead 9 Council, Claire's Research Team, and DAXX's Master Engine have completed a bare-metal dissection and assimilation of the dropped commit [`8f530b3`](https://github.com/user/integrity-sentry-core/commit/8f530b343ff6ba385dd75b162e87edf01277bf47) (`integrity-sentry-core`).
 
 The dropped asset introduces institutional-grade environment variable auditing, Acorn-powered hybrid AST scanning, append-only integrity ledgers (`.integrity_registry.json`), RSA-2048 machine attestation (`attestation.cjs`), supply chain provenance auditing (`provenance.cjs`), and Stripe live-fire revenue integrity verification.
 

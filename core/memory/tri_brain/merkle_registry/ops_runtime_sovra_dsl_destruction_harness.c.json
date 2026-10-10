@@ -1,8 +1,0 @@
-{
-  "path": "./ops/runtime/sovra_dsl_destruction_harness.c",
-  "sha256": "4325344f4f13c41c79b188919e505af8cfc6ff85d866a5325cdec187e69eb5ab",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.608555+00:00",
-  "score": 90,
-  "status": "LOAD_BEARING"
-}

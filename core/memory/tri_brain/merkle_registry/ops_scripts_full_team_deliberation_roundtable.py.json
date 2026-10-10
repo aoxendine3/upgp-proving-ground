@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/full_team_deliberation_roundtable.py",
-  "sha256": "e11e22f118ba76f695b1dbd09ef4ba2e9214587e89af58829ecd3c75822631c4",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.613718+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

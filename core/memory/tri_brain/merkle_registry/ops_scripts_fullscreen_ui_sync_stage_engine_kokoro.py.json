@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/fullscreen_ui/sync_stage_engine_kokoro.py",
-  "sha256": "7f529282f02cb3409c329f591ff11b080946f514810dd534f42d7e93a41da662",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.660091+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

@@ -1,2 +1,0 @@
-file '/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/scratch/movie_render/scene1_motion.mp4'
-file '/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/scratch/movie_render/scene2_motion.mp4'

@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/fix_long_paths_ingest.py",
-  "sha256": "b58baa28b60b1b0235c5f475e1792c4430a12c3a679b96970548dd67457f6e08",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.614110+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

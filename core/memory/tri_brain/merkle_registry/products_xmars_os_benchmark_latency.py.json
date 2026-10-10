@@ -1,8 +1,0 @@
-{
-  "path": "./products/xmars_os/benchmark_latency.py",
-  "sha256": "c77e22e60f289874e42bf20100b60b4fdc74fa983a1949bf4ce515f2ecb96d59",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.194198+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

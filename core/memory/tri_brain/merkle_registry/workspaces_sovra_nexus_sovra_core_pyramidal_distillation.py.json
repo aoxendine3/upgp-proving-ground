@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/sovra_nexus/sovra_core/pyramidal_distillation.py",
-  "sha256": "140bdf0150ff0a3d867d7c07f7ae2bb35d9e5ff14db634e942fa83d751b221b9",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.306641+00:00",
-  "score": 100,
-  "status": "LOAD_BEARING"
-}

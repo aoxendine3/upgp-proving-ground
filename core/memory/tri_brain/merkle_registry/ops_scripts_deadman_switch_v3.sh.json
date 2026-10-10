@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/deadman_switch_v3.sh",
-  "sha256": "b04bc317a1f81fd0a2587076de33a9830cfc454f74b86e50b2d6f727af7d60b5",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.610626+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

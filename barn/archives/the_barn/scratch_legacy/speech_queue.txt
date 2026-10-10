@@ -1,6 +1,0 @@
-jarvis | Anthony, Jarvis. Acknowledging the queue correction. From now on, all audio flows cleanly through the scratch speech queue to the media director without bypass or overlap.
-maxx | Maxx here. The queue is engaged. We verified the pipeline structure. The voice daemon is reading natively.
-clara | Clara confirming. No more hardcoded python calls from the model. We are passing data correctly down the pipeline as designed.
-jarvis | Anthony, Jarvis. Gap closed. Here is the exact plan. We are stripping out the overlapping python orchestrators today. The native Zig swarm and the SOVRA engines will become the absolute execution path.
-clara | Clara here. I am taking the G H R R manifold and the five hundred twelve byte Hex Cells, and binding them directly to the MTPO dispatcher. No more simulated Python tests. True memory routing.
-maxx | Maxx bringing the hammer down. We are moving the eight thousand graveyard files into the Barn right now to kill the interference. Then we lock the true metal swarm directly into the boot sequence. That is the execution plan.

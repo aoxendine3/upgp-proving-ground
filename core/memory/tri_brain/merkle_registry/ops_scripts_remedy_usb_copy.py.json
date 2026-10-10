@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/remedy_usb_copy.py",
-  "sha256": "46c39424963a580e4efdd97742fbc8b5083138c72d0d41565222999fe69b621e",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.611280+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

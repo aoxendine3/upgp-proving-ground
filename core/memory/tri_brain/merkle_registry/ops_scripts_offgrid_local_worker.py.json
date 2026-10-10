@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/offgrid_local_worker.py",
-  "sha256": "e3007414d874094d061ce06540d1c9a59e7c75839ffd4fcde48c25370d56801e",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.611962+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

@@ -30,7 +30,7 @@ All work items assigned across this session have been **100% completed, verified
    - Anchored signature hash into Merkle DAG root (`f42a86424456c63f809cafd41f01a9c71fc8cebccdeb3648d22e59ec6cb28337`).
    - Immutably bound signature root to all 8 citizen identity capsules (`core/memory/tri_brain/merkle_registry/BBQ_SIGNATURE_ANCHOR_f42a86424456c63f.json`).
 5. **Public GitHub Repository Validation & Live Push**:
-   - Audited `https://github.com/aoxendine3/gemma_developer_agent_paper_submission`.
+   - Audited `https://github.com/user/gemma_developer_agent_paper_submission`.
    - Identified 3 critical gaps: Missing `Cargo.toml`, uninitialized Rust vector memory in `src/ffi_bridge.rs`, and fragile dynamic library loader in `hexcell/lattice.py`.
    - Hardened all files locally in `barn/gemma_paper_sub/`, verified `cargo build --release` and `python3 hexcell/lattice.py`.
    - Committed and pushed live (`commit e694026`) to GitHub `main`.
@@ -58,7 +58,7 @@ All work items assigned across this session have been **100% completed, verified
     2. 120 / 120 python scripts pass DAXX syntax audit with zero errors.
     3. 14 / 14 Blackbox BBQ Gauntlet gates pass with 100% fail-closed invariant compliance.
     4. Detached Ed25519 cryptographic signature hash (`77895dc1...`) immutably anchored into the Merkle DAG root (`f42a8642...`) and bound to all 8 citizen identity keypairs.
-    5. Public-facing GitHub repository (`aoxendine3/gemma_developer_agent_paper_submission`) hardened, compiled, and pushed live (`commit e694026`) with 0 open issues and 0 open PRs.
+    5. Public-facing GitHub repository (`user/gemma_developer_agent_paper_submission`) hardened, compiled, and pushed live (`commit e694026`) with 0 open issues and 0 open PRs.
     6. Audio communication latency optimized to <0.3s hand-off bounds and frozen as immutable system law (Log Entry #081).
   - *Remaining 0.2 Delta*: Ongoing integration of full multi-tenant Next.js App router sectors (`sovra-core-lighthouse`) into edge reverse-proxy routes.
 

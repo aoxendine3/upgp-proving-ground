@@ -1,8 +1,0 @@
-{
-  "path": "./ops/discernment/windows_bare_metal_byzantine_gauntlet.py",
-  "sha256": "0d15aa5e5b42b631cfa0ef4cc3c3c132c792fac28b1a429a171e579b58fcbbbb",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.607685+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

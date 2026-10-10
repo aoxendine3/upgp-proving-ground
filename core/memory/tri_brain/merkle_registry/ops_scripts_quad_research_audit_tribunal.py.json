@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/quad_research_audit_tribunal.py",
-  "sha256": "72c5b4954247632d905202063ac9c787122ac159d19b178839b541c03bf12282",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.610560+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

@@ -1,179 +1,0 @@
-================================================================================
-  XORAS 5-LANGUAGE SIDE-BY-SIDE BARE-METAL NATIVE C BENCHMARK RUNNER
-  Substrate: Apple Silicon M4 (10 Cores) | 100,000 x 18,432-D Vectors (7.37 GB)
-================================================================================
-
-  [BUILD] Compiling C++20 kernel...
-  [BUILD] Compiling SOVRA C/NEON kernel...
-  [BUILD] Compiling Sovereign Rust cargo release...
-   Compiling hexological_18432d_engine v1.0.0 (/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/workspaces/hexological_engine)
-    Finished `release` profile [optimized] target(s) in 2.63s
-  [BUILD] Compiling Zig ReleaseFast binary...
-[5195/5195] Linking
-[1466/1466] Code Generation
-[6432] Semantic Analysis
-0mqB bench_18432d.c
-   0mqB @cImport
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-[5436/5436] Linking
-0mqB LLVM Emit Object
-  [BUILD] Compiling Go 1.22 binary...
-  [BUILD] Compiling STREAM DRAM Baseline...
-
-🔥 EXECUTING BARE-METAL BENCHMARK MATRIX (50 WARMUP + 50 MEASURED PASSES)...
-
-  [RUNNING 1/6] M4 Hardware STREAM Baseline...
-  [RUNNING 2/6] SOVRA C/NEON...
-  [RUNNING 3/6] C++20 (clang++ -O3)...
-  [RUNNING 4/6] Rust 1.95 (Cargo + Rayon)...
-  [RUNNING 5/6] Zig 0.16 (ReleaseFast)...
-  [RUNNING 6/6] Go 1.22 (go build)...
-
-================================================================================
-  GROUND-TRUTH BARE-METAL BENCHMARK RESULTS
-================================================================================
-
---- Target 1: M4 Hardware STREAM Baseline ---
-{
-  "benchmark": "M4 LPDDR5X Hardware STREAM Baseline",
-  "total_dataset_gb": 1.0000,
-  "avg_pass_ms": 21.94,
-  "effective_dram_bandwidth_gb_sec": 91.18
-}
-
-
---- Target 2: SOVRA C/NEON ---
-{
-  "language": "SOVRA C/NEON (clang -O3)",
-  "avg_pass_ms": 68.82,
-  "evals_per_sec": 1453004,
-  "gflops": 53.56,
-  "bandwidth_gb_sec": 99.77,
-  "p50_us": 0.69,
-  "p90_us": 0.70,
-  "p99_us": 0.71,
-  "sink_check": 270627212.22
-}
-
-
---- Target 3: C++20 (clang++ -O3) ---
-{
-  "language": "C++20 (clang++ -O3)",
-  "avg_pass_ms": 69.0401,
-  "evals_per_sec": 1.44843e+06,
-  "gflops": 53.395,
-  "bandwidth_gb_sec": 99.456,
-  "p50_us": 0.690788,
-  "p90_us": 0.701748,
-  "p99_us": 0.713082,
-  "sink_check": 2.70628e+08
-}
-
-
---- Target 4: Rust 1.95 (Cargo + Rayon) ---
-{
-  "language": "Rust 1.95 (Cargo + Rayon)",
-  "avg_pass_ms": 69.02411,
-  "evals_per_sec": 1448769.1329884587,
-  "gflops": 53.40742531848654,
-  "bandwidth_gb_sec": 99.47908170239356,
-  "p50_us": 0.6811716700000001,
-  "p90_us": 0.69510625,
-  "p99_us": 1.02112625,
-  "sink_check": 75032093130
-}
-
-
---- Target 5: Zig 0.16 (ReleaseFast) ---
-{
-  "language": "Zig 0.16 (ReleaseFast)",
-  "av

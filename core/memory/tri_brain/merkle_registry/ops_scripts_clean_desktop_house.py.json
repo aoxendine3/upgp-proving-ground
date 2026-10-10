@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/clean_desktop_house.py",
-  "sha256": "2e58ccc7be536eb6b75e51551e182bfb9f6b492706c2fabfb55d21465bf67ca9",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.611893+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

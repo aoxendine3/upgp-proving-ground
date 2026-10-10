@@ -31,7 +31,7 @@ This document establishes the **Stateless Airblocked Witness** as a front-gate s
 ```
 
 1. **Zero Shared Code**:
-   - The witness is written in native compiled Zig ([core/ops/native/zig/stateless_airblocked_witness.zig](file:///Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/ops/native/zig/stateless_airblocked_witness.zig)).
+   - The witness is written in native compiled Zig ([core/ops/native/zig/stateless_airblocked_witness.zig](file:///workspace/upgp-proving-ground/core/ops/native/zig/stateless_airblocked_witness.zig)).
    - Shares zero Python modules, zero build manifests, zero helper libraries, and zero runtime dependencies with the target system. A bug or vulnerability in the project cannot hide inside the witness.
 2. **Stateless Textual Scope**:
    - The witness has **zero memory of past runs** and carries over zero assumptions.

@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/wake-status.sh",
-  "sha256": "415a4fa24571f12e35a8f307b30fbb7f22990acebb8d4f1901f6c5dbc118a655",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.614684+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

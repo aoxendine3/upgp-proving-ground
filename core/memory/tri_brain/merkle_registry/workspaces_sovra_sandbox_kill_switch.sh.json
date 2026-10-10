@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/sovra_sandbox/kill_switch.sh",
-  "sha256": "9054e4715495e7745e00d38162d463e1910495db4c58df676ce435198a75115c",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.309357+00:00",
-  "score": 90,
-  "status": "LOAD_BEARING"
-}

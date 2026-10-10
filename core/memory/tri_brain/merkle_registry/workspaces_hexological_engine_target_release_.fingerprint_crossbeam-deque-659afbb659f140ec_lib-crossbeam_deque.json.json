@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/hexological_engine/target/release/.fingerprint/crossbeam-deque-659afbb659f140ec/lib-crossbeam_deque.json",
-  "sha256": "b19a5d95585995ff768c581416322fbd53f792cb339af5107dc30a48e1a615a7",
-  "depth": 8,
-  "timestamp": "2026-09-29T20:02:55.310566+00:00",
-  "score": 80,
-  "status": "LOAD_BEARING"
-}

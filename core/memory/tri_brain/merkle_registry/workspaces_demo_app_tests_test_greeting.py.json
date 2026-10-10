@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/demo_app/tests/test_greeting.py",
-  "sha256": "4ba525202d8b57c9cb233f6b91272700347f4bff65edf947bda8d457dd019547",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.465463+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

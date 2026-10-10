@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/local_quorum_deliberation.py",
-  "sha256": "9d255e46e5ae0d4ddf1e60841160844dc00c1379ac020593515e10a2870147e6",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.610935+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

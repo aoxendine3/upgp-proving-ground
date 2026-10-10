@@ -1,8 +1,0 @@
-{
-  "path": "./ops/container/test_linux_container_build.py",
-  "sha256": "e22db543da076b1394ca133e2cb6b6122beea30178bea2cd049b814fca27b219",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.609200+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/sovereign_24_7_daemon.py",
-  "sha256": "35f1664c50c3538ac4592fa6924915596b54d1bb07a6341371d20b2ad5b72d51",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.613613+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

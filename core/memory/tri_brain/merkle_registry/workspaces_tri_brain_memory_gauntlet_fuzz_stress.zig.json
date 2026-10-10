@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/tri_brain_memory/gauntlet_fuzz_stress.zig",
-  "sha256": "fcfe9dddb4dfa3f78bf3c2374c69baaed55fe334142311c10580b583c7eead36",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.464080+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

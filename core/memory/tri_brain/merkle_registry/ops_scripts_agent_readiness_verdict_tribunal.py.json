@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/agent_readiness_verdict_tribunal.py",
-  "sha256": "759ae3a24593e793ec5af258049943f01107fcc799a3edc730db7f197a36dcbb",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.611553+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

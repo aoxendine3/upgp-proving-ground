@@ -1,8 +1,0 @@
-{
-  "path": "./ops/runtime/adversarial_bft_edge_harness.c",
-  "sha256": "c7b20f725b27dfc2f7eaed580a461e228f02a95b35003d3f6f89d27a93a507de",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.608632+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

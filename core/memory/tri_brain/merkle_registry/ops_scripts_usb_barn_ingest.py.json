@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/usb_barn_ingest.py",
-  "sha256": "f2d1f27b323c3e7a12f1733659fc8ffb3046d84a4bf96628bd83b8f237af719b",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.610699+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

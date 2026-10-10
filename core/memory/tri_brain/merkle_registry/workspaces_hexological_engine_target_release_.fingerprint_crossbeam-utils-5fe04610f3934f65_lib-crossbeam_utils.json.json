@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/hexological_engine/target/release/.fingerprint/crossbeam-utils-5fe04610f3934f65/lib-crossbeam_utils.json",
-  "sha256": "fdcbccb8c9a7b7836fc48eac93fb38232757fba95e4225c5a6b481e217b4b6f3",
-  "depth": 8,
-  "timestamp": "2026-09-29T20:02:55.311839+00:00",
-  "score": 80,
-  "status": "LOAD_BEARING"
-}

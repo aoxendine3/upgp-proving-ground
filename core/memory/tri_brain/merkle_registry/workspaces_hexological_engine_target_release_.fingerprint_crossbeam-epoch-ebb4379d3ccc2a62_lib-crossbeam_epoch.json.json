@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/hexological_engine/target/release/.fingerprint/crossbeam-epoch-ebb4379d3ccc2a62/lib-crossbeam_epoch.json",
-  "sha256": "aedf6b3087aab4f3b000cca5a16598daacac613288610a5343c43b08421e8547",
-  "depth": 8,
-  "timestamp": "2026-09-29T20:02:55.313279+00:00",
-  "score": 80,
-  "status": "LOAD_BEARING"
-}

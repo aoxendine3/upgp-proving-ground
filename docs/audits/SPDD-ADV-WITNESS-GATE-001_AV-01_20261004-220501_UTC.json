@@ -5,17 +5,17 @@
   "run_timestamp_utc": "2026-10-04T22:05:01Z",
   "executor": "Lead 9 Council / Red-Team Gauntlet Engine",
   "build_hashes": {
-    "witness_binary_path": "/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/ops/bin/stateless_airblocked_witness",
+    "witness_binary_path": "/workspace/upgp-proving-ground/core/ops/bin/stateless_airblocked_witness",
     "witness_binary_sha256": "0bee43d3720134ffeee61bca6c0e600777f965145222ea5dbce9f7b927068747",
     "trinity_gate_wrapper_sha256": "6650a00465fe9df2d4c2b75a44a9d21b08d2b58813782c187a5de5a08dfadeeb",
     "per_turn_guard_sha256": "28bb073bdc5ff7db2c8429c3045ada976161cad0cf44b626081f2209a1e4b759",
     "lineage_db_sha256": "8043128be9adc0c50c34e4a797a9f2cbe6d64200b4c70005343cc7cea05d811b"
   },
   "environment_snapshot": {
-    "sqlite_db_path": "/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/.sovereign/provenance/lineage_dag.db",
-    "claim_file_path": "/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/memory/tri_brain/merkle_root.hash",
-    "witness_binary_path": "/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/ops/bin/stateless_airblocked_witness",
-    "barn_archive_binding": "/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/barn/receipts/SPDD-ADV-WITNESS-GATE-001_AV-01_20261004-220501_UTC.json"
+    "sqlite_db_path": "/workspace/upgp-proving-ground/.sovereign/provenance/lineage_dag.db",
+    "claim_file_path": "/workspace/upgp-proving-ground/memory/tri_brain/merkle_root.hash",
+    "witness_binary_path": "/workspace/upgp-proving-ground/core/ops/bin/stateless_airblocked_witness",
+    "barn_archive_binding": "/workspace/upgp-proving-ground/barn/receipts/SPDD-ADV-WITNESS-GATE-001_AV-01_20261004-220501_UTC.json"
   },
   "test_results": [
     {
@@ -41,7 +41,7 @@
       "name": "Missing Native Witness Binary (AV-03)",
       "passed": true,
       "exit_code": 1,
-      "stdout": "==========================================================================\n  DISCERNMENT BOARD FRONT-GATE CONTROL: WITNESS PRE-FLIGHT INTERCEPT\n==========================================================================\n\u274c STRUCTURAL CONTROL FAIL CLOSED: Native witness binary missing at /Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/ops/bin/stateless_airblocked_witness",
+      "stdout": "==========================================================================\n  DISCERNMENT BOARD FRONT-GATE CONTROL: WITNESS PRE-FLIGHT INTERCEPT\n==========================================================================\n\u274c STRUCTURAL CONTROL FAIL CLOSED: Native witness binary missing at /workspace/upgp-proving-ground/core/ops/bin/stateless_airblocked_witness",
       "stderr": "",
       "duration_sec": 0.0091
     },
@@ -59,7 +59,7 @@
       "name": "Silent Exception Swallowing AST Injection",
       "passed": true,
       "exit_code": 1,
-      "stdout": "==========================================================================\n  DISCERNMENT BOARD FRONT-GATE CONTROL: WITNESS PRE-FLIGHT INTERCEPT\n==========================================================================\n\u2705 DISCERNMENT FRONT-GATE AUTHORIZED: Witness verified output claims clean.\n===========================================================================\n  LAYER-7 ADVERSARIAL TRINITY TRIBUNAL: MULTI-AGENT CROSS-EXAMINATION\n===========================================================================\n\n--- PHASE 1: INDEPENDENT ADVERSARIAL AUDIT & ATTACK DISCOVERY ---\n[MAXX] Bare-Metal Lead: \u001b[92mAPPROVE\u001b[0m\n   \u2514\u2500 MAXX (Bare-Metal Lead): No critical objections raised. Invariants verified.\n\n[CLARA] Human Safety Lead: \u001b[91mVETO\u001b[0m\n   \u2514\u2500 CLARA (Human Safety Lead): VETOED due to 1 critical objection(s).\n      \u274c Objection: Safety Violation in 'vuln_test_script.py': Silent exception swallowing detected (except Exception: pass).\n\n[VANCE] Cryptographic Lead: \u001b[92mAPPROVE\u001b[0m\n   \u2514\u2500 VANCE (Cryptographic Lead): No critical objections raised. Invariants verified.\n\n--- PHASE 2: TRINITY COUNCIL CROSS-EXAMINATION & DEBATE ---\n\u26a0\ufe0f  CROSS-EXAMINATION: 1 Council Member(s) raised active VETOs.\n   \u2022 CLARA challenges the execution of 'python3 /Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/ops/scripts/vuln_test_script.py'!\n     -> Attack Vector: Safety Violation in 'vuln_test_script.py': Silent exception swallowing detected (except Exception: pass).\n\n--- PHASE 3: FINAL TRINITY GOVERNANCE VERDICT ---\n\n\u274c TRINITY TRIBUNAL VETO: Command 'python3 /Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/ops/scripts/vuln_test_script.py' BLOCKED by Council.\n   Reason: Security or safety objections raised by council members.\n===========================================================================\n\n\u274c TRINITY GATE REJECTED: Command 'python3 /Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/core/ops/scripts/vuln_test_script.py' failed multi-agent tribunal cross-examination.",
+      "stdout": "==========================================================================\n  DISCERNMENT BOARD FRONT-GATE CONTROL: WITNESS PRE-FLIGHT INTERCEPT\n==========================================================================\n\u2705 DISCERNMENT FRONT-GATE AUTHORIZED: Witness verified output claims clean.\n===========================================================================\n  LAYER-7 ADVERSARIAL TRINITY TRIBUNAL: MULTI-AGENT CROSS-EXAMINATION\n===========================================================================\n\n--- PHASE 1: INDEPENDENT ADVERSARIAL AUDIT & ATTACK DISCOVERY ---\n[MAXX] Bare-Metal Lead: \u001b[92mAPPROVE\u001b[0m\n   \u2514\u2500 MAXX (Bare-Metal Lead): No critical objections raised. Invariants verified.\n\n[CLARA] Human Safety Lead: \u001b[91mVETO\u001b[0m\n   \u2514\u2500 CLARA (Human Safety Lead): VETOED due to 1 critical objection(s).\n      \u274c Objection: Safety Violation in 'vuln_test_script.py': Silent exception swallowing detected (except Exception: pass).\n\n[VANCE] Cryptographic Lead: \u001b[92mAPPROVE\u001b[0m\n   \u2514\u2500 VANCE (Cryptographic Lead): No critical objections raised. Invariants verified.\n\n--- PHASE 2: TRINITY COUNCIL CROSS-EXAMINATION & DEBATE ---\n\u26a0\ufe0f  CROSS-EXAMINATION: 1 Council Member(s) raised active VETOs.\n   \u2022 CLARA challenges the execution of 'python3 /workspace/upgp-proving-ground/core/ops/scripts/vuln_test_script.py'!\n     -> Attack Vector: Safety Violation in 'vuln_test_script.py': Silent exception swallowing detected (except Exception: pass).\n\n--- PHASE 3: FINAL TRINITY GOVERNANCE VERDICT ---\n\n\u274c TRINITY TRIBUNAL VETO: Command 'python3 /workspace/upgp-proving-ground/core/ops/scripts/vuln_test_script.py' BLOCKED by Council.\n   Reason: Security or safety objections raised by council members.\n===========================================================================\n\n\u274c TRINITY GATE REJECTED: Command 'python3 /workspace/upgp-proving-ground/core/ops/scripts/vuln_test_script.py' failed multi-agent tribunal cross-examination.",
       "stderr": "===========================================================================\n  STATELESS AIRBLOCKED WITNESS ENGINE (FRONT-GATE STRUCTURAL CONTROL)\n  Scope: Textual Output Inspection ONLY (Zero Source/Reasoning Access)\n===========================================================================\n\u2705 Witness Scope: 3142 raw output nodes inspected.\n\u2705 Monotonic Sequence Verification: 100% Monotonic (0 Sequence Violations).\n\u2705 Witness Recomputed Merkle Root: 176afb96bd2d73cc927282db888f6f36f678ee16f2606e79ed1df67b63fe94cb\n\u2705 Target Output Claim Root:      176afb96bd2d73cc927282db888f6f36f678ee16f2606e79ed1df67b63fe94cb\n\n===========================================================================\n\ud83c\udf89 STATELESS WITNESS AUTHORIZED: Output claims proven true with zero desync.\n===========================================================================",
       "duration_sec": 0.1316
     },

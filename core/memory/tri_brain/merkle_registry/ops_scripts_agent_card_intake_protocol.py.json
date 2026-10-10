@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/agent_card_intake_protocol.py",
-  "sha256": "dcf0eb23a1a0350052e9b0efd26481b9b3358730f49f40e3be0776553c74f0fb",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.610005+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

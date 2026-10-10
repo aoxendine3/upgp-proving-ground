@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/multilang_benchmark/run_side_by_side_matrix.py",
-  "sha256": "5ccff42f30cedee6a2497e3f966d0ec29768b81f5a761613b0164ec1975b480b",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.468760+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

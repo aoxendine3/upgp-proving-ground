@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/vance_register_state_test.py",
-  "sha256": "6026d9ecbdabc0ca5b22941667c4d1cc03d708b46f6f124c8a47d5a62730f4a0",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.613462+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

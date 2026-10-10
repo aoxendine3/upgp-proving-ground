@@ -1,7 +1,0 @@
-- id: xoras-scan
-  name: XORAS AST Security & Secret Scan
-  description: Pre-execution AST security scanner blocking malicious python code injections and hardcoded secrets.
-  entry: xoras scan
-  language: python
-  types: [python]
-  stage: [pre-commit, pre-push]

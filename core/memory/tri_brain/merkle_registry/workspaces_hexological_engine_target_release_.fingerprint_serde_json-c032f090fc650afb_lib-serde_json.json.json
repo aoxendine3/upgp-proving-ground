@@ -1,8 +1,0 @@
-{
-  "path": "./workspaces/hexological_engine/target/release/.fingerprint/serde_json-c032f090fc650afb/lib-serde_json.json",
-  "sha256": "b81b4cfccbc1d49feec3df137f77e9c5d5f2c73b78320e2519c2f41602015f3c",
-  "depth": 8,
-  "timestamp": "2026-09-29T20:02:55.311999+00:00",
-  "score": 80,
-  "status": "LOAD_BEARING"
-}

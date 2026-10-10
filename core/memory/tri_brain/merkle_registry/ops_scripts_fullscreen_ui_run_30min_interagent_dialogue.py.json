@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/fullscreen_ui/run_30min_interagent_dialogue.py",
-  "sha256": "a1428d85bc65858d8fb21eea6e77624a5a3cad55701db9ac01ec5f439d9b64b8",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.659317+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}

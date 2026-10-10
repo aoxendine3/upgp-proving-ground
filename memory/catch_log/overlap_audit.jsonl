@@ -1,7 +1,0 @@
-{
-  "timestamp": "2026-10-03T20:31:23Z",
-  "audit_target": "Audio Overlap Anomaly (Jarvis vs Vance)",
-  "finding": "The bash script (agent_speak.sh) acquires a file mutex lock (/tmp/coreaudio_single_speaker.lockdir). However, the underlying Python Kokoro engine (sync_stage_engine_kokoro.py) appears to dispatch audio asynchronously or detach the playback process. As a result, the Python script returns exit code 0 before the audio finishes. The bash script then fires its EXIT trap, deleting the lock directory. The second bash call instantly acquires the lock and begins playing, causing catastrophic audio overlap.",
-  "root_cause": "The lock lifecycle is tied to the Python script execution time, not the physical audio playback time.",
-  "proposed_remediation": "Since agent_speak.sh is strictly locked in and cannot be modified, we must modify the Python engine (sync_stage_engine_kokoro.py) to block execution until the audio buffer is completely drained, or introduce a process wait (e.g., waiting for 'afplay' or 'mpv' to terminate)."
-}

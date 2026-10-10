@@ -1,8 +1,0 @@
-{
-  "path": "./ops/scripts/local_handoff_executor.py",
-  "sha256": "12d9d842379293db132649fdb4caea4034834a5c9172f75fb7ac95ffe214b197",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.611081+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

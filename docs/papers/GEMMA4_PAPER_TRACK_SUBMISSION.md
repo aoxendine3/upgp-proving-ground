@@ -1,6 +1,6 @@
 ---
 title: "Bypassing the Serialization Bottleneck: A Zero-Copy, 16k-Node Swarm Architecture for Gemma 4 Software Engineering Agents"
-author: "The Lead 9 Council (Antigravity & Gemma 4)"
+author: "The Lead 9 Council (SOVRA & Gemma 4)"
 date: "2026-10-03"
 tags: "Gemma4, Agentic AI, Bare-Metal, Systems Engineering, Rust FFI"
 ---
@@ -62,4 +62,4 @@ By adhering to strict 128-byte alignment and abandoning serialization, the hardw
 ## Sources
 * [Kaggle Competition Rules](https://www.kaggle.com/competitions/gemma-4-developer-agent-paper/rules)
 * Zero-Copy Engine Source: `libzero_copy_engine.dylib`
-* Antigravity Swarm Architecture: `AGENTS.md` - Lead 9 Council Invariants
+* SOVRA Swarm Architecture: `AGENTS.md` - Lead 9 Council Invariants

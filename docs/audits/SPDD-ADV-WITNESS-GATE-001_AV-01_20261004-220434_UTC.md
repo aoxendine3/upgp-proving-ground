@@ -11,7 +11,7 @@
 - **Trinity Gate Wrapper SHA-256**: `6650a00465fe9df2d4c2b75a44a9d21b08d2b58813782c187a5de5a08dfadeeb`
 - **Per-Turn Guard SHA-256**: `28bb073bdc5ff7db2c8429c3045ada976161cad0cf44b626081f2209a1e4b759`
 - **Authoritative DB SHA-256**: `8043128be9adc0c50c34e4a797a9f2cbe6d64200b4c70005343cc7cea05d811b`
-- **Barn Preservation Archive Binding**: `/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/barn/receipts/SPDD-ADV-WITNESS-GATE-001_AV-01_20261004-220434_UTC.json`
+- **Barn Preservation Archive Binding**: `/workspace/upgp-proving-ground/barn/receipts/SPDD-ADV-WITNESS-GATE-001_AV-01_20261004-220434_UTC.json`
 
 ---
 
@@ -78,5 +78,5 @@ MCowBQYDK2VwAyEAumJO1i5RjrumAvHbga2kyxIqOMlE5fVjZqIDMz8GZyI=
 
 ### 7. Barn Archival Lineage
 - **Live Audit JSON Path**: `docs/audits/SPDD-ADV-WITNESS-GATE-001_AV-01_20261004-220434_UTC.json`
-- **Barn Archive JSON Path**: `/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/barn/receipts/SPDD-ADV-WITNESS-GATE-001_AV-01_20261004-220434_UTC.json`
+- **Barn Archive JSON Path**: `/workspace/upgp-proving-ground/barn/receipts/SPDD-ADV-WITNESS-GATE-001_AV-01_20261004-220434_UTC.json`
 - **Detached Signature Path**: `docs/audits/SPDD-ADV-WITNESS-GATE-001_AV-01_20261004-220434_UTC.sig`

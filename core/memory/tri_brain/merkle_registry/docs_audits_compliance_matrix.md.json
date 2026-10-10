@@ -1,8 +1,0 @@
-{
-  "path": "./docs/audits/compliance_matrix.md",
-  "sha256": "8429d36fed51880ba11b630e1e7005da2d896c2a1f759b78509c4aaef761a726",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.301644+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

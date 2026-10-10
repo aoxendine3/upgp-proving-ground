@@ -8,7 +8,7 @@
 
 ## 1. Executive Summary & Objective
 
-This specification details the 90-second technical video walkthrough for the **UPGP v4.0 Ultra WebAssembly (WASM) Simulator**, hosted live on GitHub Pages ([`https://aoxendine3.github.io/upgp-proving-ground/`](https://aoxendine3.github.io/upgp-proving-ground/)).
+This specification details the 90-second technical video walkthrough for the **UPGP v4.0 Ultra WebAssembly (WASM) Simulator**, hosted live on GitHub Pages ([`https://user.github.io/upgp-proving-ground/`](https://user.github.io/upgp-proving-ground/)).
 
 The video demonstrates four un-mocked interactive capabilities running natively inside the browser via `upgp_simulator.wasm`:
 1. **16,000 MTPO Concurrency Write Collision Simulation**: Live lock-free HexCell atomic double-buffering.
@@ -54,7 +54,7 @@ The video demonstrates four un-mocked interactive capabilities running natively 
 |---|---|---|
 | **GitHub Repository** | `docs/assets/videos/upgp_wasm_walkthrough.mp4` | 1080p60 H.264 MP4 |
 | **GitHub README** | Embedded HTML5 Video Player / GIF Preview in `README.md` | Embedded WebP / HTML5 |
-| **GitHub Pages** | Live Interactive Section on `https://aoxendine3.github.io/upgp-proving-ground/` | WASM + Canvas |
+| **GitHub Pages** | Live Interactive Section on `https://user.github.io/upgp-proving-ground/` | WASM + Canvas |
 | **DEV.to / Kaggle** | DEV Post Media Gallery Embed | MP4 / WebM |
 
 ---

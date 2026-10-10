@@ -1,5 +1,0 @@
-services:
-  - type: static
-    name: churnshield-frontend
-    buildCommand: npm install && npm run build
-    staticPublishPath: ./dist

@@ -1,8 +1,0 @@
-{
-  "path": "./ops/sandbox/xoras_os_ram_sandbox.sh",
-  "sha256": "38f0f05b92546e2f351f7123f3a648741395ec5cd67826664fbd442518cd967d",
-  "depth": 4,
-  "timestamp": "2026-09-29T20:02:55.609523+00:00",
-  "score": 40,
-  "status": "LOAD_BEARING"
-}

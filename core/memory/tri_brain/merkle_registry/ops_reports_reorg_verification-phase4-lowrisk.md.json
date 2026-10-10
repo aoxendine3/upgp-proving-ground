@@ -1,8 +1,0 @@
-{
-  "path": "./ops/reports/reorg/verification-phase4-lowrisk.md",
-  "sha256": "21662d9d66b0279353a7937c1f914aca9246992966682d8d762e5183be1d61f7",
-  "depth": 5,
-  "timestamp": "2026-09-29T20:02:55.661867+00:00",
-  "score": 50,
-  "status": "LOAD_BEARING"
-}
