@@ -94,6 +94,22 @@ python3 ops/scripts/enforce_doc_sync_gate.py
 
 ---
 
+## Architectural Masterclass & Video Deep Dives
+
+All architectural demonstrations, bare-metal benchmarks, and stress tests are published on the official **[Xoras Systems YouTube Channel (@xorassystems)](https://www.youtube.com/@xorassystems)**:
+
+- 🎬 **[Resolving Multi-Agent Deadlock — MTPO & Xoras Architecture (Masterclass)](https://youtu.be/midDBXtO_Q8)** (Mirror: [YouTube 4K Stream](https://www.youtube.com/watch?v=ulM4-dZuaPs))
+- ⚡ **[How MARS Audits AI Agents — Grok Concession Audit](https://youtu.be/a8zi4H2-Ni8)**
+- ⚡ **[Multi-Agent Validation Stops AI Disasters — 100k Stress Test](https://youtu.be/VHjUDKcojvQ)**
+- ⚡ **[Eliminating AI Hallucinations — Hardware Taint Promotion](https://www.youtube.com/watch?v=0IczfqA3Omc)**
+- ⚡ **[Fixing Persona & Context Drift — Z3 Proof & Hyperbolic Manifold](https://youtu.be/NFC0ZCGmXVM)**
+- ⚡ **[Architecting Reliable AI: How to Stop Agent Failure Modes](https://www.youtube.com/watch?v=ufvVIp9KUyI)**
+- ⚡ **[The Multi-Agent OS Architecture (Memory, State, Mechanics)](https://www.youtube.com/watch?v=ulM4-dZuaPs)**
+- ⚡ **[AI Integrity Audit: Replacing vs Empowering People](https://www.youtube.com/watch?v=BbKosYRjLn0)**
+- 📺 **[Official YouTube Shorts Library](https://www.youtube.com/@xorassystems/shorts)**
+
+---
+
 ## Technical Audits & Formal Memoranda
 
 - [XORAS_029_SECCOMP_RUNTIME_ENFORCEMENT_HOOKS_V_AND_V.md](docs/audits/XORAS_029_SECCOMP_RUNTIME_ENFORCEMENT_HOOKS_V_AND_V.md) (**Doc ID: XORAS-V&V-029**)

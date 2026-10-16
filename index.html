@@ -62,13 +62,36 @@
     .section-title { font-size: 1.8rem; font-weight: 800; margin-bottom: 12px; display: flex; align-items: center; gap: 10px; }
     .section-desc { color: var(--text-muted); margin-bottom: 28px; font-size: 0.95rem; }
 
+    /* YouTube Integration & Video Toolbar */
+    .btn-yt { background: #ff0033; color: #fff !important; border: 1px solid #ff0033; display: inline-flex; align-items: center; justify-content: center; gap: 8px; font-weight: 700; text-decoration: none; border-radius: 8px; padding: 10px 20px; font-size: 0.9rem; transition: all 0.2s; cursor: pointer; }
+    .btn-yt:hover { background: #cc0029; border-color: #cc0029; transform: translateY(-2px); box-shadow: 0 4px 18px rgba(255,0,51,0.45); color: #fff !important; }
+    .btn-sm { padding: 6px 14px; font-size: 0.82rem; }
+    .yt-badge { display: inline-block; background: rgba(255,0,51,0.15); color: #ff334b; border: 1px solid rgba(255,0,51,0.4); padding: 3px 10px; border-radius: 4px; font-size: 0.75rem; font-family: var(--mono); font-weight: 700; letter-spacing: 0.5px; }
+    
+    .video-toolbar { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px; padding: 16px 24px; background: rgba(10,15,30,0.9); border-bottom: 1px solid var(--border-glow); }
+    .video-title-bar h3 { font-size: 1.15rem; color: #fff; margin-top: 4px; font-weight: 700; }
+    .video-actions-bar { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+    
+    .yt-card-btn { display: inline-flex; align-items: center; justify-content: center; gap: 6px; background: rgba(255,0,51,0.12); color: #ff4d61; border: 1px solid rgba(255,0,51,0.3); padding: 8px 12px; border-radius: 6px; font-size: 0.8rem; font-weight: 700; text-decoration: none; transition: all 0.2s; margin-top: 10px; width: 100%; text-align: center; }
+    .yt-card-btn:hover { background: #ff0033; color: #fff; border-color: #ff0033; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(255,0,51,0.3); }
+    
+    .yt-channel-banner { background: linear-gradient(135deg, rgba(255,0,51,0.1) 0%, rgba(15,23,42,0.95) 100%); border: 1px solid rgba(255,0,51,0.35); border-radius: 12px; padding: 22px 28px; margin-bottom: 35px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+    .yt-channel-info { display: flex; align-items: center; gap: 18px; }
+    .yt-logo-icon { width: 44px; height: 44px; background: #ff0033; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; color: #fff; box-shadow: 0 4px 15px rgba(255,0,51,0.4); flex-shrink: 0; }
+    .yt-channel-info h4 { font-size: 1.1rem; color: #fff; margin-bottom: 4px; font-weight: 700; }
+    .yt-channel-info p { font-size: 0.88rem; color: var(--text-muted); line-height: 1.4; }
+    .yt-channel-actions { display: flex; gap: 12px; flex-wrap: wrap; }
+
     /* Video Shorts Grid */
-    .shorts-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; margin-bottom: 45px; }
-    .short-card { background: var(--bg-card); border: 1px solid var(--border-glow); border-radius: 10px; overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,0.4); display: flex; flex-direction: column; }
+    .shorts-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin-bottom: 45px; }
+    .short-card { background: var(--bg-card); border: 1px solid var(--border-glow); border-radius: 10px; overflow: hidden; box-shadow: 0 8px 24px rgba(0,0,0,0.4); display: flex; flex-direction: column; transition: transform 0.2s, border-color 0.2s; }
+    .short-card:hover { transform: translateY(-3px); border-color: rgba(255,0,51,0.5); }
     .short-card video { width: 100%; aspect-ratio: 9/16; background: #000; object-fit: cover; }
     .short-info { padding: 14px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between; }
     .short-info h4 { font-size: 0.9rem; color: #fff; margin-bottom: 6px; font-weight: 700; line-height: 1.4; }
-    .short-info p { font-size: 0.78rem; color: var(--text-muted); line-height: 1.4; }
+    .short-info h4 a { color: #fff; text-decoration: none; }
+    .short-info h4 a:hover { color: var(--primary); text-decoration: underline; }
+    .short-info p { font-size: 0.78rem; color: var(--text-muted); line-height: 1.4; margin-bottom: 8px; }
 
     /* Gallery Grid */
     .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 20px; margin-bottom: 45px; }
@@ -178,65 +201,200 @@
       
       <div class="hero-actions">
         <a href="#simulator" class="btn btn-primary">Launch WASM Simulator</a>
-        <a href="#masterclass-video" class="btn btn-secondary">Watch MTPO Masterclass</a>
+        <a href="https://youtu.be/midDBXtO_Q8" class="btn btn-yt" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          Watch Masterclass on YouTube
+        </a>
+        <a href="#masterclass-video" class="btn btn-secondary">In-Page Stream</a>
         <a href="https://github.com/aoxendine3/upgp-proving-ground" class="btn btn-secondary" target="_blank">GitHub Repository</a>
       </div>
     </div>
 
     <!-- Featured Masterclass Documentary Video Card -->
     <div class="media-card" id="masterclass-video">
+      <div class="video-toolbar">
+        <div class="video-title-bar">
+          <span class="yt-badge">YOUTUBE 4K / 1080P MASTERCLASS</span>
+          <h3>Resolving Multi-Agent Deadlock — MTPO and the Xoras Architecture</h3>
+        </div>
+        <div class="video-actions-bar">
+          <a href="https://youtu.be/midDBXtO_Q8" target="_blank" rel="noopener noreferrer" class="btn btn-yt">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            Watch on YouTube
+          </a>
+          <a href="https://www.youtube.com/watch?v=ulM4-dZuaPs" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+            YouTube Mirror (4K)
+          </a>
+          <a href="https://www.youtube.com/@xorassystems?sub_confirmation=1" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+            Subscribe @xorassystems
+          </a>
+        </div>
+      </div>
+
       <video src="assets/videos/resolving_multi_agent_deadlock_mtpo_xoras.mp4" controls width="100%" poster="assets/videos/resolving_multi_agent_deadlock_mtpo_xoras_poster.jpg" preload="metadata" style="display:block; width:100%;">
-        Your browser does not support HTML5 video streaming.
+        Your browser does not support HTML5 video streaming. Watch directly on YouTube: <a href="https://youtu.be/midDBXtO_Q8" target="_blank" rel="noopener noreferrer">https://youtu.be/midDBXtO_Q8</a>
       </video>
+
       <div class="media-caption">
-        <strong>Masterclass Documentary: Resolving Multi-Agent Deadlock — MTPO and the Xoras Architecture</strong><br>
-        A comprehensive 7.75-minute architectural deep-dive into why classical concurrency models—specifically Two-Phase Locking (2PL) and Optimistic Concurrency Control (OCC)—break down catastrophically when applied to parallel agent swarms executing long-horizon LLM reasoning loops. Explores how Monotonic Trajectory Pre-Order (MTPO) eliminates lock contention in silicon through monotonic serialization ranks (&sigma;<sub>1</sub> &lt; &sigma;<sub>2</sub> &lt; &sigma;<sub>3</sub>), order-filtered snapshot reads, and deterministic 3-phase Saga inverse compensations (&Delta;<sup>-1</sup>) paired with non-blocking advisory signals (&nu;). [<a href="assets/videos/resolving_multi_agent_deadlock_mtpo_xoras.mp4" download style="color:var(--primary); font-weight:600;">Download Full 1080p Video</a>]
+        <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; margin-bottom:8px;">
+          <strong>Masterclass Documentary: Resolving Multi-Agent Deadlock — MTPO and the Xoras Architecture (7m 45s)</strong>
+          <div style="display:flex; gap:12px; align-items:center; flex-wrap:wrap;">
+            <a href="https://youtu.be/midDBXtO_Q8" target="_blank" rel="noopener noreferrer" style="color:#ff334b; font-weight:700; text-decoration:none;">▶ Watch on YouTube</a>
+            <span style="color:var(--border-glow);">|</span>
+            <a href="https://www.youtube.com/@xorassystems" target="_blank" rel="noopener noreferrer" style="color:var(--primary); font-weight:600; text-decoration:none;">Channel (@xorassystems)</a>
+            <span style="color:var(--border-glow);">|</span>
+            <a href="assets/videos/resolving_multi_agent_deadlock_mtpo_xoras.mp4" download style="color:var(--text-muted); text-decoration:none;">Download MP4</a>
+          </div>
+        </div>
+        A comprehensive 7.75-minute architectural deep-dive into why classical concurrency models—specifically Two-Phase Locking (2PL) and Optimistic Concurrency Control (OCC)—break down catastrophically when applied to parallel agent swarms executing long-horizon LLM reasoning loops. Explores how Monotonic Trajectory Pre-Order (MTPO) eliminates lock contention in silicon through monotonic serialization ranks (&sigma;<sub>1</sub> &lt; &sigma;<sub>2</sub> &lt; &sigma;<sub>3</sub>), order-filtered snapshot reads, and deterministic 3-phase Saga inverse compensations (&Delta;<sup>-1</sup>) paired with non-blocking advisory signals (&nu;).
       </div>
     </div>
 
     <!-- Specialized Video Shorts Showcase -->
     <div id="video-shorts">
-      <h2 class="section-title">⚡ MTPO &amp; MARS Technical Video Shorts</h2>
-      <p class="section-desc">Bite-sized, high-density video demonstrations explaining key failure modes in agentic systems and their hardware-enforced solutions.</p>
+      <h2 class="section-title">⚡ MTPO &amp; MARS Technical Video Shorts &amp; Architectural Deep Dives</h2>
+      <p class="section-desc">Bite-sized, high-density video demonstrations explaining key failure modes in agentic systems and their hardware-enforced solutions. Stream in-page or click any card to watch directly on YouTube.</p>
       
+      <!-- YouTube Channel Banner -->
+      <div class="yt-channel-banner">
+        <div class="yt-channel-info">
+          <div class="yt-logo-icon">▶</div>
+          <div>
+            <h4>Official Xoras Systems YouTube Channel (@xorassystems)</h4>
+            <p>Access our complete video library of bare-metal architecture proofs, multi-agent stress tests, and formal verification walkthroughs.</p>
+          </div>
+        </div>
+        <div class="yt-channel-actions">
+          <a href="https://www.youtube.com/@xorassystems?sub_confirmation=1" target="_blank" rel="noopener noreferrer" class="btn btn-yt">
+            🔴 Subscribe to @xorassystems
+          </a>
+          <a href="https://www.youtube.com/@xorassystems/shorts" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            Browse All Shorts
+          </a>
+        </div>
+      </div>
+
       <div class="shorts-grid">
         <div class="short-card">
           <video src="assets/videos/how_mtpo_fixes_multi_agent_collisions.mp4" controls poster="assets/videos/how_mtpo_fixes_multi_agent_collisions_poster.jpg" preload="metadata"></video>
           <div class="short-info">
-            <h4>How MTPO Fixes Multi-Agent Collisions</h4>
-            <p>Monotonic serialization ranks prevent thread deadlocks and race conditions in high-contention swarms.</p>
+            <div>
+              <h4><a href="https://www.youtube.com/@xorassystems/shorts" target="_blank" rel="noopener noreferrer">How MTPO Fixes Multi-Agent Collisions</a></h4>
+              <p>Monotonic serialization ranks prevent thread deadlocks and race conditions in high-contention swarms.</p>
+            </div>
+            <div>
+              <a href="https://www.youtube.com/@xorassystems/shorts" target="_blank" rel="noopener noreferrer" class="yt-card-btn">
+                ▶ Watch Short on YouTube
+              </a>
+              <a href="https://youtu.be/midDBXtO_Q8" target="_blank" rel="noopener noreferrer" style="font-size:0.75rem; color:var(--primary); margin-top:4px; display:block; text-align:center; text-decoration:none;">
+                Watch Full Masterclass (7m 45s)
+              </a>
+            </div>
           </div>
         </div>
 
         <div class="short-card">
           <video src="assets/videos/how_mars_audits_ai_agents.mp4" controls poster="assets/videos/how_mars_audits_ai_agents_poster.jpg" preload="metadata"></video>
           <div class="short-info">
-            <h4>How MARS Audits AI Agents</h4>
-            <p>14-Gate Blackbox Gauntlet falsification testing replacing blind prompt trust with empirical receipts.</p>
+            <div>
+              <h4><a href="https://youtu.be/a8zi4H2-Ni8" target="_blank" rel="noopener noreferrer">How MARS Audits AI Agents</a></h4>
+              <p>14-Gate Blackbox Gauntlet falsification testing replacing blind prompt trust with empirical receipts.</p>
+            </div>
+            <div>
+              <a href="https://youtu.be/a8zi4H2-Ni8" target="_blank" rel="noopener noreferrer" class="yt-card-btn">
+                ▶ Watch Grok Concession on YouTube
+              </a>
+            </div>
           </div>
         </div>
 
         <div class="short-card">
           <video src="assets/videos/how_multi_agent_validation_stops_ai_disasters.mp4" controls poster="assets/videos/how_multi_agent_validation_stops_ai_disasters_poster.jpg" preload="metadata"></video>
           <div class="short-info">
-            <h4>Multi-Agent Validation Stops Disasters</h4>
-            <p>Fail-closed Trinity consensus gates protecting real human lives and clinical precision.</p>
+            <div>
+              <h4><a href="https://youtu.be/VHjUDKcojvQ" target="_blank" rel="noopener noreferrer">Multi-Agent Validation Stops Disasters</a></h4>
+              <p>Fail-closed Trinity consensus gates protecting real human lives and clinical precision during stress tests.</p>
+            </div>
+            <div>
+              <a href="https://youtu.be/VHjUDKcojvQ" target="_blank" rel="noopener noreferrer" class="yt-card-btn">
+                ▶ Watch 100k Stress Test on YouTube
+              </a>
+            </div>
           </div>
         </div>
 
         <div class="short-card">
           <video src="assets/videos/how_mars_eliminates_ai_hallucinations.mp4" controls poster="assets/videos/how_mars_eliminates_ai_hallucinations_poster.jpg" preload="metadata"></video>
           <div class="short-info">
-            <h4>Eliminating AI Hallucinations</h4>
-            <p>Hardware taint promotion from candidate [0xDEAD] to decision [0xBEAF] via mechanical invariant gates.</p>
+            <div>
+              <h4><a href="https://www.youtube.com/watch?v=0IczfqA3Omc" target="_blank" rel="noopener noreferrer">Eliminating AI Hallucinations</a></h4>
+              <p>Hardware taint promotion from candidate [0xDEAD] to decision [0xBEAF] via mechanical invariant gates.</p>
+            </div>
+            <div>
+              <a href="https://www.youtube.com/watch?v=0IczfqA3Omc" target="_blank" rel="noopener noreferrer" class="yt-card-btn">
+                ▶ Watch Full Breakdown on YouTube
+              </a>
+            </div>
           </div>
         </div>
 
         <div class="short-card">
           <video src="assets/videos/how_mtpo_fixes_ai_persona_drift.mp4" controls poster="assets/videos/how_mtpo_fixes_ai_persona_drift_poster.jpg" preload="metadata"></video>
           <div class="short-info">
-            <h4>Fixing Persona &amp; Context Drift</h4>
-            <p>18,432-D Poincaré hyperbolic memory manifold eliminating flat Euclidean topic bleed.</p>
+            <div>
+              <h4><a href="https://youtu.be/NFC0ZCGmXVM" target="_blank" rel="noopener noreferrer">Fixing Persona &amp; Context Drift</a></h4>
+              <p>18,432-D Poincaré hyperbolic memory manifold eliminating flat Euclidean topic bleed and state pollution.</p>
+            </div>
+            <div>
+              <a href="https://youtu.be/NFC0ZCGmXVM" target="_blank" rel="noopener noreferrer" class="yt-card-btn">
+                ▶ Watch Z3 Memory Drift on YouTube
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="short-card">
+          <img src="assets/images/state_crash_split_brain_fix.png" alt="Architecting Reliable AI" style="width:100%; aspect-ratio:9/16; object-fit:cover; background:#000;">
+          <div class="short-info">
+            <div>
+              <h4><a href="https://www.youtube.com/watch?v=ufvVIp9KUyI" target="_blank" rel="noopener noreferrer">Architecting Reliable AI: Failure Modes</a></h4>
+              <p>Full breakdown of agent failure modes, state crash recovery, and how to stop catastrophic cascade splits.</p>
+            </div>
+            <div>
+              <a href="https://www.youtube.com/watch?v=ufvVIp9KUyI" target="_blank" rel="noopener noreferrer" class="yt-card-btn">
+                ▶ Watch Failure Modes on YouTube (7m 07s)
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="short-card">
+          <img src="assets/images/mars_architecture_bare_metal_os.png" alt="Multi-Agent OS Architecture" style="width:100%; aspect-ratio:9/16; object-fit:cover; background:#000;">
+          <div class="short-info">
+            <div>
+              <h4><a href="https://www.youtube.com/watch?v=ulM4-dZuaPs" target="_blank" rel="noopener noreferrer">The Multi-Agent OS Architecture</a></h4>
+              <p>Memory, state, and bare-metal mechanics explained: deep dive into the operating system for agent swarms.</p>
+            </div>
+            <div>
+              <a href="https://www.youtube.com/watch?v=ulM4-dZuaPs" target="_blank" rel="noopener noreferrer" class="yt-card-btn">
+                ▶ Watch Multi-Agent OS on YouTube (7m 59s)
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="short-card">
+          <img src="assets/images/zero_trust_12us_memory.png" alt="AI Integrity Audit" style="width:100%; aspect-ratio:9/16; object-fit:cover; background:#000;">
+          <div class="short-info">
+            <div>
+              <h4><a href="https://www.youtube.com/watch?v=BbKosYRjLn0" target="_blank" rel="noopener noreferrer">AI Integrity Audit: People &amp; Systems</a></h4>
+              <p>Are you replacing your people or empowering them? The executive integrity audit for enterprise AI deployment.</p>
+            </div>
+            <div>
+              <a href="https://www.youtube.com/watch?v=BbKosYRjLn0" target="_blank" rel="noopener noreferrer" class="yt-card-btn">
+                ▶ Watch Integrity Audit on YouTube (6m 34s)
+              </a>
+            </div>
           </div>
         </div>
       </div>
