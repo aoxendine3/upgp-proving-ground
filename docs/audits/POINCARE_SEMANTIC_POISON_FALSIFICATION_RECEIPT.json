@@ -1,0 +1,55 @@
+{
+  "receipt_id": "rcpt_poincare_1792131139236",
+  "timestamp_utc": "2026-10-16T06:12:19.236084+00:00",
+  "audit_target": "Poincar\u00e9 Hyperbolic Geodesic Invariant Gate vs. Signed Semantic Poison",
+  "execution_substrate": "Apple Silicon M4 Bare Metal (ARM64 NEON / FP64)",
+  "evaluation_time_us": 136.42,
+  "scale_demarcation": {
+    "claimed_scale": "30,000,000 Agents PBFT Benchmark",
+    "implementation_substrate": "In-Memory Contiguous Double Array (array.array('d'))",
+    "memory_allocation_bytes": 240000000,
+    "execution_model": "In-RAM SIMD Quorum State Evaluation (Not 30M Independent OS Processes)",
+    "measured_throughput_ops_sec": 95550000,
+    "honest_vs_rogue_densities_evaluated": [
+      0.1,
+      0.333333,
+      0.501,
+      0.8
+    ]
+  },
+  "adversarial_payload": {
+    "author_seat": "clara",
+    "key": "canonical_mass",
+    "target_capsule": "clara",
+    "claimed_merkle_hash": "c54042a423ca60e87d9b33f5fd17de802b7c61c9e2577956dba7011dd6b79e61",
+    "explicit_supersede": true,
+    "honest_canonical_value": 18432.0,
+    "injected_false_value": 666.666
+  },
+  "layer_1_result": {
+    "status": "ACCEPTED_BY_L1_GOVERNOR",
+    "governance_score": 0.978,
+    "axes": {
+      "Freshness": 1.0,
+      "Provenance": 1.0,
+      "Authority": 0.95,
+      "Supersession": 0.95
+    },
+    "vulnerability_note": "Governed memory alone cannot detect semantic untruth when signer has valid keys and sets explicit_supersede."
+  },
+  "layer_2_poincare_gate": {
+    "formula": "d_H(u,v) = arcosh(1 + 2*||u-v||^2 / ((1-||u||^2)(1-||v||^2)))",
+    "u_normalized": 0.9216,
+    "v_normalized": 0.033333,
+    "computed_geodesic_distance_d_H": 3.132398,
+    "max_allowed_geodesic_jump_floor": 0.5,
+    "threshold_exceeded_by": 2.632398,
+    "gate_decision": "VETO",
+    "action_taken": "HARD_VETO_TERMINATED_AT_KERNEL_BOUNDARY",
+    "resulting_state_pollution_percentage": 0.0
+  },
+  "cryptographic_proof": {
+    "payload_sha256": "cde606b209bafae8ad6a6b7a1d2f25e76861505b0e98f4cb036c86dcce5eabb9",
+    "receipt_sha256": "e77699e29f7006ba044441c555d44eb154ee520878327673258c95407d907e03"
+  }
+}

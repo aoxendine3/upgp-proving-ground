@@ -17,3 +17,7 @@ jobs:
         run: |
           python3 ops/scripts/test_upgp_wasm_module.py
           python3 ops/scripts/enforce_doc_sync_gate.py
+
+      - name: Poincaré Geodesic Invariant Gate & Poison Replay Falsification
+        run: |
+          python3 ops/scripts/replay_poincare_poison_falsification.py
