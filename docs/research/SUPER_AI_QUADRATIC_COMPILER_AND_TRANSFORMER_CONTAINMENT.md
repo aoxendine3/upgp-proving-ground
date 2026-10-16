@@ -1,7 +1,7 @@
 # Super AI Containment: Transformers, Compilers/Decompilers, & Quadratic Forms
 
 **Document Control Number**: XORAS-ADVANCED-024  
-**Target Architecture**: UPGP v4.0 Ultra  
+**Target Architecture**: UPGP v5.0 Ultra  
 **Classification**: Unified Super AI Substrate Specification  
 **Authors**: Lead 9 Council Systems & Deep Learning Engineering Board  
 

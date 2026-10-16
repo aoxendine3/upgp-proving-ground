@@ -1,5 +1,5 @@
 /**
- * UPGP v4.0 Ultra Un-Mocked Proving Ground Verification Suite
+ * UPGP v5.0 Ultra Un-Mocked Proving Ground Verification Suite
  * Executes 15 Sandbox Escape Vectors, Side-Channel Latency Profiles, and Seccomp-BPF Profile Validation.
  */
 
@@ -9,7 +9,7 @@ import * as crypto from 'crypto';
 
 function runSideChannelDiagnostics() {
   console.log("=====================================================================");
-  console.log("        XORAS SYSTEMS: UPGP v4.0 UN-MOCKED PROVING GROUND            ");
+  console.log("        XORAS SYSTEMS: UPGP v5.0 UN-MOCKED PROVING GROUND            ");
   console.log("                 MICROARCHITECTURAL & ESCAPE GAUNTLET                ");
   console.log("=====================================================================");
   
@@ -64,7 +64,7 @@ function runSideChannelDiagnostics() {
   }
   console.log("=====================================================================");
   console.log("[+] Generated Linux Seccomp-BPF Profile (19 syscall rules enforced).");
-  console.log("[✓] UPGP v4.0 CORE & UN-MOCKED 15-VECTOR ESCAPE GAUNTLET COMPLETE.");
+  console.log("[✓] UPGP v5.0 CORE & UN-MOCKED 15-VECTOR ESCAPE GAUNTLET COMPLETE.");
   console.log("    ALL TIMING AND CONCURRENCY SIDE-CHANNELS NOMINAL (PASS). UNBREAKABLE SANDBOX SEALED.");
 }
 

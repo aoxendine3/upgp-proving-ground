@@ -1,16 +1,16 @@
-# Universal Proving Ground Protocol (UPGP v4.0 Ultra)
+# Universal Proving Ground Protocol (UPGP v5.0 Ultra)
 
-> **UPGP v4.0 Ultra** is an ultra-hardened, lock-free AI sandbox runtime and microarchitectural security suite. It provides active Linux kernel Seccomp-BPF system call filtering (`prctl` PR_SET_SECCOMP native C bindings), Landlock LSM path isolation, Z3 SMT formal proof verification, 15-vector escape defense, 290,000+ ops/sec lock-free POSIX shared memory atomic double-buffering, and a live web telemetry dashboard.
+> **UPGP v5.0 Ultra** is an ultra-hardened, lock-free AI sandbox runtime and microarchitectural security suite. It provides active Linux kernel Seccomp-BPF system call filtering (`prctl` PR_SET_SECCOMP native C bindings), Landlock LSM path isolation, ARM64 Sail formal translation validation, Z3 SMT formal proof verification, 15-vector escape defense, 290,000+ ops/sec lock-free POSIX shared memory atomic double-buffering, and a live web telemetry dashboard.
 
-![UPGP v4.0 Ultra Live Cryptographic Telemetry Dashboard](docs/assets/images/upgp_v4_ultra_telemetry_dashboard.jpg)
+![UPGP v5.0 Ultra Live Cryptographic Telemetry Dashboard](docs/assets/images/upgp_v4_ultra_telemetry_dashboard.jpg)
 
-![UPGP v4.0 Ultra 4-Tier Kernel Isolation Architecture](docs/assets/images/upgp_v4_ultra_kernel_isolation_flow.jpg)
+![UPGP v5.0 Ultra 4-Tier Kernel Isolation Architecture](docs/assets/images/upgp_v4_ultra_kernel_isolation_flow.jpg)
 
 ---
 
 ## Technical Specifications & 15-Vector Boundary Controls
 
-UPGP v4.0 Ultra enforces fifteen un-mocked runtime controls designed to contain autonomous AI agent workloads and red-team exploit attempts:
+UPGP v5.0 Ultra enforces fifteen un-mocked runtime controls designed to contain autonomous AI agent workloads and red-team exploit attempts:
 
 | Vector ID | Defense Surface | Isolation Mechanism | Verification Criteria | Status |
 | :--- | :--- | :--- | :--- | :---: |
@@ -34,7 +34,7 @@ UPGP v4.0 Ultra enforces fifteen un-mocked runtime controls designed to contain 
 
 ## Active Seccomp-BPF Kernel Enforcement & Native C Bindings
 
-Unlike legacy declarative-only profiles, UPGP v4.0 Ultra features **Active Runtime Enforcement Hooks** ([SeccompProfile.ts](core/products/upgp/SeccompProfile.ts) & [upgp_seccomp_native.c](src/native/upgp_seccomp_native.c)):
+Unlike legacy declarative-only profiles, UPGP v5.0 Ultra features **Active Runtime Enforcement Hooks** ([SeccompProfile.ts](core/products/upgp/SeccompProfile.ts) & [upgp_seccomp_native.c](src/native/upgp_seccomp_native.c)):
 
 - **Native Process Attachment**: Calls `prctl(PR_SET_NO_NEW_PRIVS, 1)` and `prctl(PR_SET_SECCOMP, SECCOMP_MODE_FILTER)` directly from native C N-API bindings to lock the active process.
 - **19 Explicit SCMP_ACT_KILL Syscall Rules**: Immediately terminates processes attempting restricted syscalls (`ptrace`, `process_vm_writev`, `process_vm_readv`, `unshare`, `kexec_load`, `kexec_file_load`, `reboot`, `userfaultfd`, `bpf`, `perf_event_open`, `keyctl`, `io_uring_setup`, etc.).
@@ -79,7 +79,7 @@ Unlike legacy declarative-only profiles, UPGP v4.0 Ultra features **Active Runti
 git clone https://github.com/user/SSOT_Agentic_Brain.git
 cd SSOT_Agentic_Brain
 
-# Run full UPGP v4.0 Ultra verification suite (Z3 proofs, 15 TS vectors, 5 C exploits)
+# Run full UPGP v5.0 Ultra verification suite (Z3 proofs, 15 TS vectors, 5 C exploits)
 python3 ops/scripts/run_upgp_full_test_gauntlet.py
 
 # Launch live dark-mode UPGP Telemetry Web Dashboard (http://localhost:8443)

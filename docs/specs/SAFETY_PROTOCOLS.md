@@ -1,15 +1,15 @@
-# 🛡️ UPGP v4.0 Ultra: Enterprise Security & Compliance Protocols
+# 🛡️ UPGP v5.0 Ultra: Enterprise Security & Compliance Protocols
 
-> **Universal Proving Ground Protocol (UPGP v4.0 Ultra)**  
+> **Universal Proving Ground Protocol (UPGP v5.0 Ultra)**  
 > *Government Security Standards Mapping & Microarchitectural Containment Protocols*
 
 ---
 
 ## 1. Government & Enterprise Security Compliance Mapping
 
-UPGP v4.0 Ultra is engineered to comply with major government, federal, and enterprise cybersecurity control frameworks:
+UPGP v5.0 Ultra is engineered to comply with major government, federal, and enterprise cybersecurity control frameworks:
 
-| Compliance Framework | Control Reference | UPGP v4.0 Ultra Implementation & Assurance |
+| Compliance Framework | Control Reference | UPGP v5.0 Ultra Implementation & Assurance |
 | :--- | :--- | :--- |
 | **NIST SP 800-53 Rev. 5** | **SA-11** (Developer Security Testing) | Un-mocked automated unit & side-channel gauntlet (`tests/UPGPProvingGround.test.ts`) |
 | **NIST SP 800-53 Rev. 5** | **SC-13** (Cryptographic Protection) | Native FIPS-compliant cryptographic primitives (AES-256-GCM, PBKDF2, HKDF-SHA256) |

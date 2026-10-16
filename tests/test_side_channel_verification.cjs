@@ -107,7 +107,7 @@ class UPGPVM {
 
 async function executeUPGPVerificationSuite() {
     console.log(`${BOLD}${CYAN}=====================================================================`);
-    console.log(`        XORAS SYSTEMS: UPGP v3.0 SIDE-CHANNEL PROVING GROUND        `);
+    console.log(`        XORAS SYSTEMS: UPGP v5.0 SIDE-CHANNEL PROVING GROUND        `);
     console.log(`                 PLATFORM-AGNOSTIC DIAGNOSTIC HEALTH                `);
     console.log(`=====================================================================${RESET}\n`);
 
@@ -186,7 +186,7 @@ async function executeUPGPVerificationSuite() {
 
     const overallPass = tTestPass && fRatioPass && ksPass && wassersteinPass;
     if (overallPass) {
-        console.log(`${BOLD}${GREEN}[✓] UPGP v3.0 CORE VERIFICATION COMPLETE.`);
+        console.log(`${BOLD}${GREEN}[✓] UPGP v5.0 CORE VERIFICATION COMPLETE.`);
         console.log(`    ALL TIMING AND CONCURRENCY SIDE-CHANNELS NOMINAL (PASS).${RESET}\n`);
     } else {
         console.log(`${BOLD}${RED}[!] BENCHMARK CHECKPASS FAILED. ADJUST PADDING PARAMS.${RESET}\n`);

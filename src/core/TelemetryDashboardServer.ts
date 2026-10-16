@@ -1,12 +1,12 @@
 /**
- * UPGP v4.0 Ultra — Native Telemetry Dashboard Web Server
+ * UPGP v5.0 Ultra — Native Telemetry Dashboard Web Server
  * Includes un-mocked cryptographic signature verification, anti-replay freshness checking, and bit-flip detection.
  */
 
-import * as http from 'http';
-import * as fs from 'fs';
-import * as path from 'path';
-import * as crypto from 'crypto';
+import * as http from 'node:http';
+import * as fs from 'node:fs';
+import * as path from 'node:path';
+import * as crypto from 'node:crypto';
 
 export class TelemetryDashboardServer {
   private port: number;
@@ -80,7 +80,7 @@ export class TelemetryDashboardServer {
     const currentNonce = nonce !== undefined ? nonce : Date.now();
 
     const payload = {
-      version: 'UPGP-4.0-ULTRA',
+      version: 'UPGP-5.0-ULTRA',
       vectors: 15,
       enclave: 'APPLE_SILICON_M4_POSIX_SHM',
       timestamp: currentTs,
@@ -164,7 +164,7 @@ export class TelemetryDashboardServer {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>UPGP v4.0 Ultra Sandbox — Anti-Replay Telemetry Dashboard</title>
+  <title>UPGP v5.0 Ultra Sandbox — Anti-Replay Telemetry Dashboard</title>
   <style>
     :root {
       --bg-dark: #0b131e;
@@ -198,7 +198,7 @@ export class TelemetryDashboardServer {
 </head>
 <body>
   <header>
-    <h1>🛡️ UPGP v4.0 Ultra — Anti-Replay Telemetry Dashboard</h1>
+    <h1>🛡️ UPGP v5.0 Ultra — Anti-Replay Telemetry Dashboard</h1>
     <div id="status-badge" class="status-badge secure">● SYSTEM OPTIMAL</div>
   </header>
   <div class="grid">

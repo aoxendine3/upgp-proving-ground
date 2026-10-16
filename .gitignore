@@ -16,6 +16,8 @@ node_modules/
 **/node_modules/
 *.wav
 *.mp4
+!assets/videos/*.mp4
+!docs/assets/videos/*.mp4
 *.dmg
 capabilities/neural_models/*.onnx
 *.onnx

@@ -1,7 +1,7 @@
-# NASA V&V Technical Memorandum: UPGP v4.0 Ultra Byzantine Swarm Pressure Test & Exploit Falsification
+# NASA V&V Technical Memorandum: UPGP v5.0 Ultra Byzantine Swarm Pressure Test & Exploit Falsification
 
 **Document Control Number**: XORAS-V&V-021  
-**Target Substrate**: Universal Proving Ground (UPGP v4.0 Ultra)  
+**Target Substrate**: Universal Proving Ground (UPGP v5.0 Ultra)  
 **Assurance Level**: High-Assurance Sandbox Defense (NASA-STD-8719.13C / ISO 26262 ASIL-D / NIST SP 800-53 R5)  
 **Date**: October 9, 2026  
 **Auditors**: Lead 9 Council (Maxx, Clara, William Vance, Jarvis)  
@@ -9,7 +9,7 @@
 ---
 
 ## 1. Abstract & Falsification Objective
-This technical memorandum presents empirical results from the **Byzantine Swarm Full Pressure Test** executed against UPGP v4.0 Ultra (`upgp-proving-ground`). The goal was to subject the sandbox defense architecture to active adversarial breakout attempts using compiled C exploit binaries attacking kernel interfaces (`ptrace`, `/proc/self/mem`, `unshare`, `AF_PACKET`, `bpf`), while evaluating side-channel timing indistinguishability and host isolation bounds.
+This technical memorandum presents empirical results from the **Byzantine Swarm Full Pressure Test** executed against UPGP v5.0 Ultra (`upgp-proving-ground`). The goal was to subject the sandbox defense architecture to active adversarial breakout attempts using compiled C exploit binaries attacking kernel interfaces (`ptrace`, `/proc/self/mem`, `unshare`, `AF_PACKET`, `bpf`), while evaluating side-channel timing indistinguishability and host isolation bounds.
 
 ---
 

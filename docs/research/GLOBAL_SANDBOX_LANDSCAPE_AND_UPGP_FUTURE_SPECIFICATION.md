@@ -32,7 +32,7 @@ This specification analyzes the global sandbox landscape, evaluates existing com
 | **WebAssembly / WASI** | Wasm Runtime (Wasmtime) | < 1ms | Memory-safe bytecode sandbox | Instant startup, deterministic memory limits. | Restricted hardware access, no native C/Rust/Python binary support without compilation overhead. |
 | **Docker / OCI Enclaves** | Namespaces + Seccomp | ~100ms – 500ms | OS-level Container Isolation | Universal developer tooling, rich ecosystem support. | Shared host kernel attack surface; vulnerable to kernel 0-days (`io_uring`, `unshare`). |
 | **E2B / Modal / Daytona** | Cloud MicroVM Swarms | ~200ms – 1.5s | Remote Cloud Container Execution | Turnkey developer APIs, multi-language support. | Heavy network roundtrip latencies, expensive cloud runtime costs, external data leakage risk. |
-| **XORAS UPGP v4.0** | Seccomp-BPF + POSIX SHM | **< 100 microseconds** | **Hyperbolic Memory + Ring 0 BPF** | **Zero lock stalls (290K+ ops/sec), Z3 formal proofs, Welch T < 1.96.** | Requiring native Linux kernel host for active hardware `SIGSYS` traps on non-Linux OS. |
+| **XORAS UPGP v5.0** | Seccomp-BPF + POSIX SHM | **< 100 microseconds** | **Hyperbolic Memory + Ring 0 BPF** | **Zero lock stalls (290K+ ops/sec), Z3 formal proofs, Welch T < 1.96.** | Requiring native Linux kernel host for active hardware `SIGSYS` traps on non-Linux OS. |
 
 ---
 

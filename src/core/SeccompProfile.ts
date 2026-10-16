@@ -1,14 +1,14 @@
 /**
- * Universal Proving Ground Sandbox (UPGP v4.0 Ultra)
+ * Universal Proving Ground Sandbox (UPGP v5.0 Ultra)
  * SeccompProfile: Declarative Policy Generation & Active Runtime Kernel Enforcement
  * 
  * Bridges declarative JSON policy structures with active Linux kernel BPF filters via
  * native C bindings (prctl PR_SET_SECCOMP), container OCI security-opts, and attestation logging.
  */
 
-import * as fs from 'fs';
-import * as path from 'path';
-import * as child_process from 'child_process';
+import * as fs from 'node:fs';
+import * as path from 'node:path';
+import * as child_process from 'node:child_process';
 
 export interface SeccompSyscallRule {
   names: string[];

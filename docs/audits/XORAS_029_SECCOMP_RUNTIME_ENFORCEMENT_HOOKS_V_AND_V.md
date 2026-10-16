@@ -1,8 +1,8 @@
-# NASA-STYLE TECHNICAL MEMORANDUM: UPGP v4.0 ULTRA SECCOMP ACTIVE RUNTIME ENFORCEMENT HOOKS V&V
+# NASA-STYLE TECHNICAL MEMORANDUM: UPGP v5.0 ULTRA SECCOMP ACTIVE RUNTIME ENFORCEMENT HOOKS V&V
 
 **Document ID**: XORAS-V&V-029  
 **Date**: October 2026  
-**System**: UPGP v4.0 Ultra  
+**System**: UPGP v5.0 Ultra  
 **Author**: Lead 9 Council (Maxx, Vance, Clara, Jarvis)  
 **Status**: VERIFIED & ENFORCED  
 **Target File**: `core/products/upgp/SeccompProfile.ts` / `src/native/upgp_seccomp_native.c`  

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-UPGP v4.0 Ultra — Adversarial Bit-Flip Signature Falsification Test
+UPGP v5.0 Ultra — Adversarial Bit-Flip Signature Falsification Test
 Demonstrates un-mocked telemetry verification by intentionally mutating 1 bit in state signature.
 """
 
@@ -23,7 +23,7 @@ def write_fresh_manifest():
         os.remove(SEEN_NONCES_PATH)
     
     payload = {
-        "version": "UPGP-4.0-ULTRA",
+        "version": "UPGP-5.0-ULTRA",
         "vectors": 15,
         "enclave": "APPLE_SILICON_M4_POSIX_SHM",
         "timestamp": int(time.time()),
@@ -46,7 +46,7 @@ def get_telemetry():
 
 def test_falsification():
     print("==========================================================================")
-    print("  UPGP v4.0 ULTRA ADVERSARIAL BIT-FLIP SIGNATURE FALSIFICATION TEST")
+    print("  UPGP v5.0 ULTRA ADVERSARIAL BIT-FLIP SIGNATURE FALSIFICATION TEST")
     print("==========================================================================")
 
     # 1. Fetch baseline telemetry with pristine fresh manifest

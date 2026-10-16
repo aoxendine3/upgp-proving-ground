@@ -144,7 +144,7 @@ def verify_state_transition(prev_state_hex, next_state_hex, payload_hash_hex):
 
 ## 7. Comprehensive Market Comparison
 
-| Containment Axis | Legacy Docker | Firecracker / gVisor | Commercial AI Sandbox | UPGP v4.0 Deep Ultra |
+| Containment Axis | Legacy Docker | Firecracker / gVisor | Commercial AI Sandbox | UPGP v5.0 Deep Ultra |
 | :--- | :--- | :--- | :--- | :---: |
 | **Syscall Filter** | Default Seccomp | Sentry Hypervisor | Basic Syscall Filter | **Seccomp-BPF + Landlock LSM (v1-v4)** |
 | **MicroVM Enclave** | No | KVM / ptrace | Rare | **Firecracker KVM Hypervisor Adapter** |

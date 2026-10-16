@@ -1,4 +1,4 @@
-# Universal Super AI Development & Containment Specification (UPGP v4.0 Ultra)
+# Universal Super AI Development & Containment Specification (UPGP v5.0 Ultra)
 
 **Document Control Number**: XORAS-RESEARCH-022  
 **Status**: ARCHITECTURAL SPECIFICATION & R&D ROADMAP  
@@ -69,7 +69,7 @@ assert s.check() == sat
 
 ## 3. Comparative Market Benchmark Matrix
 
-| Feature / Metric | Standard Docker | gVisor / Firecracker | Enterprise AI Sandbox | UPGP v4.0 Ultra |
+| Feature / Metric | Standard Docker | gVisor / Firecracker | Enterprise AI Sandbox | UPGP v5.0 Ultra |
 | :--- | :--- | :--- | :--- | :---: |
 | **Syscall Filtering** | Standard Default | Sentry Virtualization | Static Seccomp | **Native Seccomp-BPF + Landlock LSM** |
 | **MicroVM Isolation** | No (Shared Kernel) | Yes (KVM / ptrace) | Rare | **Firecracker KVM Adapter** |

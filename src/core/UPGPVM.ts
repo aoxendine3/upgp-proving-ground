@@ -1,6 +1,6 @@
 /**
  * © 2026 Xoras Systems LLC. All rights reserved.
- * Universal Proving Ground Protocol (UPGP v3.0) - Platform-Agnostic Core VM
+ * Universal Proving Ground Protocol (UPGP v5.0 Ultra) - Platform-Agnostic Core VM
  * FOR TESTING & VERIFICATION PURPOSES ONLY // NO COPIES OR CODE GRABS PERMITTED
  */
 

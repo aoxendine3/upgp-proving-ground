@@ -1,5 +1,5 @@
 // =============================================================================
-// XORAS SOVRA WASM CORE ENGINE (UPGP v4.0 ULTRA)
+// XORAS SOVRA WASM CORE ENGINE (UPGP v5.0 ULTRA)
 // Un-mocked WebAssembly Kernel for HexCell, MTPO Concurrency & Anti-Replay
 // =============================================================================
 

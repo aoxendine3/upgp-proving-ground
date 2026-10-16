@@ -1,4 +1,4 @@
-# UPGP v4.0 Ultra WebAssembly Simulator: Technical Video Walkthrough Specification
+# UPGP v5.0 Ultra WebAssembly Simulator: Technical Video Walkthrough Specification
 **Document ID**: XORAS-SPEC-031  
 **Author**: The Lead 9 Council (Maxx / Vance / Clara / Jarvis / DAXX)  
 **Target Output**: 1080p 60fps High-Impact Technical Video & Storyboard Asset  
@@ -8,7 +8,7 @@
 
 ## 1. Executive Summary & Objective
 
-This specification details the 90-second technical video walkthrough for the **UPGP v4.0 Ultra WebAssembly (WASM) Simulator**, hosted live on GitHub Pages ([`https://user.github.io/upgp-proving-ground/`](https://user.github.io/upgp-proving-ground/)).
+This specification details the 90-second technical video walkthrough for the **UPGP v5.0 Ultra WebAssembly (WASM) Simulator**, hosted live on GitHub Pages ([`https://user.github.io/upgp-proving-ground/`](https://user.github.io/upgp-proving-ground/)).
 
 The video demonstrates four un-mocked interactive capabilities running natively inside the browser via `upgp_simulator.wasm`:
 1. **16,000 MTPO Concurrency Write Collision Simulation**: Live lock-free HexCell atomic double-buffering.
@@ -23,7 +23,7 @@ The video demonstrates four un-mocked interactive capabilities running natively 
 ### Scene 1: Bare-Metal WebAssembly Architecture (0:00 - 0:20)
 * **Visual**: High-tech split-screen showing `index.html` loading `assets/wasm/upgp_simulator.wasm` (220 KB compiled Rust binary) alongside Chrome DevTools WebAssembly Memory Inspector.
 * **Audio Voiceover (Maxx - Lead Architect)**:
-  > "Welcome to the UPGP v4.0 Ultra Proving Ground. What you are looking at is not a static webpage or a server mock—it is a live, compiled Rust WebAssembly kernel running directly inside your browser."
+  > "Welcome to the UPGP v5.0 Ultra Proving Ground. What you are looking at is not a static webpage or a server mock—it is a live, compiled Rust WebAssembly kernel running directly inside your browser."
 
 ---
 

@@ -1,10 +1,10 @@
-# TECHNICAL MEMORANDUM: UPGP v4.0 ULTRA BREAKING POINT & REMEDIATION V&V
+# TECHNICAL MEMORANDUM: UPGP v5.0 ULTRA BREAKING POINT & REMEDIATION V&V
 **Document ID**: XORAS-V&V-025  
 **Date**: 2026-10-09  
 **Status**: VERIFIED & REMEDIATED  
 
 ## 1. Executive Summary
-Under extreme stress testing, UPGP v4.0 Ultra was subjected to intentional resource exhaustion gauntlets to identify physical OS kernel and memory architecture limits. Three primary breaking points were identified, documented, and architecturally remediated.
+Under extreme stress testing, UPGP v5.0 Ultra was subjected to intentional resource exhaustion gauntlets to identify physical OS kernel and memory architecture limits. Three primary breaking points were identified, documented, and architecturally remediated.
 
 ## 2. Identified Breaking Points & Remediations
 

@@ -1,5 +1,5 @@
 /**
- * Universal Proving Ground Sandbox (UPGP v4.0 Ultra)
+ * Universal Proving Ground Sandbox (UPGP v5.0 Ultra)
  * SeccompProfile: Declarative Policy Generation & Active Runtime Kernel Enforcement
  * 
  * Bridges declarative JSON policy structures with active Linux kernel BPF filters via

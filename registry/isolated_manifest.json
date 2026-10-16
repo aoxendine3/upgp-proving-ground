@@ -1,0 +1,39 @@
+{
+  "schema": "xoras.dependency_registry.v1",
+  "project": "upgp-proving-ground",
+  "version": "5.0.0-ultra",
+  "isolation_policy": "STRICT_HERMETIC_ZERO_AMBIENT",
+  "substrate_runtimes": {
+    "node": {
+      "strategy": "BUILTIN_STANDARD_LIBRARY_ONLY",
+      "modules": [
+        "node:crypto",
+        "node:child_process",
+        "node:fs",
+        "node:path",
+        "node:http",
+        "node:buffer"
+      ],
+      "external_npm_packages_required": 0,
+      "ambient_global_modules": false
+    },
+    "rust": {
+      "strategy": "OFFLINE_HERMETIC_CARGO",
+      "edition": "2021",
+      "offline_enforced": true,
+      "external_crates_required": 0
+    },
+    "python": {
+      "strategy": "ISOLATED_VENV_SANDBOX",
+      "required_modules": [
+        "z3-solver"
+      ],
+      "pip_network_allowed_at_runtime": false
+    }
+  },
+  "attestation": {
+    "signed_by": "john",
+    "timestamp": "2026-10-15T20:15:00-04:00",
+    "zero_host_machine_leakage": true
+  }
+}

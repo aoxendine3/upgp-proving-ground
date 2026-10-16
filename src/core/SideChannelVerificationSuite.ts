@@ -1,6 +1,6 @@
 /**
  * © 2026 Xoras Systems LLC. All rights reserved.
- * UPGP v3.0 Side-Channel Statistical Verification Suite
+ * UPGP v5.0 Ultra Side-Channel Statistical Verification Suite
  * FOR TESTING & VERIFICATION PURPOSES ONLY // NO COPIES OR CODE GRABS PERMITTED
  */
 
@@ -92,7 +92,7 @@ export class Statistics {
  */
 export async function executeUPGPVerificationSuite() {
     console.log(`${BOLD}${CYAN}=====================================================================`);
-    console.log(`        XORAS SYSTEMS: UPGP v3.0 SIDE-CHANNEL PROVING GROUND        `);
+    console.log(`        XORAS SYSTEMS: UPGP v5.0 ULTRA SIDE-CHANNEL PROVING GROUND   `);
     console.log(`                 PLATFORM-AGNOSTIC DIAGNOSTIC HEALTH                `);
     console.log(`=====================================================================${RESET}\n`);
 
@@ -185,7 +185,7 @@ export async function executeUPGPVerificationSuite() {
 
     const overallPass = tTestPass && fRatioPass && ksPass && wassersteinPass;
     if (overallPass) {
-        console.log(`${BOLD}${GREEN}[✓] UPGP v3.0 CORE VERIFICATION COMPLETE.`);
+        console.log(`${BOLD}${GREEN}[✓] UPGP v5.0 ULTRA CORE VERIFICATION COMPLETE.`);
         console.log(`    ALL TIMING AND CONCURRENCY SIDE-CHANNELS NOMINAL (PASS).${RESET}\n`);
     } else {
         console.log(`${BOLD}${RED}[!] BENCHMARK CHECKPASS FAILED. ADJUST PADDING PARAMS.${RESET}\n`);

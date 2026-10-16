@@ -1,7 +1,7 @@
 {
   "name": "upgp-proving-ground",
-  "version": "4.0.0-ultra",
-  "description": "Universal Proving Ground Protocol (UPGP v4.0 Ultra) — Hardened AI Sandbox Runtime, Active Linux Seccomp-BPF Kernel Filters, 15-Vector Escape Defense & Cryptographic Anti-Replay Telemetry Server",
+  "version": "5.0.0-ultra",
+  "description": "Universal Proving Ground Protocol (UPGP v5.0 Ultra) — Hardened AI Sandbox Runtime, Active Linux Seccomp-BPF Kernel Filters, 15-Vector Escape Defense & Cryptographic Anti-Replay Telemetry Server",
   "main": "core/products/upgp/SeccompProfile.ts",
   "type": "module",
   "scripts": {
