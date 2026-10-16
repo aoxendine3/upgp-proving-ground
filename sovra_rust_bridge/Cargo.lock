@@ -4,4 +4,4 @@ version = 4
 
 [[package]]
 name = "sovra_rust_bridge"
-version = "4.0.0"
+version = "5.0.0"

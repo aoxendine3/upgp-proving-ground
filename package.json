@@ -10,6 +10,8 @@
     "test:gauntlet": "python3 ops/scripts/run_upgp_full_test_gauntlet.py",
     "test:falsification": "python3 ops/scripts/test_bit_flip_falsification.py",
     "test:replay": "python3 ops/scripts/test_replay_attack_falsification.py",
+    "test:unsat": "python3 tests/test_translation_validation_unsat.py",
+    "test:wasm": "python3 ops/scripts/test_upgp_wasm_module.py",
     "doc:gate": "python3 ops/scripts/enforce_doc_sync_gate.py",
     "package": "python3 ops/scripts/package_upgp_product.py"
   },
