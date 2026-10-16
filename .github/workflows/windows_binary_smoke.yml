@@ -33,16 +33,16 @@ jobs:
           import os
           import sys
 
-          cli_exe = "core/ops/scripts/truth_verifier_v4_cli.exe"
+          cli_exe = "ops/scripts/truth_verifier_v4_cli.exe"
           if os.path.exists(cli_exe):
               print(f"=== Testing Standalone Executable: {cli_exe} ===")
               proc = subprocess.run([cli_exe], capture_output=True)
               print(f"Exit Code: {proc.returncode}")
           else:
               print(f"Standalone executable {cli_exe} not present, running Python WASM kernel & doc verification test suite...")
-              res1 = subprocess.run([sys.executable, "core/ops/scripts/test_upgp_wasm_module.py"], capture_output=True, text=True)
+              res1 = subprocess.run([sys.executable, "ops/scripts/test_upgp_wasm_module.py"], capture_output=True, text=True)
               print(res1.stdout)
-              res2 = subprocess.run([sys.executable, "core/ops/scripts/enforce_doc_sync_gate.py"], capture_output=True, text=True)
+              res2 = subprocess.run([sys.executable, "ops/scripts/enforce_doc_sync_gate.py"], capture_output=True, text=True)
               print(res2.stdout)
               if res1.returncode != 0 or res2.returncode != 0:
                   sys.exit(1)

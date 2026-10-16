@@ -16,5 +16,5 @@ jobs:
 
       - name: Run Institutional Audit & Gate Verification
         run: |
-          python3 core/ops/scripts/test_upgp_wasm_module.py
-          python3 core/ops/scripts/enforce_doc_sync_gate.py
+          python3 ops/scripts/test_upgp_wasm_module.py
+          python3 ops/scripts/enforce_doc_sync_gate.py
