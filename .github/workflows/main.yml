@@ -21,3 +21,7 @@ jobs:
       - name: Poincaré Geodesic Invariant Gate & Poison Replay Falsification
         run: |
           python3 ops/scripts/replay_poincare_poison_falsification.py
+
+      - name: Sovereign 5-Trial Hardened Falsification Gauntlet
+        run: |
+          python3 ops/scripts/test_sovereign_hardened_falsification_gauntlet.py
