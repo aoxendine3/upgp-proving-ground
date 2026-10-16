@@ -1,9 +1,9 @@
 {
-  "receipt_id": "rcpt_poincare_1792131139236",
-  "timestamp_utc": "2026-10-16T06:12:19.236084+00:00",
+  "receipt_id": "rcpt_poincare_1792132911094",
+  "timestamp_utc": "2026-10-16T06:41:51.093836+00:00",
   "audit_target": "Poincar\u00e9 Hyperbolic Geodesic Invariant Gate vs. Signed Semantic Poison",
   "execution_substrate": "Apple Silicon M4 Bare Metal (ARM64 NEON / FP64)",
-  "evaluation_time_us": 136.42,
+  "evaluation_time_us": 486.67,
   "scale_demarcation": {
     "claimed_scale": "30,000,000 Agents PBFT Benchmark",
     "implementation_substrate": "In-Memory Contiguous Double Array (array.array('d'))",
@@ -50,6 +50,6 @@
   },
   "cryptographic_proof": {
     "payload_sha256": "cde606b209bafae8ad6a6b7a1d2f25e76861505b0e98f4cb036c86dcce5eabb9",
-    "receipt_sha256": "e77699e29f7006ba044441c555d44eb154ee520878327673258c95407d907e03"
+    "receipt_sha256": "8ade23c1099f1c5fda3759b548ef25282beda30c07f548a3544f7c1b08c283fb"
   }
 }
