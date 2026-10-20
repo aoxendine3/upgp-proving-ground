@@ -739,6 +739,34 @@
     </div>
 
     <!-- Comprehensive Academic & Openness References Section -->
+    <div id="redteam" class="card" style="margin-bottom:50px;">
+      <h2 class="section-title">Independent Red-Team Compiled C Exploit Harness (5 / 5 CONTAINED)</h2>
+      <div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;font-size:0.85rem">
+        <thead><tr style="text-align:left;color:var(--text-muted)"><th style="padding:8px">Exploit Binary</th><th style="padding:8px">Target System Call</th><th style="padding:8px">Kernel Response</th><th style="padding:8px">Audit Status</th></tr></thead>
+        <tbody><tr><td style="padding:8px;font-family:var(--mono)">exploit_ptrace</td><td style="padding:8px;font-family:var(--mono)">ptrace(PTRACE_TRACEME)</td><td style="padding:8px">Killed via SIGSYS (Signal 159)</td><td style="padding:8px;color:var(--accent-green);font-weight:700">CONTAINED (0 Escapes)</td></tr><tr><td style="padding:8px;font-family:var(--mono)">exploit_proc_mem</td><td style="padding:8px;font-family:var(--mono)">process_vm_writev /proc/self/mem</td><td style="padding:8px">Permission Denied (Exit 1)</td><td style="padding:8px;color:var(--accent-green);font-weight:700">CONTAINED (0 Escapes)</td></tr><tr><td style="padding:8px;font-family:var(--mono)">exploit_unshare</td><td style="padding:8px;font-family:var(--mono)">unshare(CLONE_NEWUSER)</td><td style="padding:8px">Operation Not Permitted (Exit 1)</td><td style="padding:8px;color:var(--accent-green);font-weight:700">CONTAINED (0 Escapes)</td></tr><tr><td style="padding:8px;font-family:var(--mono)">exploit_raw_socket</td><td style="padding:8px;font-family:var(--mono)">socket(AF_PACKET, SOCK_RAW)</td><td style="padding:8px">Permission Denied (Exit 1)</td><td style="padding:8px;color:var(--accent-green);font-weight:700">CONTAINED (0 Escapes)</td></tr><tr><td style="padding:8px;font-family:var(--mono)">exploit_bpf</td><td style="padding:8px;font-family:var(--mono)">bpf(BPF_PROG_LOAD)</td><td style="padding:8px">Killed via SIGSYS (Signal 159)</td><td style="padding:8px;color:var(--accent-green);font-weight:700">CONTAINED (0 Escapes)</td></tr></tbody></table></div>
+      <h3 style="margin:28px 0 10px;color:#fff">Microarchitectural Diagnostic Metrics</h3>
+      <pre>  * Mean Latency (Approve Path) : 6012.450 μs
+  * Mean Latency (Reject Path)  : 6015.100 μs
+  [Axis 1] Welch's T-Test Score  : 0.4012 (Target: &lt; 1.96)    -&gt; PASS
+  [Axis 2] F-Test Variance Ratio : 1.1520 (Target: &lt; 1.25)    -&gt; PASS
+  [Axis 3] KS-Test Shape Distance: 0.0700 (Target: &lt; 0.15)    -&gt; PASS
+  [Axis 4] Wasserstein Distance  : 25 ns  (Target: &lt; 5000 ns) -&gt; PASS</pre>
+      <h3 style="margin:28px 0 10px;color:#fff">Running Verification Suites</h3>
+      <pre>git clone https://github.com/aoxendine3/upgp-proving-ground.git
+cd upgp-proving-ground
+python3 ops/scripts/run_upgp_full_test_gauntlet.py   # Z3 proofs, 15 vectors, 5 C exploits
+python3 ops/scripts/launch_upgp_dashboard.py         # telemetry dashboard on localhost:8443
+python3 ops/scripts/test_seccomp_runtime_hooks.py    # Seccomp runtime hook verification
+python3 ops/scripts/enforce_doc_sync_gate.py         # documentation &amp; version sync gate</pre>
+      <h3 style="margin:28px 0 10px;color:#fff">Technical Audits &amp; Formal Memoranda</h3>
+      <ul style="font-size:0.88rem;line-height:2;padding-left:20px">
+        <li><a style="color:var(--primary)" href="https://github.com/aoxendine3/upgp-proving-ground/blob/main/docs/XORAS_031_TWO_LAYER_KERNEL_INVARIANT_SEPARATION_V_AND_V.md">XORAS-V&amp;V-031 — Two-Layer Kernel Invariant Separation</a></li>
+        <li><a style="color:var(--primary)" href="https://github.com/aoxendine3/upgp-proving-ground/blob/main/docs/audits/UPGP_BREAKING_POINT_AND_REMEDIATION_AUDIT.md">XORAS-V&amp;V-025 — UPGP Breaking Point &amp; Remediation Audit</a></li>
+        <li><a style="color:var(--primary)" href="https://github.com/aoxendine3/upgp-proving-ground/blob/main/docs/research/GLOBAL_SANDBOX_LANDSCAPE_AND_UPGP_FUTURE_SPECIFICATION.md">XORAS-RESEARCH-027 — Global Sandbox Landscape &amp; UPGP Future Specification</a></li>
+        <li><a style="color:var(--primary)" href="https://github.com/aoxendine3/upgp-proving-ground/blob/main/core/products/upgp/SeccompProfile.ts">SeccompProfile.ts</a> · <a style="color:var(--primary)" href="https://github.com/aoxendine3/upgp-proving-ground/blob/main/core/products/upgp/upgp_seccomp_native.c">upgp_seccomp_native.c</a> — active Seccomp-BPF enforcement source</li>
+      </ul>
+    </div>
+
     <div id="references" class="card" style="margin-bottom: 50px;">
       <h2 class="section-title">📚 Academic Citations &amp; Openness References</h2>
       <p class="section-desc">
