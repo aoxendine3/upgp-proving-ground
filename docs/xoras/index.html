@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XORAS Studio</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        vscode: {
+                            bg: '#1e1e1e',
+                            panel: '#252526',
+                            sidebar: '#2d2d2d',
+                            activity: '#333333',
+                            border: '#3c3c3c',
+                            accent: '#007acc',
+                            accentHover: '#005f9e',
+                            text: '#cccccc',
+                            textMuted: '#858585'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { margin: 0; overflow: hidden; background-color: #1e1e1e; color: #cccccc; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+        ::-webkit-scrollbar { width: 10px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #424242; border: 2px solid #1e1e1e; border-radius: 6px; }
+        ::-webkit-scrollbar-thumb:hover { background: #4f4f4f; }
+        .markdown-body pre { background-color: #1e1e1e; padding: 12px; border-radius: 6px; overflow-x: auto; margin-top: 8px; border: 1px solid #3c3c3c; }
+        .markdown-body code { font-family: 'JetBrains Mono', 'Courier New', monospace; color: #9cdcfe; font-size: 0.9em; }
+        .blinking-cursor { animation: blink 1s step-end infinite; }
+        @keyframes blink { 50% { opacity: 0; } }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState, useEffect, useRef } = React;
+
+        // SVG Icons
+        const Icons = {
+            Files: () => <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M8 7v8a2 2 0 002 2h6M8 7V5a2 2 0 012-2h4.586a1 1 0 01.707.293l4.414 4.414a1 1 0 01.293.707V15a2 2 0 01-2 2h-2M8 7H6a2 2 0 00-2 2v10a2 2 0 002 2h8a2 2 0 002-2v-2" /></svg>,
+            Search: () => <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>,
+            Settings: () => <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /></svg>,
+            Mic: ({ active }) => <svg className={`w-5 h-5 ${active ? 'text-red-500 animate-pulse' : 'text-gray-400 hover:text-white'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" /></svg>,
+            Send: () => <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" /></svg>
+        };
+
+        function App() {
+            const [editorValue, setEditorValue] = useState("// XORAS Studio Local Sovereign Editor\n// Connected to Lead 9 Swarm\n\nfunction verifyContext() {\n    const state = MerkleRegistry.lock();\n    return state.isValid();\n}\n");
+            const [messages, setMessages] = useState([
+                { sender: 'system', text: 'XORAS Studio V2 Connected.\nBare-metal models bound. Voice Daemon active.' }
+            ]);
+            const [input, setInput] = useState("");
+            const [selectedAgent, setSelectedAgent] = useState("Maxx");
+            const [loading, setLoading] = useState(false);
+            const [isListening, setIsListening] = useState(false);
+            const [activeTab, setActiveTab] = useState('chat'); // 'chat', 'composer', 'settings'
+            const editorRef = useRef(null);
+            const messagesEndRef = useRef(null);
+
+            // Setup Speech Recognition
+            const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+            const recognition = SpeechRecognition ? new SpeechRecognition() : null;
+
+            if (recognition) {
+                recognition.continuous = false;
+                recognition.interimResults = true;
+                
+                recognition.onresult = (event) => {
+                    let transcript = '';
+                    for (let i = event.resultIndex; i < event.results.length; i++) {
+                        transcript += event.results[i][0].transcript;
+                    }
+                    setInput(transcript);
+                };
+
+                recognition.onend = () => {
+                    setIsListening(false);
+                };
+            }
+
+            const toggleMic = () => {
+                if (!recognition) {
+                    alert("Speech recognition is not supported in this browser.");
+                    return;
+                }
+                if (isListening) {
+                    recognition.stop();
+                } else {
+                    setInput("");
+                    recognition.start();
+                    setIsListening(true);
+                }
+            };
+
+            const scrollToBottom = () => {
+                messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+            };
+
+            useEffect(() => {
+                scrollToBottom();
+            }, [messages]);
+
+            useEffect(() => {
+                require.config({ paths: { 'vs': 'https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.38.0/min/vs' }});
+                require(['vs/editor/editor.main'], function() {
+                    editorRef.current = monaco.editor.create(document.getElementById('monaco-editor'), {
+                        value: editorValue,
+                        language: 'javascript',
+                        theme: 'vs-dark',
+                        automaticLayout: true,
+                        minimap: { enabled: false },
+                        fontSize: 14,
+                        fontFamily: "'JetBrains Mono', 'Courier New', monospace",
+                        padding: { top: 16 },
+                        scrollBeyondLastLine: false,
+                        renderLineHighlight: 'all',
+                        cursorBlinking: 'smooth',
+                        cursorSmoothCaretAnimation: true
+                    });
+                    
+                    editorRef.current.onDidChangeModelContent(() => {
+                        setEditorValue(editorRef.current.getValue());
+                    });
+                });
+            }, []);
+
+            const sendMessage = async () => {
+                if (!input.trim()) return;
+                
+                const userMsg = input.trim();
+                const currentCode = editorRef.current ? editorRef.current.getValue() : "";
+                
+                setMessages(prev => [...prev, { sender: 'user', text: userMsg }]);
+                setInput("");
+                setLoading(true);
+
+                try {
+                    const response = await fetch('http://127.0.0.1:8000/api/chat', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            agent: selectedAgent,
+                            message: userMsg,
+                            context: currentCode
+                        })
+                    });
+                    
+                    const data = await response.json();
+                    setMessages(prev => [...prev, { sender: selectedAgent.toLowerCase(), text: data.response }]);
+                } catch (error) {
+                    setMessages(prev => [...prev, { sender: 'system', text: 'Connection to Sovereign Core failed.' }]);
+                } finally {
+                    setLoading(false);
+                }
+            };
+
+            return (
+                <div className="flex h-screen w-screen bg-vscode-bg">
+                    {/* Activity Bar */}
+                    <div className="w-12 bg-vscode-activity flex flex-col items-center py-4 space-y-6 border-r border-vscode-border">
+                        <div className="text-vscode-textMuted hover:text-white cursor-pointer transition-colors"><Icons.Files /></div>
+                        <div className="text-vscode-textMuted hover:text-white cursor-pointer transition-colors"><Icons.Search /></div>
+                        <div className="flex-1"></div>
+                        <div className="text-vscode-textMuted hover:text-white cursor-pointer transition-colors"><Icons.Settings /></div>
+                    </div>
+                    
+                    {/* Sidebar / Explorer */}
+                    <div className="w-60 bg-vscode-panel border-r border-vscode-border text-sm flex flex-col">
+                        <div className="p-3 text-xs font-semibold tracking-wider text-vscode-textMuted uppercase">Explorer</div>
+                        <div className="px-4 py-1 text-vscode-text hover:bg-[#2a2d2e] cursor-pointer flex items-center space-x-2">
+                            <span className="text-vscode-textMuted">▼</span> <span>SSOT_Agentic_Brain</span>
+                        </div>
+                        <div className="pl-8 pr-4 py-1 text-vscode-textMuted hover:bg-[#2a2d2e] cursor-pointer">ops/scripts/</div>
+                        <div className="pl-8 pr-4 py-1 text-vscode-textMuted hover:bg-[#2a2d2e] cursor-pointer">products/</div>
+                        <div className="pl-8 pr-4 py-1 text-white bg-[#37373d] hover:bg-[#2a2d2e] cursor-pointer">xoras_studio.html</div>
+                    </div>
+
+                    {/* Editor Area */}
+                    <div className="flex-1 flex flex-col bg-vscode-bg">
+                        {/* Editor Tabs */}
+                        <div className="flex h-9 bg-vscode-sidebar items-end border-b border-vscode-border">
+                            <div className="px-4 py-2 bg-vscode-bg text-vscode-text text-sm border-r border-vscode-border flex items-center space-x-2 min-w-[120px] justify-center cursor-default">
+                                <span className="text-yellow-400">JS</span>
+                                <span>xoras_studio.html</span>
+                            </div>
+                        </div>
+                        {/* Breadcrumbs */}
+                        <div className="h-6 bg-vscode-bg flex items-center px-4 text-xs text-vscode-textMuted">
+                            SSOT_Agentic_Brain > products > xoras_studio.html
+                        </div>
+                        {/* Monaco Container */}
+                        <div id="monaco-editor" className="flex-1 w-full"></div>
+                    </div>
+
+                    {/* Sovereign Chat Panel (Cursor Style) */}
+                    <div className="w-[450px] bg-vscode-panel flex flex-col border-l border-vscode-border">
+                        {/* Panel Tabs */}
+                        <div className="flex h-9 bg-vscode-sidebar border-b border-vscode-border text-sm">
+                            <div onClick={() => setActiveTab('chat')} className={`px-4 py-2 cursor-pointer ${activeTab === 'chat' ? 'text-white border-b-2 border-vscode-accent' : 'text-vscode-textMuted hover:text-white'}`}>Chat</div>
+                            <div onClick={() => setActiveTab('composer')} className={`px-4 py-2 cursor-pointer ${activeTab === 'composer' ? 'text-white border-b-2 border-vscode-accent' : 'text-vscode-textMuted hover:text-white'}`}>Composer</div>
+                            <div onClick={() => setActiveTab('settings')} className={`px-4 py-2 cursor-pointer ml-auto ${activeTab === 'settings' ? 'text-white' : 'text-vscode-textMuted hover:text-white'}`}><Icons.Settings /></div>
+                        </div>
+
+                        {activeTab === 'chat' && (
+                            <>
+                                {/* Agent Selector */}
+                                <div className="p-3 border-b border-vscode-border flex items-center justify-between">
+                                    <span className="text-xs font-semibold text-vscode-textMuted uppercase tracking-wider">Active Agent</span>
+                                    <select 
+                                        className="bg-vscode-bg text-sm text-vscode-text px-2 py-1 rounded border border-vscode-border outline-none focus:border-vscode-accent"
+                                        value={selectedAgent}
+                                        onChange={e => setSelectedAgent(e.target.value)}
+                                    >
+                                        <option value="Maxx">Maxx (Operations)</option>
+                                        <option value="Jarvis">Jarvis (Governance)</option>
+                                        <option value="Daxx">Daxx (Master Coder)</option>
+                                        <option value="Clara">Clara (Science/Data)</option>
+                                        <option value="Vance">Vance (Audit/Falsification)</option>
+                                    </select>
+                                </div>
+                                
+                                {/* Messages Area */}
+                                <div className="flex-1 overflow-y-auto p-4 space-y-6">
+                                    {messages.map((msg, idx) => (
+                                        <div key={idx} className={`flex flex-col ${msg.sender === 'user' ? 'items-end' : 'items-start'}`}>
+                                            <div className="flex items-center space-x-2 mb-1">
+                                                {msg.sender !== 'user' && <div className="w-5 h-5 rounded-full bg-vscode-activity flex items-center justify-center text-[10px] font-bold text-white uppercase">{msg.sender.charAt(0)}</div>}
+                                                <span className="text-xs font-semibold text-vscode-textMuted capitalize">{msg.sender}</span>
+                                            </div>
+                                            <div className={`p-3 rounded-lg max-w-[92%] text-[13px] leading-relaxed shadow-sm ${msg.sender === 'user' ? 'bg-vscode-activity border border-vscode-border text-white' : msg.sender === 'system' ? 'bg-yellow-900/20 border border-yellow-700/30 text-yellow-500' : 'bg-vscode-bg border border-vscode-border text-vscode-text'} markdown-body whitespace-pre-wrap`}>
+                                                {msg.text}
+                                            </div>
+                                        </div>
+                                    ))}
+                                    {loading && (
+                                        <div className="flex items-center space-x-2 text-vscode-textMuted text-xs">
+                                            <div className="w-4 h-4 border-2 border-vscode-accent border-t-transparent rounded-full animate-spin"></div>
+                                            <span>{selectedAgent} is processing...</span>
+                                        </div>
+                                    )}
+                                    <div ref={messagesEndRef} />
+                                </div>
+
+                                {/* Input Area */}
+                                <div className="p-4 bg-vscode-sidebar border-t border-vscode-border">
+                                    <div className="relative bg-vscode-bg border border-vscode-border rounded-lg shadow-sm focus-within:border-vscode-accent transition-colors">
+                                        <textarea 
+                                            className="w-full bg-transparent text-vscode-text text-sm p-3 pb-10 rounded-lg outline-none resize-none"
+                                            rows="3"
+                                            placeholder={`Ask ${selectedAgent}... (Press Cmd+Enter to send)`}
+                                            value={input}
+                                            onChange={e => setInput(e.target.value)}
+                                            onKeyDown={e => {
+                                                if (e.key === 'Enter' && (e.metaKey || e.ctrlKey || !e.shiftKey)) {
+                                                    e.preventDefault();
+                                                    sendMessage();
+                                                }
+                                            }}
+                                        ></textarea>
+                                        <div className="absolute bottom-2 left-2 flex space-x-2">
+                                            <span className="text-[10px] px-2 py-1 bg-vscode-activity text-vscode-textMuted rounded border border-vscode-border flex items-center">
+                                                <span className="w-2 h-2 rounded-full bg-green-500 mr-1"></span> Codebase Indexed
+                                            </span>
+                                            <span className="text-[10px] px-2 py-1 bg-vscode-activity text-vscode-textMuted rounded border border-vscode-border flex items-center">
+                                                <span className="text-vscode-accent mr-1">@</span> Current File
+                                            </span>
+                                        </div>
+                                        <div className="absolute bottom-2 right-2 flex items-center space-x-2">
+                                            <button onClick={toggleMic} className="p-1.5 rounded-md hover:bg-vscode-activity transition-colors" title="Speech to Text">
+                                                <Icons.Mic active={isListening} />
+                                            </button>
+                                            <button 
+                                                onClick={sendMessage}
+                                                disabled={loading || !input.trim()}
+                                                className="p-1.5 bg-vscode-accent hover:bg-vscode-accentHover text-white rounded-md transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+                                                title="Send"
+                                            >
+                                                <Icons.Send />
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </>
+                        )}
+
+                        {activeTab === 'composer' && (
+                            <div className="flex-1 flex items-center justify-center text-vscode-textMuted text-sm p-8 text-center">
+                                Composer mode (Multi-file generation) is initializing. Waiting for GHRR context sync...
+                            </div>
+                        )}
+
+                        {activeTab === 'settings' && (
+                            <div className="flex-1 p-6 space-y-6 text-sm">
+                                <h2 className="text-lg font-semibold text-white">Sovereign Settings</h2>
+                                
+                                <div className="space-y-2">
+                                    <label className="text-vscode-textMuted block">Local LLM Router</label>
+                                    <select className="w-full bg-vscode-bg border border-vscode-border p-2 rounded text-vscode-text">
+                                        <option>Ollama (127.0.0.1:11434)</option>
+                                        <option>Llama.cpp (127.0.0.1:8080)</option>
+                                    </select>
+                                </div>
+
+                                <div className="space-y-2">
+                                    <label className="text-vscode-textMuted block">Voice Daemon Integration</label>
+                                    <div className="flex items-center space-x-2">
+                                        <input type="checkbox" defaultChecked className="accent-vscode-accent w-4 h-4" />
+                                        <span className="text-vscode-text">Pipe Chat Responses to Kokoro TTS</span>
+                                    </div>
+                                </div>
+
+                                <div className="space-y-2">
+                                    <label className="text-vscode-textMuted block">Memory Protocol</label>
+                                    <select className="w-full bg-vscode-bg border border-vscode-border p-2 rounded text-vscode-text">
+                                        <option>512-byte HexCell (SOVRA)</option>
+                                        <option>Standard JSON Buffer</option>
+                                    </select>
+                                </div>
+                            </div>
+                        )}
+                    </div>
+                </div>
+            );
+        }
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+</html>
