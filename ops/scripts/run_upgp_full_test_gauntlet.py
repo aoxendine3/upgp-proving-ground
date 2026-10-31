@@ -88,7 +88,7 @@ def main():
         all_passed = (res_z3.returncode == 0 and res_ts.returncode == 0 and ("100% PASSED" in res_red.stdout or "0 ESCAPES" in res_red.stdout or res_red.returncode == 0))
         if all_passed:
             print("\n==========================================================================")
-            print("  ✅ UPGP v5.0 ULTRA FULL PROVING GROUND TEST SUITE PASSED WITH 100% PERFECTION.")
+            print("  ✅ UPGP v5.0 ULTRA FULL PROVING GROUND TEST SUITE PASSED ALL 22 VERIFICATION GATES.")
             print("==========================================================================")
             f.write("FINAL RESULT: 100% PASSED\n")
         else:

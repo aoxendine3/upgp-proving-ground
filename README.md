@@ -76,8 +76,8 @@ Unlike legacy declarative-only profiles, UPGP v5.0 Ultra features **Active Runti
 
 ```bash
 # Clone repository
-git clone https://github.com/user/SSOT_Agentic_Brain.git
-cd SSOT_Agentic_Brain
+git clone https://github.com/aoxendine3/upgp-proving-ground.git
+cd upgp-proving-ground
 
 # Run full UPGP v5.0 Ultra verification suite (Z3 proofs, 15 TS vectors, 5 C exploits)
 python3 ops/scripts/run_upgp_full_test_gauntlet.py
