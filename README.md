@@ -1,6 +1,8 @@
 # Universal Proving Ground Protocol (UPGP v5.0 Ultra)
 
-> **UPGP v5.0 Ultra** is an ultra-hardened, lock-free AI sandbox runtime and microarchitectural security suite. It provides active Linux kernel Seccomp-BPF system call filtering (`prctl` PR_SET_SECCOMP native C bindings), Landlock LSM path isolation, ARM64 Sail formal translation validation, Z3 SMT formal proof verification, 15-vector escape defense, 290,000+ ops/sec lock-free POSIX shared memory atomic double-buffering, and a live web telemetry dashboard.
+> **UPGP v5.0 Ultra** is a formal Verification Proving Ground, Architecture Specification, and Microarchitectural Security Suite for autonomous AI agent workloads. It provides native Linux Seccomp-BPF system call filtering (`prctl` PR_SET_SECCOMP C N-API bindings), formal ARM64 Sail abstract interpretation, Z3 SMT translation validation models, a 15-vector escape verification harness, lock-free POSIX shared memory double-buffering, and a live cryptographic telemetry dashboard.
+
+> **Notice of Architectural Scope:** UPGP v5.0 Ultra serves as an un-mocked research proving ground and formal security testbed. Native kernel-level Seccomp-BPF enforcement requires Linux (`x86_64` or `aarch64`) with standard kernel capabilities; on Darwin/macOS and Windows hosts, the suite executes via POSIX emulation and AST/memory boundary verification.
 
 ![UPGP v5.0 Ultra Live Cryptographic Telemetry Dashboard](docs/assets/images/upgp_v5_ultra_telemetry_dashboard.jpg)
 
