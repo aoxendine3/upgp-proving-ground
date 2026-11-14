@@ -5,3 +5,5 @@
 - Action: moved intact, not deleted. package.json "test" now runs the real harness, which exits non-zero on failure and names the failing axes.
 
 Addendum: `.github/workflows/mars-gatekeeper-maven.yml` (sic) moved into the same quarantine. It was the mirror of the main repo's mock: ran `mvn validate enforcer:enforce` on a repository with no Java and no POM, and "Layer 4 - SMT" was an echo printing 'SMT Verification Passed. Zero hallucinations detected.' without invoking any solver. Replaced by `falsification_gate.yml`, which runs only real, executable checks in this repository.
+
+Addendum 2 (same date): Pages deploy artifact is `docs/`, so the live site is `docs/index.html`. The repo-root `index.html` (older copy) moved to this quarantine to prevent two divergent copies of the public page. Also moved: `docs/assets/xoras_studio_v2_antigravity_edition_1791504152706.jpg` (foreign tool branding in a live asset path; referenced nowhere in the HTML surface as shipped).
