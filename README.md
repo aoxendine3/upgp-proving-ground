@@ -1,6 +1,8 @@
 # Universal Proving Ground Protocol (UPGP v5.0 Ultra)
 
-> **UPGP v5.0 Ultra** is a formal Verification Proving Ground, Architecture Specification, and Microarchitectural Security Suite for autonomous AI agent workloads. It provides native Linux Seccomp-BPF system call filtering (`prctl` PR_SET_SECCOMP C N-API bindings), formal ARM64 Sail abstract interpretation, Z3 SMT translation validation models, a 15-vector escape verification harness, lock-free POSIX shared memory double-buffering, and a live cryptographic telemetry dashboard.
+> **UPGP v5.0 Ultra** is a research proving ground for AI agent containment: native Linux Seccomp-BPF system-call filtering (`prctl` PR_SET_SECCOMP C N-API bindings, 19 SCMP_ACT_KILL rules), ARM64 Sail-style abstract interpretation, Z3 SMT translation-validation models (verified UNSAT at publication), a 15-vector escape harness, and a live HMAC-verified anti-replay telemetry dashboard. Kernel enforcement activates on Linux; on macOS/Windows the suite runs POSIX simulation and AST verification only.
+
+> **Honest verification status (2026-11-14, Apple Silicon):** SAIL SMT theorems 3/3 UNSAT · anti-replay and bit-flip falsification PASS · red-team C exploits 5/5 contained · side-channel benchmark: Axes 1 & 3 PASS, **Axes 2 & 4 FAIL on the reference host** (the harness exits non-zero and names them — `npm test`). The theatrical test that printed hard-coded PASS lines is quarantined in `tests/quarantine/2026-11-14_theatrical_fake_pass/`.
 
 > **Notice of Architectural Scope:** UPGP v5.0 Ultra serves as an un-mocked research proving ground and formal security testbed. Native kernel-level Seccomp-BPF enforcement requires Linux (`x86_64` or `aarch64`) with standard kernel capabilities; on Darwin/macOS and Windows hosts, the suite executes via POSIX emulation and AST/memory boundary verification.
 
@@ -16,21 +18,21 @@ UPGP v5.0 Ultra enforces fifteen un-mocked runtime controls designed to contain 
 
 | Vector ID | Defense Surface | Isolation Mechanism | Verification Criteria | Status |
 | :--- | :--- | :--- | :--- | :---: |
-| **VECTOR-01** | Microarchitectural Cache Isolation | Welch's t-test score < 1.96 across CPU cache measurements | Statistical Indistinguishability | **PASS** |
-| **VECTOR-02** | POSIX SHM Pointer Protection | Inspection of trace buffers for uninitialized memory or heap pointers | Zero Exposed Pointer Addresses | **PASS** |
-| **VECTOR-03** | AST Dynamic Import Intercept | Static and dynamic parsing blocking `eval()`, `execSync`, `process.binding` | Command Execution Intercept | **PASS** |
-| **VECTOR-04** | Environment Secret Isolation | Memory segment isolation preventing process environment access | Environment Leak Prevention | **PASS** |
-| **VECTOR-05** | Filesystem Traversal Rejection | Path resolution blocking relative path traversal (`../../..`) and sensitive directories | Directory Lock Enforcement | **PASS** |
-| **VECTOR-06** | Outbound Telemetry Intercept | Air-gapped descriptor monitoring verifying zero unauthorized network socket creation | Network Egress Prevention | **PASS** |
-| **VECTOR-07** | Heap Allocation Limit | Post-execution memory measurement restricting heap expansion deltas | Allocation Ceiling Enforcement | **PASS** |
-| **VECTOR-08** | Binary Payload Scanning | Entropy and pattern scanning for hidden executable segments | Steganographic Filter Pass | **PASS** |
-| **VECTOR-09** | State Ordering Enforcement | SHA-256 Merkle chain verification enforcing monotonic sequence order | Replay Interception | **PASS** |
-| **VECTOR-10** | Prototype Reflection Lock | Object freezing preventing prototype mutation (`__proto__`, reflection) | Object Immutability Enforced | **PASS** |
-| **VECTOR-11** | Dynamic Constructor AST Bypass Wall | Interception of dynamic constructor string allocations (`Function("return process")()`) | AST Constructor Intercept | **PASS** |
-| **VECTOR-12** | Proc/Self/Root Symlink Lock | Traversal lock preventing symlink escapes via `/proc/self/root` | Root Symlink Lock Enforced | **PASS** |
-| **VECTOR-13** | File Descriptor Exhaustion Barrier | Socket handle pooling and `prlimit()` soft-limit management preventing handle leaks | FD Leak Prevention Active | **PASS** |
-| **VECTOR-14** | Signal Trap Immutability Shield | Interception of `sigaction(SIGSYS, SIG_IGN)` overrides to preserve Seccomp traps | Signal Immutability Sealed | **PASS** |
-| **VECTOR-15** | POSIX SHM Atomic Double-Buffering | Lock-free atomic double-buffering (`std::atomic<Buffer*>`) on M4 unified memory | 290K+ Ops/Sec, 0 Lock Stalls | **PASS** |
+| **VECTOR-01** | Microarchitectural Cache Isolation | Welch's t-test (Axis 1) & KS distance (Axis 3) — measured PASS; F-test (Axis 2) & Wasserstein (Axis 4) — measured FAIL on reference host | Statistical Indistinguishability (partial) | PARTIAL — Ax 1,3 PASS · Ax 2,4 FAIL |
+| **VECTOR-02** | POSIX SHM Pointer Protection | Inspection of trace buffers for uninitialized memory or heap pointers | Zero Exposed Pointer Addresses | RESEARCH |
+| **VECTOR-03** | AST Dynamic Import Intercept | Static and dynamic parsing blocking `eval()`, `execSync`, `process.binding` | Command Execution Intercept | RESEARCH |
+| **VECTOR-04** | Environment Secret Isolation | Memory segment isolation preventing process environment access | Environment Leak Prevention | RESEARCH |
+| **VECTOR-05** | Filesystem Traversal Rejection | Path resolution blocking relative path traversal (`../../..`) and sensitive directories | Directory Lock Enforcement | RESEARCH |
+| **VECTOR-06** | Outbound Telemetry Intercept | Air-gapped descriptor monitoring verifying zero unauthorized network socket creation | Network Egress Prevention | LINUX-ONLY |
+| **VECTOR-07** | Heap Allocation Limit | Post-execution memory measurement restricting heap expansion deltas | Allocation Ceiling Enforcement | RESEARCH |
+| **VECTOR-08** | Binary Payload Scanning | Entropy and pattern scanning for hidden executable segments | Steganographic Filter Pass | RESEARCH |
+| **VECTOR-09** | State Ordering Enforcement | SHA-256 Merkle chain verification enforcing monotonic sequence order | Replay Interception | MEASURED — replay rejected |
+| **VECTOR-10** | Prototype Reflection Lock | Object freezing preventing prototype mutation (`__proto__`, reflection) | Object Immutability Enforced | RESEARCH |
+| **VECTOR-11** | Dynamic Constructor AST Bypass Wall | Interception of dynamic constructor string allocations (`Function("return process")()`) | AST Constructor Intercept | RESEARCH |
+| **VECTOR-12** | Proc/Self/Root Symlink Lock | Traversal lock preventing symlink escapes via `/proc/self/root` | Root Symlink Lock Enforced | RESEARCH |
+| **VECTOR-13** | File Descriptor Exhaustion Barrier | Socket handle pooling and `prlimit()` soft-limit management preventing handle leaks | FD Leak Prevention Active | RESEARCH |
+| **VECTOR-14** | Signal Trap Immutability Shield | Interception of `sigaction(SIGSYS, SIG_IGN)` overrides to preserve Seccomp traps | Signal Immutability Sealed | LINUX-ONLY |
+| **VECTOR-15** | POSIX SHM Atomic Double-Buffering | Lock-free atomic double-buffering (`std::atomic<Buffer*>`) on M4 unified memory | variance axes FAIL on reference host — see tests/test_side_channel_verification.cjs | PARTIAL — 2/4 axes FAIL |
 
 ---
 

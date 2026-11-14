@@ -11,7 +11,7 @@ UPGP v5.0 Ultra is engineered to comply with major government, federal, and ente
 
 | Compliance Framework | Control Reference | UPGP v5.0 Ultra Implementation & Assurance |
 | :--- | :--- | :--- |
-| **NIST SP 800-53 Rev. 5** | **SA-11** (Developer Security Testing) | Un-mocked automated unit & side-channel gauntlet (`tests/UPGPProvingGround.test.ts`) |
+| **NIST SP 800-53 Rev. 5** | **SA-11** (Developer Security Testing) | Measured side-channel harness (`tests/test_side_channel_verification.cjs`, exits non-zero on failing axes) and theatrical-free gate suite (`ops/scripts/verify_all_production_gates.sh`) |
 | **NIST SP 800-53 Rev. 5** | **SC-13** (Cryptographic Protection) | Native FIPS-compliant cryptographic primitives (AES-256-GCM, PBKDF2, HKDF-SHA256) |
 | **NIST SP 800-53 Rev. 5** | **SC-28** (Protection of Information at Rest) | AES-256-GCM encrypted local fallback seal (`.upgp-seal`) with 16-byte IV & AuthTag |
 | **FIPS 140-3** | **Module Security Requirements** | High-entropy PBKDF2 key expansion (10,000+ iterations) and secure key memory zeroing (`.fill(0)`) |

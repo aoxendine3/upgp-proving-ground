@@ -23,7 +23,8 @@ from pathlib import Path
 WINDOWS_HOST = "192.168.1.211"
 WINDOWS_PORT = 11434
 WINDOWS_URL = f"http://{WINDOWS_HOST}:{WINDOWS_PORT}"
-RECEIPT_FILE = Path("/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/memory/catch_log/sovereign_hardened_adversarial_audit_receipt.json")
+RECEIPT_FILE = Path(__file__).resolve().parents[2] / "docs" / "audits" / "sovereign_hardened_adversarial_audit_receipt.json"
+RECEIPT_FILE.parent.mkdir(parents=True, exist_ok=True)
 
 CANONICAL_SEED_PROMPT = "UPGP_CANONICAL_INVARIANT_SEED_v5.0_APPLE_SILICON_M4_TO_WINDOWS_X86"
 

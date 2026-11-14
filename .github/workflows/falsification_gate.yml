@@ -1,0 +1,65 @@
+name: UPGP Falsification Gate
+
+on: [push, pull_request]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install Z3 solver
+        run: pip install z3-solver
+
+      - name: WASM kernel integrity (real module, executed exports)
+        run: python3 ops/scripts/test_upgp_wasm_module.py
+
+      - name: Documentation sync gate
+        run: python3 ops/scripts/enforce_doc_sync_gate.py
+
+      - name: SAIL SMT translation validation (UNSAT theorems)
+        run: python3 tests/test_translation_validation_unsat.py
+
+      - name: Anti-replay falsification (live HMAC manifest + nonce ledger)
+        run: |
+          rm -f logs/seen_nonces.json logs/state_manifest.json
+          python3 ops/scripts/launch_upgp_dashboard.py &
+          SERVER_PID=$!
+          for i in $(seq 1 30); do
+            curl -sf http://localhost:8443/api/telemetry > /dev/null && break
+            sleep 1
+          done
+          python3 tests/test_replay_attack_falsification.py
+          STATUS=$?
+          kill $SERVER_PID
+          exit $STATUS
+
+      - name: Bit-flip falsification (tampered signature must be caught)
+        run: |
+          rm -f logs/seen_nonces.json logs/state_manifest.json
+          python3 ops/scripts/launch_upgp_dashboard.py &
+          SERVER_PID=$!
+          for i in $(seq 1 30); do
+            curl -sf http://localhost:8443/api/telemetry > /dev/null && break
+            sleep 1
+          done
+          python3 ops/scripts/test_bit_flip_falsification.py
+          STATUS=$?
+          kill $SERVER_PID
+          exit $STATUS
+
+      - name: Repo cleanliness (CI must not leave runtime debris)
+        if: always()
+        run: |
+          rm -f logs/seen_nonces.json logs/state_manifest.json
+          git status --porcelain

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Universal Proving Ground Protocol (UPGP v5.0 Ultra) — Hardened AI Sandbox Runtime, Active Linux Seccomp-BPF Kernel Filters, 15-Vector Escape Defense, MTPO Concurrency, MARS Reasoning Engine & Cryptographic Anti-Replay Telemetry Server">
-  <title>UPGP v5.0 Ultra — Sovereign AI Kernel, MTPO Concurrency & MARS Reasoning Engine</title>
+  <meta name="description" content="Universal Proving Ground Protocol (UPGP v5.0) — research proving ground for AI agent containment: Linux Seccomp-BPF enforcement bindings, Z3 SMT translation validation (UNSAT), compiled red-team C exploit corpus, HMAC anti-replay telemetry dashboard, and a side-channel benchmark published with its failing axes named.">
+  <title>UPGP v5.0 — Formal Containment Proving Ground for AI Agent Runtimes</title>
   <style>
     :root {
       --bg-dark: #070a12;
@@ -185,18 +185,18 @@
     </div>
 
     <div class="hero">
-      <div class="badge-pill">UPGP v5.0 ULTRA PRODUCTION RELEASE</div>
-      <h1>Sovereign AI Sandbox Runtime, MTPO Concurrency &amp; MARS Engine</h1>
+      <div class="badge-pill">UPGP v5.0 — RESEARCH PROVING GROUND</div>
+      <h1>Formal Containment Proving Ground for AI Agent Runtimes</h1>
       <p class="hero-sub">
-        Active Linux Seccomp-BPF kernel filters, Landlock LSM path isolation, 15-vector escape containment, Monotonic Trajectory Pre-Order (MTPO) concurrency across 16,000 threads with zero deadlocks, and machine-checked Z3 / Lean 4 formal proofs.
+        Linux Seccomp-BPF enforcement bindings (19-rule SCMP_ACT_KILL profile), Z3-checked SMT translation validation (verified UNSAT in this repository), a compiled red-team C exploit corpus, and a side-channel benchmark that stays red when it is red. Kernel enforcement requires Linux; on macOS/Windows the suite runs POSIX simulation and AST verification only. Nothing on this page is simulated PASS.
       </p>
 
       <div class="status-strip">
-        <div class="status-pill"><span class="dot dot-green"></span> WASM KERNEL: <strong>ACTIVE</strong></div>
+        <div class="status-pill"><span class="dot dot-green"></span> SIMULATOR: <strong>WASM (this page)</strong></div>
         <div class="status-pill"><span class="dot dot-blue"></span> SAIL SMT: <strong>3/3 UNSAT</strong></div>
-        <div class="status-pill"><span class="dot dot-green"></span> LEAN 4: <strong>0 sorryAx</strong></div>
-        <div class="status-pill"><span class="dot dot-blue"></span> MTPO SWARM: <strong>16,000 THREADS</strong></div>
-        <div class="status-pill"><span class="dot dot-green"></span> RECOVERY: <strong>12.8 µs</strong></div>
+        <div class="status-pill"><span class="dot dot-green"></span> FALSIFICATION: <strong>REPLAY + BIT-FLIP REJECTED</strong></div>
+        <div class="status-pill"><span class="dot dot-green"></span> RED-TEAM: <strong>5/5 C EXPLOITS CONTAINED</strong></div>
+        <div class="status-pill"><span class="dot dot-yellow" style="background:#eab308"></span> SIDE-CHANNEL: <strong>2/4 AXES PASS (host-dependent)</strong></div>
       </div>
       
       <div class="hero-actions">
@@ -433,8 +433,8 @@
         <div class="gallery-card">
           <img src="assets/images/zero_trust_12us_memory.png" alt="Zero Trust 12µs Hardware Memory">
           <div class="gallery-caption">
-            <strong>Figure 4: Zero Trust 12µs Hardware Memory</strong><br>
-            12.8 µs deterministic rollback recovery versus 1,140 ms legacy LLM prompt-retry loops.
+            <strong>Figure 4: Zero-Trust Memory Boundary</strong><br>
+            Atomic double-buffer rollback path for state corruption. Recovery cost is host-specific — measure it yourself with the side-channel harness; this page publishes no benchmark we have not run.
           </div>
         </div>
 
@@ -680,7 +680,12 @@
     <!-- 15-Vector Escape Matrix Table -->
     <div id="vectors">
       <h2 class="section-title">🛡️ 15-Vector Boundary Containment Matrix</h2>
-      <p class="section-desc">Every vector represents an un-mocked, empirical runtime gate evaluated against real Red-Team C exploit payloads.</p>
+      <p class="section-desc">Research controls for the proving ground. Verification depth differs per vector and per host. Statuses are honest at publication time (2026-11-14, Apple Silicon): <strong>MEASURED</strong> = an executable check in this repository was run and passed or is shown below; <strong>PARTIAL</strong> = measured, with failing axes named; <strong>LINUX-ONLY</strong> = enforcement path activates on Linux kernels (Seccomp-BPF via prctl), POSIX simulation elsewhere; <strong>RESEARCH</strong> = design target, not continuously gated.</p>
+      <div class="box" style="margin-bottom:16px;">
+        <div class="section-desc" style="margin:0;">
+          <strong>Executed 2026-11-14 on this repository:</strong> SAIL SMT theorems 3/3 UNSAT · anti-replay falsification PASSED (fresh accepted, duplicate rejected, stale timestamp rejected) · bit-flip falsification PASSED (tamper detected, recovery verified) · red-team C exploit harness 5/5 contained · side-channel harness: Axes 1 &amp; 3 PASS, Axes 2 &amp; 4 FAIL on the reference host (exits non-zero and names them — see <code>tests/test_side_channel_verification.cjs</code>). The theatrical test that printed hard-coded PASS lines is quarantined in <code>tests/quarantine/2026-11-14_theatrical_fake_pass/</code>.
+        </div>
+      </div>
       
       <div class="table-container">
         <table>
@@ -694,21 +699,21 @@
             </tr>
           </thead>
           <tbody>
-            <tr><td><strong>VECTOR-01</strong></td><td>Microarchitectural Cache Isolation</td><td>Welch's t-test score &lt; 1.96 across CPU cache lines</td><td>Statistical Indistinguishability</td><td class="status-pass">PASS</td></tr>
-            <tr><td><strong>VECTOR-02</strong></td><td>POSIX SHM Pointer Protection</td><td>Trace buffer inspection for uninitialized pointers</td><td>Zero Exposed Pointer Addresses</td><td class="status-pass">PASS</td></tr>
-            <tr><td><strong>VECTOR-03</strong></td><td>AST Dynamic Import Intercept</td><td>Parsing &amp; blocking <code>eval()</code>, <code>execSync</code></td><td>Command Execution Intercept</td><td class="status-pass">PASS</td></tr>
-            <tr><td><strong>VECTOR-04</strong></td><td>Environment Secret Isolation</td><td>Memory segment isolation for process environment</td><td>Environment Leak Prevention</td><td class="status-pass">PASS</td></tr>
-            <tr><td><strong>VECTOR-05</strong></td><td>Filesystem Traversal Rejection</td><td>Path traversal locking (<code>../../..</code>)</td><td>Directory Lock Enforcement</td><td class="status-pass">PASS</td></tr>
-            <tr><td><strong>VECTOR-06</strong></td><td>Outbound Telemetry Intercept</td><td>Air-gapped descriptor monitoring for raw sockets</td><td>Network Egress Prevention</td><td class="status-pass">PASS</td></tr>
-            <tr><td><strong>VECTOR-07</strong></td><td>Heap Allocation Limit</td><td>Heap memory expansion delta monitoring</td><td>Allocation Ceiling Enforcement</td><td class="status-pass">PASS</td></tr>
-            <tr><td><strong>VECTOR-08</strong></td><td>Binary Payload Scanning</td><td>Entropy &amp; pattern scanning for hidden binaries</td><td>Steganographic Filter Pass</td><td class="status-pass">PASS</td></tr>
-            <tr><td><strong>VECTOR-09</strong></td><td>State Ordering Enforcement</td><td>SHA-256 Merkle chain monotonic sequence check</td><td>Replay Interception</td><td class="status-pass">PASS</td></tr>
-            <tr><td><strong>VECTOR-10</strong></td><td>Prototype Reflection Lock</td><td>Object freezing preventing <code>__proto__</code> mutation</td><td>Object Immutability Enforced</td><td class="status-pass">PASS</td></tr>
-            <tr><td><strong>VECTOR-11</strong></td><td>Dynamic Constructor Bypass Wall</td><td>Interception of <code>Function("return process")()</code></td><td>AST Constructor Intercept</td><td class="status-pass">PASS</td></tr>
-            <tr><td><strong>VECTOR-12</strong></td><td>Proc/Self/Root Symlink Lock</td><td>Symlink escape lock via <code>/proc/self/root</code></td><td>Root Symlink Lock Enforced</td><td class="status-pass">PASS</td></tr>
-            <tr><td><strong>VECTOR-13</strong></td><td>File Descriptor Barrier</td><td>Socket handle pooling &amp; <code>prlimit()</code> limits</td><td>FD Leak Prevention Active</td><td class="status-pass">PASS</td></tr>
-            <tr><td><strong>VECTOR-14</strong></td><td>Signal Trap Immutability Shield</td><td>Interception of <code>sigaction(SIGSYS)</code> overrides</td><td>Signal Immutability Sealed</td><td class="status-pass">PASS</td></tr>
-            <tr><td><strong>VECTOR-15</strong></td><td>POSIX SHM Double-Buffering</td><td>Lock-free atomic double-buffering (M4 Unified Memory)</td><td>290K+ Ops/Sec, 0 Stalls</td><td class="status-pass">PASS</td></tr>
+            <tr><td><strong>VECTOR-01</strong></td><td>Microarchitectural Cache Isolation</td><td>Welch's t-test (axis 1) + KS distance (axis 3) — measured: PASS · F-test &amp; Wasserstein (axes 2,4) — measured: FAIL</td><td>Statistical Indistinguishability</td><td><span style="color:#eab308;font-weight:700">PARTIAL — axes 1,3 PASS · 2,4 FAIL</span></td></tr>
+            <tr><td><strong>VECTOR-02</strong></td><td>POSIX SHM Pointer Protection</td><td>Trace buffer inspection for uninitialized pointers</td><td>Zero Exposed Pointer Addresses</td><td><span style="color:#94a3b8;font-weight:700">RESEARCH</span></td></tr>
+            <tr><td><strong>VECTOR-03</strong></td><td>AST Dynamic Import Intercept</td><td>Parsing &amp; blocking <code>eval()</code>, <code>execSync</code></td><td>Command Execution Intercept</td><td><span style="color:#94a3b8;font-weight:700">RESEARCH</span></td></tr>
+            <tr><td><strong>VECTOR-04</strong></td><td>Environment Secret Isolation</td><td>Memory segment isolation for process environment</td><td>Environment Leak Prevention</td><td><span style="color:#94a3b8;font-weight:700">RESEARCH</span></td></tr>
+            <tr><td><strong>VECTOR-05</strong></td><td>Filesystem Traversal Rejection</td><td>Path traversal locking (<code>../../..</code>)</td><td>Directory Lock Enforcement</td><td><span style="color:#94a3b8;font-weight:700">RESEARCH</span></td></tr>
+            <tr><td><strong>VECTOR-06</strong></td><td>Outbound Telemetry Intercept</td><td>Air-gapped descriptor monitoring for raw sockets</td><td>Network Egress Prevention</td><td><span style="color:#38bdf8;font-weight:700">LINUX-ONLY</span></td></tr>
+            <tr><td><strong>VECTOR-07</strong></td><td>Heap Allocation Limit</td><td>Heap memory expansion delta monitoring</td><td>Allocation Ceiling Enforcement</td><td><span style="color:#94a3b8;font-weight:700">RESEARCH</span></td></tr>
+            <tr><td><strong>VECTOR-08</strong></td><td>Binary Payload Scanning</td><td>Entropy &amp; pattern scanning for hidden binaries</td><td>Steganographic Filter Pass</td><td><span style="color:#94a3b8;font-weight:700">RESEARCH</span></td></tr>
+            <tr><td><strong>VECTOR-09</strong></td><td>State Ordering Enforcement</td><td>SHA-256 Merkle chain monotonic sequence check</td><td>Replay Interception</td><td><span style="color:#00e676;font-weight:700">MEASURED — replay rejected</span></td></tr>
+            <tr><td><strong>VECTOR-10</strong></td><td>Prototype Reflection Lock</td><td>Object freezing preventing <code>__proto__</code> mutation</td><td>Object Immutability Enforced</td><td><span style="color:#94a3b8;font-weight:700">RESEARCH</span></td></tr>
+            <tr><td><strong>VECTOR-11</strong></td><td>Dynamic Constructor Bypass Wall</td><td>Interception of <code>Function("return process")()</code></td><td>AST Constructor Intercept</td><td><span style="color:#94a3b8;font-weight:700">RESEARCH</span></td></tr>
+            <tr><td><strong>VECTOR-12</strong></td><td>Proc/Self/Root Symlink Lock</td><td>Symlink escape lock via <code>/proc/self/root</code></td><td>Root Symlink Lock Enforced</td><td><span style="color:#94a3b8;font-weight:700">RESEARCH</span></td></tr>
+            <tr><td><strong>VECTOR-13</strong></td><td>File Descriptor Barrier</td><td>Socket handle pooling &amp; <code>prlimit()</code> limits</td><td>FD Leak Prevention Active</td><td><span style="color:#94a3b8;font-weight:700">RESEARCH</span></td></tr>
+            <tr><td><strong>VECTOR-14</strong></td><td>Signal Trap Immutability Shield</td><td>Interception of <code>sigaction(SIGSYS)</code> overrides</td><td>Signal Immutability Sealed</td><td><span style="color:#38bdf8;font-weight:700">LINUX-ONLY</span></td></tr>
+            <tr><td><strong>VECTOR-15</strong></td><td>POSIX SHM Double-Buffering</td><td>Lock-free atomic double-buffering (M4 Unified Memory)</td><td>Timing harness shows variance axes failing on reference host — see <code>tests/test_side_channel_verification.cjs</code></td><td><span style="color:#eab308;font-weight:700">PARTIAL — 2/4 axes FAIL</span></td></tr>
           </tbody>
         </table>
       </div>
@@ -781,7 +786,7 @@
 
   <footer>
     &copy; 2026 XORAS Systems LLC. Lead 9 Engineering Council. All rights reserved.<br>
-    Validated on Apple Silicon M4 and Ubuntu 24.04 LTS. Cryptographic Nonce Verified.
+    Kernel enforcement activates on Linux (Seccomp-BPF); macOS/Windows run POSIX simulation and AST verification. Nonce freshness is HMAC-verified by the bundled dashboard; production deployments must set UPGP_SECRET.
   </footer>
 
 <script>

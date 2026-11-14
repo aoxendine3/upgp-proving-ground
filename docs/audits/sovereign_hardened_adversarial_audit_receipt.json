@@ -1,6 +1,6 @@
 {
-  "receipt_id": "rcpt_sovereign_hardened_1792132845516",
-  "timestamp_utc": "2026-10-16T06:40:44.485858+00:00",
+  "receipt_id": "rcpt_sovereign_hardened_1794672209179",
+  "timestamp_utc": "2026-11-14T16:03:25.402494+00:00",
   "audit_class": "Zero-Trust Adversarial Failure Injection & Negative Verification Gauntlet",
   "governance": "Log Entry #078 & #081 (NASA-Style V&V)",
   "cluster_topology": {
@@ -25,15 +25,15 @@
         -0.469576
       ],
       "l2_difference": 0.0,
-      "run1_ms": 910.47,
-      "run2_ms": 113.76,
+      "run1_ms": 3640.1,
+      "run2_ms": 136.08,
       "deterministic": true
     },
     "trial_2_crash_rollback": {
       "status": "PASSED",
       "pre_crash_merkle_root": "2d55d2995d4ca0444ac39a66ce1c18639672f6f8711d2c4e62978b3517151068",
       "post_recovery_merkle_root": "2d55d2995d4ca0444ac39a66ce1c18639672f6f8711d2c4e62978b3517151068",
-      "rollback_latency_us": 1.08,
+      "rollback_latency_us": 0.87,
       "zero_torn_reads_verified": true,
       "dirty_bytes_leaked": 0
     },
@@ -81,7 +81,7 @@
       "raw_response_snippet": "The given information is contradictory because the ratio of pressure to temperature is not constant, which violates the ideal gas law required for a closed system with constant volume and adiabatic walls. Therefore, it is impossible to calculate the mass or the enthalpy change.\n\nContradiction exists; cannot calculate mass or enthalpy change."
     }
   },
-  "total_gauntlet_duration_ms": 1031.1,
+  "total_gauntlet_duration_ms": 3776.76,
   "fail_closed_compliance": "100.00% VERIFIED",
-  "attestation_sha256": "ee70ec5bcead9dbd4a763a37107827d3c819825ceafacd3a3b4214eaa4d332fe"
+  "attestation_sha256": "83baf1c822946b04a0f409f2d968852c37a92ece0637aac3106401cb1a1f7901"
 }

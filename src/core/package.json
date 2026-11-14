@@ -1,12 +1,12 @@
 {
   "name": "upgp-proving-ground",
   "version": "5.0.0-ultra",
-  "description": "Universal Proving Ground Protocol (UPGP v5.0 Ultra) — Hardened AI Sandbox Runtime, Active Linux Seccomp-BPF Kernel Filters, 15-Vector Escape Defense & Cryptographic Anti-Replay Telemetry Server",
+  "description": "Universal Proving Ground Protocol (UPGP v5.0 Ultra) \u2014 Hardened AI Sandbox Runtime, Active Linux Seccomp-BPF Kernel Filters, 15-Vector Escape Defense & Cryptographic Anti-Replay Telemetry Server",
   "main": "core/products/upgp/SeccompProfile.ts",
   "type": "module",
   "scripts": {
     "start:dashboard": "python3 ops/scripts/launch_upgp_dashboard.py",
-    "test": "node --experimental-strip-types tests/UPGPProvingGround.test.ts",
+    "test": "node ../../tests/test_side_channel_verification.cjs",
     "test:gauntlet": "python3 ops/scripts/run_upgp_full_test_gauntlet.py",
     "test:falsification": "python3 ops/scripts/test_bit_flip_falsification.py",
     "test:replay": "python3 ops/scripts/test_replay_attack_falsification.py",

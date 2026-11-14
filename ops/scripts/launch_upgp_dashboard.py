@@ -30,7 +30,7 @@ LOG_PATH = os.environ.get("UPGP_LOG_PATH", os.path.join(LOCAL_LOGS, "seccomp_run
 MANIFEST_PATH = os.environ.get("UPGP_MANIFEST_PATH", os.path.join(LOCAL_LOGS, "state_manifest.json"))
 SEEN_NONCES_PATH = os.environ.get("UPGP_NONCES_PATH", os.path.join(LOCAL_LOGS, "seen_nonces.json"))
 
-SECRET_KEY = b"XORAS_SOVEREIGN_TRINITY_GATE_SECRET_KEY_2026"
+SECRET_KEY = os.environ.get("UPGP_SECRET", "XORAS_SOVEREIGN_TRINITY_GATE_SECRET_KEY_2026").encode()  # local development default; production deployments MUST set UPGP_SECRET
 MAX_TIMESTAMP_DRIFT_SEC = 30
 
 # In-memory and disk-backed replay tracker

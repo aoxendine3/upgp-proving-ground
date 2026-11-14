@@ -14,7 +14,7 @@
 ---
 
 ### [0:30 - 1:15] SEGMENT 2: UN-MOCKED 15-VECTOR ESCAPE DEFENSE MATRIX
-- **Visual**: Terminal execution of `npm test` running `tests/UPGPProvingGround.test.ts`, showing real-time green PASS indicators across all 15 sandbox escape vectors.
+- **Visual**: Terminal execution of `npm test` running `tests/test_side_channel_verification.cjs`, showing live axis results — Axes 1 and 3 PASS on the reference host, Axes 2 and 4 FAIL and are shown honestly. (Note: the legacy `tests/UPGPProvingGround.test.ts` printed fabricated PASS lines and was quarantined 2026-11-14; do not use it.)
 - **Narrator (William Vance - Adversarial Red Team Lead)**:
   > *"We don't rely on security-theater mocks. UPGP v5.0 Ultra subjects the virtual machine to fifteen un-mocked penetration vectors: microarchitectural cache-line timing flushes, POSIX shared memory pointer barriers, AST dynamic import intercepts, environment secret extraction shields, chroot directory traversal locks, and Linux Seccomp-BPF syscall enforcement. Every test measures real CPU clock cycles and real heap memory allocations."*
 

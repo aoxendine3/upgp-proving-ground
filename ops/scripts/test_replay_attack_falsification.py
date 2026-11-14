@@ -17,7 +17,7 @@ import sys
 import ssl
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", ".."))
+REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, ".."))  # tests/ -> repo root (was "..",".." — resolved to the PARENT of the repo, wrote manifests to the wrong logs dir)
 LOCAL_LOGS = os.path.join(REPO_ROOT, "logs")
 os.makedirs(LOCAL_LOGS, exist_ok=True)
 

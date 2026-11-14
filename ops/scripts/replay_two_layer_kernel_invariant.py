@@ -253,7 +253,7 @@ def execute_two_layer_verification():
 if __name__ == "__main__":
     receipt = execute_two_layer_verification()
     # Save receipt locally
-    receipt_path = Path("/Users/ajoxendine68/Desktop/SSOT_Agentic_Brain/memory/catch_log/XORAS_031_TWO_LAYER_WINDOWS_REPLAY_RECEIPT.json")
+    receipt_path = Path(__file__).resolve().parents[2] / "docs" / "audits" / "XORAS_031_TWO_LAYER_WINDOWS_REPLAY_RECEIPT.json"
     receipt_path.parent.mkdir(parents=True, exist_ok=True)
     with open(receipt_path, "w", encoding="utf-8") as f:
         json.dump(receipt, f, indent=2)

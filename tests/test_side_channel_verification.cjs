@@ -188,8 +188,15 @@ async function executeUPGPVerificationSuite() {
     if (overallPass) {
         console.log(`${BOLD}${GREEN}[✓] UPGP v5.0 CORE VERIFICATION COMPLETE.`);
         console.log(`    ALL TIMING AND CONCURRENCY SIDE-CHANNELS NOMINAL (PASS).${RESET}\n`);
+        process.exitCode = 0;
     } else {
-        console.log(`${BOLD}${RED}[!] BENCHMARK CHECKPASS FAILED. ADJUST PADDING PARAMS.${RESET}\n`);
+        // Honesty rule: a red benchmark stays red. Exit non-zero and name the failing axes.
+        console.log(`${BOLD}${RED}[!] BENCHMARK CHECKPASS FAILED. Failing axes:${RESET}`);
+        if (!tTestPass) console.log(`        - Axis 1 Welch t-test (score ${tTestVal.toFixed(4)} >= 1.96)`);
+        if (!fRatioPass) console.log(`        - Axis 2 F-test variance ratio (ratio ${fRatioVal.toFixed(4)} >= 1.25 and variance floor not met)`);
+        if (!ksPass) console.log(`        - Axis 3 KS distance (distance ${ksDist.toFixed(4)} >= 0.15)`);
+        if (!wassersteinPass) console.log(`        - Axis 4 Wasserstein distance (${(wassersteinDist * 1000).toFixed(0)} ns >= 5000 ns)`);
+        process.exitCode = 1;
     }
 }
 
