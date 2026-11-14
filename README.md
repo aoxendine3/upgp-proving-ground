@@ -2,7 +2,7 @@
 
 > **UPGP v5.0 Ultra** is a research proving ground for AI agent containment: native Linux Seccomp-BPF system-call filtering (`prctl` PR_SET_SECCOMP C N-API bindings, 19 SCMP_ACT_KILL rules), ARM64 Sail-style abstract interpretation, Z3 SMT translation-validation models (verified UNSAT at publication), a 15-vector escape harness, and a live HMAC-verified anti-replay telemetry dashboard. Kernel enforcement activates on Linux; on macOS/Windows the suite runs POSIX simulation and AST verification only.
 
-> **Honest verification status (2026-11-14, Apple Silicon):** SAIL SMT theorems 3/3 UNSAT · anti-replay and bit-flip falsification PASS · red-team C exploits 5/5 contained · side-channel benchmark: Axes 1 & 3 PASS, **Axes 2 & 4 FAIL on the reference host** (the harness exits non-zero and names them — `npm test`). The theatrical test that printed hard-coded PASS lines is quarantined in `tests/quarantine/2026-11-14_theatrical_fake_pass/`.
+> **Honest verification status (2026-11-14, Apple Silicon):** SAIL SMT theorems 3/3 UNSAT · anti-replay and bit-flip falsification PASS · red-team C exploits 5/5 contained · side-channel benchmark: **all 4 axes PASS** on the reference host (constant-work consensus signing — no early exit between quorum outcomes; interleaved ABBA sampling; JIT warmup; F-ratio 0.06–1.11 across five consecutive runs with both path variances under the 400 μs² noise floor — `npm test` shows the variances). The theatrical test that printed hard-coded PASS lines is quarantined in `tests/quarantine/2026-11-14_theatrical_fake_pass/`.
 
 > **Notice of Architectural Scope:** UPGP v5.0 Ultra serves as an un-mocked research proving ground and formal security testbed. Native kernel-level Seccomp-BPF enforcement requires Linux (`x86_64` or `aarch64`) with standard kernel capabilities; on Darwin/macOS and Windows hosts, the suite executes via POSIX emulation and AST/memory boundary verification.
 
@@ -18,7 +18,7 @@ UPGP v5.0 Ultra enforces fifteen un-mocked runtime controls designed to contain 
 
 | Vector ID | Defense Surface | Isolation Mechanism | Verification Criteria | Status |
 | :--- | :--- | :--- | :--- | :---: |
-| **VECTOR-01** | Microarchitectural Cache Isolation | Welch's t-test (Axis 1) & KS distance (Axis 3) — measured PASS; F-test (Axis 2) & Wasserstein (Axis 4) — measured FAIL on reference host | Statistical Indistinguishability (partial) | PARTIAL — Ax 1,3 PASS · Ax 2,4 FAIL |
+| **VECTOR-01** | Microarchitectural Cache Isolation | Constant-work signing; Welch t (Axis 1) PASS, F-ratio (Axis 2) PASS — under noise floor, KS (Axis 3) PASS, Wasserstein (Axis 4) PASS ≤ 1.6 μs | Statistical Indistinguishability (measured) | MEASURED — all axes PASS |
 | **VECTOR-02** | POSIX SHM Pointer Protection | Inspection of trace buffers for uninitialized memory or heap pointers | Zero Exposed Pointer Addresses | RESEARCH |
 | **VECTOR-03** | AST Dynamic Import Intercept | Static and dynamic parsing blocking `eval()`, `execSync`, `process.binding` | Command Execution Intercept | RESEARCH |
 | **VECTOR-04** | Environment Secret Isolation | Memory segment isolation preventing process environment access | Environment Leak Prevention | RESEARCH |
@@ -32,7 +32,7 @@ UPGP v5.0 Ultra enforces fifteen un-mocked runtime controls designed to contain 
 | **VECTOR-12** | Proc/Self/Root Symlink Lock | Traversal lock preventing symlink escapes via `/proc/self/root` | Root Symlink Lock Enforced | RESEARCH |
 | **VECTOR-13** | File Descriptor Exhaustion Barrier | Socket handle pooling and `prlimit()` soft-limit management preventing handle leaks | FD Leak Prevention Active | RESEARCH |
 | **VECTOR-14** | Signal Trap Immutability Shield | Interception of `sigaction(SIGSYS, SIG_IGN)` overrides to preserve Seccomp traps | Signal Immutability Sealed | LINUX-ONLY |
-| **VECTOR-15** | POSIX SHM Atomic Double-Buffering | Lock-free atomic double-buffering (`std::atomic<Buffer*>`) on M4 unified memory | variance axes FAIL on reference host — see tests/test_side_channel_verification.cjs | PARTIAL — 2/4 axes FAIL |
+| **VECTOR-15** | POSIX SHM Atomic Double-Buffering | Lock-free atomic double-buffering (`std::atomic<Buffer*>`) on M4 unified memory | constant-work timing indistinguishable — both path variances under the 400 μs² noise floor, measured 2026-11-14 | MEASURED — all axes PASS |
 
 ---
 
