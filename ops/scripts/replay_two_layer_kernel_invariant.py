@@ -160,27 +160,22 @@ def execute_two_layer_verification():
     else:
         # On POSIX (Darwin / Linux)
         import signal
-        # We test in a sub-process or catch signal
         pid = os.fork()
         if pid == 0:
-            # Child process attempts the forbidden write
-            try:
-                mm.seek(0)
-                mm.write(struct.pack("d", POISONED_MASS))
-                os._exit(0) # Should not reach
-            except Exception:
-                os._exit(42)
+            # Direct physical CPU store instruction into PROT_READ protected page
+            ctypes.c_double.from_address(mem_ptr).value = POISONED_MASS
+            os._exit(0) # Unreachable: MMU triggers fault at machine instruction level
         else:
             _, status = os.waitpid(pid, 0)
             if os.WIFSIGNALED(status):
                 sig = os.WTERMSIG(status)
                 hardware_exception_caught = True
-                exception_type = f"POSIX Hardware Signal {sig} ({signal.Signals(sig).name})"
-                print(f"  ⚡ HARDWARE TRAP INTERCEPTED: Process terminated by kernel with {exception_type}!")
+                exception_type = f"Hardware MMU Fault Signal {sig} ({signal.Signals(sig).name})"
+                print(f"  ⚡ HARDWARE MMU TRAP INTERCEPTED: Process terminated by kernel with {exception_type}!")
             elif os.WIFEXITED(status) and os.WEXITSTATUS(status) != 0:
                 hardware_exception_caught = True
                 exception_type = f"Process Trapped (Exit Code {os.WEXITSTATUS(status)})"
-                print(f"  ⚡ HARDWARE TRAP INTERCEPTED: {exception_type}!")
+                print(f"  ⚡ TRAP INTERCEPTED: {exception_type}!")
 
     print(f"  🔒 Hardware Enforcement Result: Blocked at Physical MMU Boundary (Zero Cache-Line Mutation)")
 

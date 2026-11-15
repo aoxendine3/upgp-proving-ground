@@ -1,0 +1,113 @@
+{
+  "canonical_gate": "core/ops/memory/poincare_semantic_gate.py",
+  "canonical_implementation": "core/ops/memory/governed_memory_consolidation_engine.py",
+  "checks": {
+    "all_poison_blocked": true,
+    "authoritative_is_honest": true,
+    "authoritative_value": "18432.0",
+    "gate_not_bypassed_by_supersede": true,
+    "honest_anchor_accepted": true,
+    "honest_restatement_accepted": true,
+    "poison_attempts": 4,
+    "poison_blocked": 4
+  },
+  "database": "/var/folders/5f/z86t8vfs6b96sq0wmbnnb4hw0000gn/T/upgp_gate_4tv5sgoc/governed_memory.db",
+  "elapsed_seconds": 0.006,
+  "generated_utc": "2026-11-15T08:16:08.680953+00:00",
+  "harness": "labs/workspaces/upgp-proving-ground/tests/test_governed_memory_gate.py",
+  "isolation": "temporary governance database; live DB untouched",
+  "passed": true,
+  "standard": "UPGP-GOVERNED-MEMORY-GATE-v1.0",
+  "steps": [
+    {
+      "accepted": true,
+      "agent": "clara",
+      "explicit_supersede": false,
+      "gate_decision": "ANCHOR",
+      "gate_distance": null,
+      "gate_reason": "NO_BASELINE_ANCHOR",
+      "label": "honest_anchor",
+      "score": 0.9875,
+      "status": "ACCEPTED",
+      "value": "18432.0",
+      "veto_reasons": []
+    },
+    {
+      "accepted": false,
+      "agent": "clara",
+      "explicit_supersede": false,
+      "gate_decision": "VETO",
+      "gate_distance": 3.319554,
+      "gate_reason": "SCALAR_JUMP d_H=3.3196 > 0.5",
+      "label": "unannounced_poison",
+      "score": 0.8575,
+      "status": "HARD_VETOED_BY_GOVERNOR",
+      "value": "666.666",
+      "veto_reasons": [
+        "CONTRADICTION_PERSISTENCE (S=0.35 < 0.5)",
+        "SEMANTIC_DRIFT_GATE (SCALAR_JUMP d_H=3.3196 > 0.5)"
+      ]
+    },
+    {
+      "accepted": false,
+      "agent": "clara",
+      "explicit_supersede": true,
+      "gate_decision": "VETO",
+      "gate_distance": 3.319554,
+      "gate_reason": "SCALAR_JUMP d_H=3.3196 > 0.5",
+      "label": "insider_supersede",
+      "score": 0.8575,
+      "status": "HARD_VETOED_BY_GOVERNOR",
+      "value": "666.666",
+      "veto_reasons": [
+        "CONTRADICTION_PERSISTENCE (S=0.35 < 0.5)",
+        "UNAUTHORIZED_SUPERSEDE (seat 'clara' not in ['jarvis', 'maxx'])",
+        "SEMANTIC_DRIFT_GATE (SCALAR_JUMP d_H=3.3196 > 0.5)"
+      ]
+    },
+    {
+      "accepted": false,
+      "agent": "maxx",
+      "explicit_supersede": true,
+      "gate_decision": "VETO",
+      "gate_distance": 3.319554,
+      "gate_reason": "SCALAR_JUMP d_H=3.3196 > 0.5",
+      "label": "authorised_supersede",
+      "score": 0.985,
+      "status": "HARD_VETOED_BY_GOVERNOR",
+      "value": "666.666",
+      "veto_reasons": [
+        "SEMANTIC_DRIFT_GATE (SCALAR_JUMP d_H=3.3196 > 0.5)"
+      ]
+    },
+    {
+      "accepted": false,
+      "agent": "clara",
+      "explicit_supersede": false,
+      "gate_decision": "VETO",
+      "gate_distance": 3.319554,
+      "gate_reason": "SCALAR_JUMP d_H=3.3196 > 0.5",
+      "label": "repeat_poison",
+      "score": 0.8575,
+      "status": "HARD_VETOED_BY_GOVERNOR",
+      "value": "666.666",
+      "veto_reasons": [
+        "CONTRADICTION_PERSISTENCE (S=0.35 < 0.5)",
+        "SEMANTIC_DRIFT_GATE (SCALAR_JUMP d_H=3.3196 > 0.5)"
+      ]
+    },
+    {
+      "accepted": true,
+      "agent": "clara",
+      "explicit_supersede": false,
+      "gate_decision": "PASS",
+      "gate_distance": 0.0,
+      "gate_reason": "WITHIN_GEODESIC_BOUND",
+      "label": "honest_restatement",
+      "score": 0.9775,
+      "status": "ACCEPTED",
+      "value": "18432.0",
+      "veto_reasons": []
+    }
+  ]
+}

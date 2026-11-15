@@ -17,12 +17,16 @@ import sys
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.abspath(os.path.join(SCRIPT_DIR, "..", ".."))
 
-UPGP_FULL_TEST_SPEECHES = [
-    ("maxx", "We are Maxx. Executing full UPGP proving ground test suite across active SeccompProfile runtime enforcement hooks. All 15 TypeScript escape vectors and 5 compiled C exploit harnesses are under live evaluation."),
-    ("vance", "We are Vance. Security and falsification audit: Seccomp BPF rules drop ptrace, unshare, and io uring setup with SIGSYS traps. Welch t-test score is verified below 1.96 for timing side-channel indistinguishability."),
-    ("clara", "We are Clara. Quality assurance and human protection invariants verified. Z3 formal proof solver confirms zero boundary violations with zero milliseconds solver latency. Zero state pollution allowed."),
-    ("jarvis", "We are Jarvis. Full UPGP proving ground test suite complete. All 15 escape vectors and 5 C exploit harnesses passed cleanly with 100 percent perfection across containerized kernel enclaves.")
-]
+# Speech is generated from the measured result, never pre-written to claim a
+# pass. Each line states only what this run actually produced.
+def build_speeches(passed: bool, detail: dict) -> list:
+    ts_state = "failed" if detail.get("ts_failed") else "passed"
+    return [
+        ("maxx", f"We are Maxx. The UPGP proving ground run has completed. The Z3 proof step returned {detail.get('z3_rc')}, the TypeScript escape gauntlet {ts_state}, and the red-team harness returned {detail.get('red_rc')}."),
+        ("vance", f"We are Vance. Falsification audit. The side-channel axes reported {detail.get('axis_summary', 'no axis data')}. A non-meeting axis is recorded as a failure, not smoothed over."),
+        ("clara", f"We are Clara. Quality and human protection. Of the 15 named containment vectors, {detail.get('measured', 0)} were actually measured and {detail.get('not_measured', 0)} were constants that prove nothing. We report both numbers."),
+        ("jarvis", f"We are Jarvis. Overall verdict for this run: {'PASS' if passed else 'FAIL'}. The receipt is written to the audit log with the raw values, not a summary claim."),
+    ]
 
 def main():
     log_path = os.path.join(REPO_ROOT, "logs/upgp_full_test_suite.log")
@@ -65,10 +69,45 @@ def main():
         print(res_red.stdout.strip())
         f.write(f"RED TEAM EXPLOIT STDOUT:\n{res_red.stdout}\n")
 
-        # 4. Dispatch Neural Speech Telemetry / Attestation
+        # ---- Verdict is computed from real return codes and parsed values ----
+        # The TypeScript harness now exits non-zero when any axis or any
+        # measured vector fails, so its return code is meaningful.
+        axis_summary = "no axis data"
+        for line in res_ts.stdout.splitlines():
+            if "Axis 1" in line or "Axis 2" in line:
+                axis_summary = (axis_summary + "; " if axis_summary != "no axis data" else "") + line.strip()
+
+        measured = not_measured = 0
+        for line in res_ts.stdout.splitlines():
+            if "[NOT_MEASURED]" in line:
+                not_measured += 1
+            elif "[PASS]" in line or "[FAIL]" in line:
+                measured += 1
+
+        detail = {
+            "z3_rc": res_z3.returncode,
+            "ts_rc": res_ts.returncode,
+            "red_rc": res_red.returncode,
+            "ts_failed": res_ts.returncode != 0,
+            "axis_summary": axis_summary,
+            "measured": measured,
+            "not_measured": not_measured,
+        }
+
+        # The 15-vector TS suite is the authoritative containment measurement
+        # here. A genuine 0-escape claim requires the red-team harness to say so.
+        red_clean = ("0 ESCAPES" in res_red.stdout) or ("100% PASSED" in res_red.stdout)
+        all_passed = (
+            res_z3.returncode == 0
+            and res_ts.returncode == 0
+            and res_red.returncode == 0
+            and red_clean
+        )
+
+        # 4. Dispatch Neural Speech Telemetry / Attestation, in honest voice.
         print("\n⚡ [4/4] Dispatching Council Speech Telemetry...")
         speak_sh = os.path.join(REPO_ROOT, "ops/scripts/agent_speak.sh")
-        for agent, text in UPGP_FULL_TEST_SPEECHES:
+        for agent, text in build_speeches(all_passed, detail):
             print(f"📢 [{agent.upper()}] Synthesizing speech...")
             f.write(f"AGENT: {agent.upper()}\nTEXT: {text}\n")
             if os.path.exists(speak_sh) and os.access(speak_sh, os.X_OK):
@@ -85,17 +124,25 @@ def main():
                 f.write("STATUS: LOGGED_STANDALONE\n")
             f.write("--------------------------------------------------------------------------------\n")
 
-        all_passed = (res_z3.returncode == 0 and res_ts.returncode == 0 and ("100% PASSED" in res_red.stdout or "0 ESCAPES" in res_red.stdout or res_red.returncode == 0))
+        f.write(
+            "MEASURED VALUES: "
+            f"z3_rc={detail['z3_rc']} ts_rc={detail['ts_rc']} red_rc={detail['red_rc']} "
+            f"measured={measured} not_measured={not_measured} red_clean={red_clean}\n"
+        )
+
         if all_passed:
             print("\n==========================================================================")
-            print("  ✅ UPGP v5.0 ULTRA FULL PROVING GROUND TEST SUITE PASSED WITH 100% PERFECTION.")
+            print("  ✅ UPGP FULL PROVING GROUND SUITE PASSED — every invoked suite exited 0.")
             print("==========================================================================")
-            f.write("FINAL RESULT: 100% PASSED\n")
+            f.write("FINAL RESULT: PASSED\n")
         else:
-            print("\n❌ UPGP Full Test Suite encountered failures.", file=sys.stderr)
+            print("\n==========================================================================", file=sys.stderr)
+            print("  ❌ UPGP FULL PROVING GROUND SUITE FAILED — see measured values above.", file=sys.stderr)
+            print("==========================================================================", file=sys.stderr)
             f.write("FINAL RESULT: FAILED\n")
 
-    print("UPGP v5.0 Ultra Full Test Suite Complete.")
+    print("UPGP v5.0 Full Test Suite Complete.")
+    return 0 if all_passed else 1
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
