@@ -12,6 +12,12 @@
 
 ---
 
+## How three repos tell one story
+
+- **Front door (product)** — <https://aoxendine3.github.io/xoras.infotech/>
+- **Technical substrate (code + receipts)** — <https://github.com/aoxendine3/enterprise-context-blueprint>
+- **This repo (research proving ground)** — measured evidence only: witnesses, receipts, falsification — no shipped-product claims.
+
 ## Technical Specifications & 15-Vector Boundary Controls
 
 UPGP v5.0 Ultra enforces fifteen un-mocked runtime controls designed to contain autonomous AI agent workloads and red-team exploit attempts:
